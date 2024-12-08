@@ -9,8 +9,8 @@
   - [DOL](#DOL)
 - [Text Modification](#Text-Modification)
 - [Weapon Modification](#Weapon-Modification)
-  - [WeapTwk.xom](#WeapTwk.xom)
-- [Campaign Modification](#CampaignModification)
+  - [WeapTwk.xom](#WeapTwkxom)
+- [Campaign Modification](#Campaign-Modification)
 - [Challenge Modification](#Challenge-Modification)
 
 ## Overview
