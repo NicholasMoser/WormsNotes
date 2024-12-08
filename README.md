@@ -1,5 +1,20 @@
 # Worms 3D Notes
 
+- [Overview](#Overview)
+- [Files](#Files)
+  - [XOM](#XOM)
+  - [TGA](#TGA)
+  - [Lua](#Lua)
+  - [CSH](#CSH)
+  - [DOL](#DOL)
+- [Text Modification](#Text-Modification)
+- [Weapon Modification](#Weapon-Modification)
+  - [WeapTwk.xom](#WeapTwk.xom)
+- [Campaign Modification](#CampaignModification)
+- [Challenge Modification](#Challenge-Modification)
+
+## Overview
+
 This page contains notes found in the internals of Worms 3D on the
 GameCube.
 
@@ -58,8 +73,8 @@ You can disassemble the code using [Ghidra](https://ghidra-sre.org/) and
 
 ## Text Modification
 
-You can find all of the game text in `Worms3D\files\Language`. It looks like the developers originally created
-csv files, such as `NGCMessages.csv`, and then converted them to XOM objects in the `Worms3D\files\Language\NGC`
+You can find all of the game text in `files\Language`. It looks like the developers originally created
+csv files, such as `NGCMessages.csv`, and then converted them to XOM objects in the `files\Language\NGC`
 directory. You therefore can modify these messages by modifying the respective XOM object, such as `American.xom`.
 
 ![Example of replacing text](/text_mod.png?raw=true "Example of replacing text")
@@ -86,8 +101,8 @@ from XOM files.
 
 ### WeapTwk.xom
 
-This file contains most of the weapon data, and appears to be easy to configure. For example,
-here is data for fire punch:
+This file contains most of the weapon data, and appears to be easy to configure after conversion with
+[Xom2Xml](https://github.com/AlexBond2/Xom2Xml). For example, here is data for fire punch:
 
 ```xml
     <MeleeWeaponPropertiesContainer id="kWeaponFirePunch-0">
@@ -156,3 +171,98 @@ Weapon damage is determined by this entry:
 Here is an example of modifying this value to 100:
 
 ![Fire punch damage mod](compressed.gif?raw=true)
+
+## Campaign Modification
+
+Each campaign level seems to have its own lua file, making modification incredibly simple.
+The first campaign level, D-Day, has the file `files\Scripts\dday.lua`.
+You can for example easily change the names of each worm:
+
+```lua
+   -- Worm 6, Team 1
+   CopyContainer("Worm.Data04", "Worm.Data06")
+   lock, worm = EditContainer("Worm.Data06")
+   CopyContainer("AIParams.Worm04", "AIParams.Worm06")
+   worm.Energy = 30  
+   worm.Spawn = "spawn7"
+   worm.Name = "Scutze"
+   CloseContainer(lock)
+```
+
+You can easily change things like the name of the worm:
+
+![Campaign mod](campaign_mod.png?raw=true)
+
+## Challenge Modification
+
+The first challenge, Shotgun Challenge 1, can be found in the file `files\Scripts\TargetHunt.lua`.
+Any lua files are trivial to modify, so for this challenge I changed it from having only the
+shotgun to having all weapons from the D-Day campaign:
+
+So I changed the inventory from:
+
+```lua
+function SetupInventories()
+   -- sets up a default container and adds our selection to it
+   lock, inventory = EditContainer("Inventory.Team.Default") 
+   inventory.Shotgun = -1
+   CloseContainer(lock) -- must close the container ASAP
+
+   CopyContainer("Inventory.Team.Default", "Inventory.Team00")
+   CopyContainer("Inventory.Team.Default", "Inventory.Team01")
+
+   lock, delays = EditContainer("Inventory.WeaponDelays") 
+   CloseContainer(lock)
+
+end
+```
+
+to:
+
+```lua
+function SetupInventories()
+   -- sets up a default container and adds our selection to it
+   lock, inventory = EditContainer("Inventory.Team.Default") 
+   inventory.Bazooka = -1
+   inventory.Grenade = -1
+   inventory.ClusterGrenade = 5
+   inventory.Uzi = -1
+   inventory.Landmine = 5
+   inventory.FirePunch = -1
+   inventory.Shotgun = -1
+   inventory.SkipGo = -1
+   
+   CloseContainer(lock) -- must close the container ASAP
+
+   -- Copies this selection into each worm
+
+   CopyContainer("Inventory.Team.Default", "Inventory.Team00")
+   CopyContainer("Inventory.Team.Default", "Inventory.Team01")
+
+   -- Sets allies to have extra airstrikes and no clusters
+   lock, inventory = EditContainer("Inventory.Team00") 
+   inventory.Airstrike = 1
+   inventory.ClusterGrenade = 0
+   inventory.Mortar = 4
+   inventory.Landmine = 0
+   inventory.HomingMissile = 1
+   --inventory.FlameThrower = 2
+   inventory.Girder = 0
+
+   CloseContainer(lock)
+   lock, inventory = EditContainer("Inventory.Team01") 
+   
+    inventory.HomingMissile = 0
+   
+    CloseContainer(lock)
+   
+   -- Sets up some delays
+   lock, delays = EditContainer("Inventory.WeaponDelays") 
+   delays.Airstrike = 4
+   CloseContainer(lock)
+end
+```
+
+And you can see the results here:
+
+![Challenge mod](challenge_mod.gif?raw=true)
