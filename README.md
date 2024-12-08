@@ -155,4 +155,4 @@ Weapon damage is determined by this entry:
 
 Here is an example of modifying this value to 100:
 
-[![Fire punch damage mod](damage_mod.png?raw=true)](damage_mod.mp4?raw=true)
+![Fire punch damage mod](compressed.gif?raw=true)
