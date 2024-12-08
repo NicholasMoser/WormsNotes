@@ -15,8 +15,8 @@
 
 ## Overview
 
-This page contains notes found in the internals of Worms 3D on the
-GameCube.
+This page contains notes found in the internals of Worms 3D on the GameCube.
+I've been able to make some modifications to the game which are shown in below sections.
 
 There appears to be an unofficial patch for the PC version that may
 be learned from [Worms 3D Anniversary Patch](https://github.com/heatray/W3DPatch)
