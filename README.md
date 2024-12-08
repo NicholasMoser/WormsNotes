@@ -155,4 +155,4 @@ Weapon damage is determined by this entry:
 
 Here is an example of modifying this value to 100:
 
-<video src='damage_mod.mp4' />
+<video src='https://github.com/NicholasMoser/WormsNotes/raw/refs/heads/master/damage_mod.mp4'/>
