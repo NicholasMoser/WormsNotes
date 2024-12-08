@@ -21,7 +21,7 @@ GameCube.
 There appears to be an unofficial patch for the PC version that may
 be learned from [Worms 3D Anniversary Patch](https://github.com/heatray/W3DPatch)
 
-The cutting room floor pages for the [console](https://tcrf.net/Worms_3D_(GameCube,_PlayStation_2,_Xbox)
+The cutting room floor pages for the [console](https://tcrf.net/Worms_3D_(GameCube,_PlayStation_2,_Xbox))
 and [Windows](https://tcrf.net/Worms_3D_(Windows)) release also have some interesting notes.
 
 ## Files
@@ -175,8 +175,8 @@ Here is an example of modifying this value to 100:
 ## Campaign Modification
 
 Each campaign level seems to have its own lua file, making modification incredibly simple.
-The first campaign level, D-Day, has the file `files\Scripts\dday.lua`.
-You can for example easily change the names of each worm:
+The first campaign level, D-Day, has the file `files\Scripts\dday.lua`. Here's an example
+of the definition of an enemy worm:
 
 ```lua
    -- Worm 6, Team 1
