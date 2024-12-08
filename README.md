@@ -66,37 +66,10 @@ directory. You therefore can modify these messages by modifying the respective X
 
 ## Weapon Modification
 
-Health is set at instruction 0x80140f3c in the `main.dol`:
+This section details my efforts to find where weapon damage is set. If you'd prefer to avoid the technical parts,
+skip to the next section.
 
-```c
-undefined4 update_health(Worm *worm,int param_2)
-{
-  float fVar1;
-  double dVar2;
-  double local_10;
-  
-  if ((int)worm->health != worm->new_health) {
-                    /* Worm has taken damage.
-                       Convert param_2 - worm->field35_0x2c and worm->new_health from ints to
-                       doubles */
-    local_10 = (double)CONCAT44(0x43300000,param_2 - worm->field35_0x2c ^ 0x80000000);
-    dVar2 = local_10 - _DAT_8039f5f0;
-    local_10 = (double)CONCAT44(0x43300000,worm->new_health);
-    fVar1 = (float)dVar2 * _DAT_8039f5f8 + worm->health;
-                    /* Set whichever is smaller, not sure what the other number is */
-    if (fVar1 <= (float)(local_10 - _DAT_8039f600)) {
-      worm->health = fVar1;
-    }
-    else {
-      worm->health = (float)(local_10 - _DAT_8039f600);
-    }
-    zz_80141410_(worm);
-  }
-  worm->field35_0x2c = param_2;
-  return 0;
-}
-```
-
+Health is set at instruction 0x80140f3c in the `main.dol`.
 If a worm has taken damage, the damage will be set to `worm->new_health` (offset 0x24).
 
 Damage is subtracted from total health at instruction 0x80149598. Damage is set at 0x80148f3c which is passed in as the
@@ -108,42 +81,79 @@ Somewhere in these methods, it must account for the weapon being used. Let's sta
 which appears to always do 30 damage. The 30 must be stored somewhere we can modify.
 
 Unfortunately, the call stack above this point looks like this code is determined via an interpreter of some sort.
-Therefore, it may be related to the lua files included on the disk. I searched each lua file but didn't see any relevant
-references to the number 30 in decimal or hex.
+After [doing some research](https://t17forum.worms2d.info/index.php/t-39070.html), I can see that it is interpreted
+from XOM files.
 
-It could also be related to the "Weap" files in the root directory of the disk:
+### WeapTwk.xom
 
-- WeapLvl2.xom
-- WeapLvl3.xom
-- WeapLvl4.xom
-- WeapLvl5.xom
-- WeapTwk.xom
+This file contains most of the weapon data, and appears to be easy to configure. For example,
+here is data for fire punch:
 
-Googling this file seems to reveal that this is exactly what I was looking for: https://t17forum.worms2d.info/index.php/t-39070.html
-
-WeapTwk.xom has values such as:
-
+```xml
+    <MeleeWeaponPropertiesContainer id="kWeaponFirePunch-0">
+      <IsAimedWeapon>false</IsAimedWeapon>
+      <DamageIsPercentage>false</DamageIsPercentage>
+      <WormIsWeapon>true</WormIsWeapon>
+      <RetreatTimeOverride>0</RetreatTimeOverride>
+      <Radius>8</Radius>
+      <MinAimAngle>0</MinAimAngle>
+      <MaxAimAngle>0</MaxAimAngle>
+      <DischargeFX></DischargeFX>
+      <DischargeSoundFX></DischargeSoundFX>
+      <WormCollisionFX>WeaponFirePunch</WormCollisionFX>
+      <LandCollisionFX></LandCollisionFX>
+      <LogicalPositionOffset x="16" y="0" z="4"/>
+      <ImpulseDirection x="70" y="0" z="0"/>
+      <LogicalLaunchYOffset>-8</LogicalLaunchYOffset>
+      <WormDamageMagnitude>30</WormDamageMagnitude>
+      <LandDamageMagnitude>0</LandDamageMagnitude>
+      <ImpulseMagnitude>0.22</ImpulseMagnitude>
+      <WormDamageRadius>0</WormDamageRadius>
+      <LandDamageRadius>0</LandDamageRadius>
+      <ImpulseRadius>0.1</ImpulseRadius>
+      <DisplayName>Text.kWeaponFirePunch</DisplayName>
+      <AnimDraw>DrawFirepunch</AnimDraw>
+      <AnimAim>HoldFirepunch</AnimAim>
+      <AnimFire>FireFirepunch</AnimFire>
+      <AnimHolding></AnimHolding>
+      <AnimEndFire></AnimEndFire>
+      <WeaponGraphicsResourceID>Dummy</WeaponGraphicsResourceID>
+      <WeaponType>0</WeaponType>
+      <DefaultPreference>0</DefaultPreference>
+      <CurrentPreference>0</CurrentPreference>
+      <LaunchDelay>300</LaunchDelay>
+      <PostLaunchDelay>0</PostLaunchDelay>
+      <FirstPersonOffset x="0" y="0" z="0"/>
+      <FirstPersonScale x="0" y="0" z="0"/>
+      <FirstPersonFiringParticleEffect></FirstPersonFiringParticleEffect>
+      <FirstPersonDrawAnim></FirstPersonDrawAnim>
+      <FirstPersonWindUpAnim></FirstPersonWindUpAnim>
+      <FirstPersonFireAnim></FirstPersonFireAnim>
+      <FirstPersonWindDownAnim></FirstPersonWindDownAnim>
+      <FirstPersonReloadAnim></FirstPersonReloadAnim>
+      <FirstPersonHideAnim></FirstPersonHideAnim>
+      <FirstPersonIdleAnim></FirstPersonIdleAnim>
+      <FirstPersonHandDrawAnim></FirstPersonHandDrawAnim>
+      <FirstPersonHandWindUpAnim></FirstPersonHandWindUpAnim>
+      <FirstPersonHandFireAnim></FirstPersonHandFireAnim>
+      <FirstPersonHandWindDownAnim></FirstPersonHandWindDownAnim>
+      <FirstPersonHandReloadAnim></FirstPersonHandReloadAnim>
+      <FirstPersonHandHideAnim></FirstPersonHandHideAnim>
+      <FirstPersonHandIdleAnim></FirstPersonHandIdleAnim>
+      <DisplayInFirstPerson>false</DisplayInFirstPerson>
+      <CanBeFiredWhenWormMoving>true</CanBeFiredWhenWormMoving>
+      <RumbleLight>0</RumbleLight>
+      <RumbleHeavy>150</RumbleHeavy>
+    </MeleeWeaponPropertiesContainer>
 ```
-file Tweak\WeapTwk.xml
-#Bomber.NumBombs = 20
-edit kWeaponBazooka-0
-IsLowGravity = false
-quick * Bomblet
-Num*s = 5
-*MaxConeAngle = 0.90
-*MaxSpeed = -0.2
-*MinSpeed = -0.1
-*WeaponName = kWeaponGrenade
-quick $ Magnitude
-quick % Radius
-WormDamage$ = 35
-LandDamage% = 30
-edit kWeaponClusterGrenade-0
-NumBomblets = 20
-BombletMaxSpeed = 0.75
-BombletMaxConeAngle = 0.05
-file Tweak\Tweak.xml
-#Ninja.NumShots *= 2
-#Ninja.MaxLength = 9999
-#Ninja.WormMass = 0.8
+
+Weapon damage is determined by this entry:
+
+```xml
+<WormDamageMagnitude>30</WormDamageMagnitude>
 ```
+
+Here is an example of modifying this value to 100:
+
+
+[Fire punch damage modification](damage_mod.mp4?raw=true)
