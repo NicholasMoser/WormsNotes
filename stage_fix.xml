@@ -59,7 +59,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.AITest-0">
-      <LevelName>Text.Level.AITest</LevelName>
+      <LevelName>(NEW) AITest</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -81,7 +81,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Animtest-0">
-      <LevelName>Text.Level.AnimsTest</LevelName>
+      <LevelName>(NEW) AnimsTest</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -103,7 +103,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Balloon-0">
-      <LevelName>Text.Level.Balloon</LevelName>
+      <LevelName>(NEW) Balloon</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -125,7 +125,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Beanstalk-0">
-      <LevelName>Text.Level.Beanstalk</LevelName>
+      <LevelName>(NEW) Beanstalk</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>beanstalk.txt</CustomTheme>
@@ -147,7 +147,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Boldly-0">
-      <LevelName>Text.Level.Boldly</LevelName>
+      <LevelName>(NEW) Boldly</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>LUNAR</Theme>
       <CustomTheme>boldly.txt</CustomTheme>
@@ -169,7 +169,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Breakfast-0">
-      <LevelName>Text.Level.Breakfast</LevelName>
+      <LevelName>(NEW) Breakfast</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>breakfast.txt</CustomTheme>
@@ -191,7 +191,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Chute1-0">
-      <LevelName>Text.Level.chute1</LevelName>
+      <LevelName>(NEW) Chute1</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -213,7 +213,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Chute2-0">
-      <LevelName>Text.Level.chute2</LevelName>
+      <LevelName>(NEW) Chute2</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>ice.txt</CustomTheme>
@@ -235,7 +235,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Chute3-0">
-      <LevelName>Text.Level.chute3</LevelName>
+      <LevelName>(NEW) Chute3</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>beanstalk.txt</CustomTheme>
@@ -257,7 +257,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Clean-0">
-      <LevelName>Text.Level.Clean</LevelName>
+      <LevelName>(NEW) Clean</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>LUNAR</Theme>
       <CustomTheme>Clean.txt</CustomTheme>
@@ -279,7 +279,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Crocketeer-0">
-      <LevelName>Text.Level.Crocketeer</LevelName>
+      <LevelName>(NEW) Crocketeer</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>LUNAR</Theme>
       <CustomTheme>crocketeer.txt</CustomTheme>
@@ -301,7 +301,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch10-0">
-      <LevelName>Text.Level.Deathmatch10</LevelName>
+      <LevelName>(NEW) Deathmatch10</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>helterskelter.txt</CustomTheme>
@@ -323,7 +323,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch1-0">
-      <LevelName>Text.Level.Deathmatch1</LevelName>
+      <LevelName>(NEW) Deathmatch1</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>PLAICE.txt</CustomTheme>
@@ -345,7 +345,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch2-0">
-      <LevelName>Text.Level.Deathmatch2</LevelName>
+      <LevelName>(NEW) Deathmatch2</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ARCTIC</Theme>
       <CustomTheme>Deathmatch2.txt</CustomTheme>
@@ -367,7 +367,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch3-0">
-      <LevelName>Text.Level.Deathmatch3</LevelName>
+      <LevelName>(NEW) Deathmatch3</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>funfair.txt</CustomTheme>
@@ -389,7 +389,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch4-0">
-      <LevelName>Text.Level.Deathmatch4</LevelName>
+      <LevelName>(NEW) Deathmatch4</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>holiday.txt</CustomTheme>
@@ -411,7 +411,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch5-0">
-      <LevelName>Text.Level.Deathmatch5</LevelName>
+      <LevelName>(NEW) Deathmatch5</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ARCTIC</Theme>
       <CustomTheme>ice.txt</CustomTheme>
@@ -433,7 +433,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch6-0">
-      <LevelName>Text.Level.Deathmatch6</LevelName>
+      <LevelName>(NEW) Deathmatch6</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -455,7 +455,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch7-0">
-      <LevelName>Text.Level.Deathmatch7</LevelName>
+      <LevelName>(NEW) Deathmatch7</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>countingsheep.txt</CustomTheme>
@@ -477,7 +477,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathmatch8-0">
-      <LevelName>Text.Level.Deathmatch8</LevelName>
+      <LevelName>(NEW) Deathmatch8</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>HORROR</Theme>
       <CustomTheme></CustomTheme>
@@ -499,7 +499,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Deathtest-0">
-      <LevelName>Text.Level.deathtest</LevelName>
+      <LevelName>(NEW) Deathtest</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -521,7 +521,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Falling-0">
-      <LevelName>Text.Level.Falling</LevelName>
+      <LevelName>(NEW) Falling</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -543,7 +543,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Hide-0">
-      <LevelName>Text.Level.Hide</LevelName>
+      <LevelName>(NEW) Hide</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>hide.txt</CustomTheme>
@@ -565,7 +565,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.TargetHunt3-0">
-      <LevelName>Text.Level.TargetHunt3</LevelName>
+      <LevelName>(NEW) TargetHunt3</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -587,7 +587,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Hookline-0">
-      <LevelName>Text.Level.Hookline</LevelName>
+      <LevelName>(NEW) Hookline</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>hookline.txt</CustomTheme>
@@ -609,7 +609,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.JetpackChall2-0">
-      <LevelName>Text.Chall.Jetpack2</LevelName>
+      <LevelName>(NEW) Jetpack2</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>team17.txt</CustomTheme>
@@ -631,7 +631,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.JetpackChall3-0">
-      <LevelName>Text.Chall.Jetpack3</LevelName>
+      <LevelName>(NEW) Jetpack3</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -653,7 +653,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random1-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random1</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -675,7 +675,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random2-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random2</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>HORROR</Theme>
       <CustomTheme></CustomTheme>
@@ -697,7 +697,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random3-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random3</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme></CustomTheme>
@@ -719,7 +719,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random4-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random4</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -741,7 +741,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random5-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random5</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>LUNAR</Theme>
       <CustomTheme></CustomTheme>
@@ -763,7 +763,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random6-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random6</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ARCTIC</Theme>
       <CustomTheme></CustomTheme>
@@ -785,7 +785,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random7-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random7</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -807,7 +807,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random8-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random8</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>HORROR</Theme>
       <CustomTheme></CustomTheme>
@@ -829,7 +829,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Random9-0">
-      <LevelName></LevelName>
+      <LevelName>(NEW) Random9</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -851,7 +851,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Multiapplecore-0">
-      <LevelName>Text.Level.MultiAppleCore</LevelName>
+      <LevelName>(NEW) MultiAppleCore</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme></CustomTheme>
@@ -873,7 +873,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Multifunfair-0">
-      <LevelName>Text.Level.MultiFunFair</LevelName>
+      <LevelName>(NEW) MultiFunFair</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>funfair.txt</CustomTheme>
@@ -895,7 +895,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Multipegasus-0">
-      <LevelName>Text.Level.MultiPegasus</LevelName>
+      <LevelName>(NEW) MultiPegasus</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -917,7 +917,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Multitree-0">
-      <LevelName>Text.Level.MultiTreeVillage</LevelName>
+      <LevelName>(NEW) MultiTreeVillage</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>treevillage.txt</CustomTheme>
@@ -939,7 +939,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.NotPC-0">
-      <LevelName>Text.Level.NotPC</LevelName>
+      <LevelName>(NEW) NotPC</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>notpc.txt</CustomTheme>
@@ -961,7 +961,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Pdemo-0">
-      <LevelName>Text.Tut.pdemo</LevelName>
+      <LevelName>(NEW) Pdemo</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -983,7 +983,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.RumDeal-0">
-      <LevelName>Text.Level.RumDeal</LevelName>
+      <LevelName>(NEW) RumDeal</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
       <CustomTheme>rum.txt</CustomTheme>
@@ -1005,7 +1005,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Sheep1-0">
-      <LevelName>Text.Level.Sheep1</LevelName>
+      <LevelName>(NEW) Sheep1</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>LUNAR</Theme>
       <CustomTheme></CustomTheme>
@@ -1027,7 +1027,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Sheep2-0">
-      <LevelName>Text.Level.Sheep2</LevelName>
+      <LevelName>(NEW) Sheep2</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme></CustomTheme>
@@ -1049,7 +1049,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Spacestation-0">
-      <LevelName>Text.Level.Spacestation</LevelName>
+      <LevelName>(NEW) Spacestation</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>LUNAR</Theme>
       <CustomTheme>spacestation.txt</CustomTheme>
@@ -1071,7 +1071,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.TargetHunt-0">
-      <LevelName>Text.Level.TargetHunt</LevelName>
+      <LevelName>(NEW) TargetHunt</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>cherry.txt</CustomTheme>
@@ -1093,7 +1093,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.TargetHunt2-0">
-      <LevelName>Text.Level.TargetHunt2</LevelName>
+      <LevelName>(NEW) TargetHunt2</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -1115,7 +1115,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Sheep3-0">
-      <LevelName>Text.Level.Sheep3</LevelName>
+      <LevelName>(NEW) Sheep3</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
       <CustomTheme></CustomTheme>
@@ -1137,7 +1137,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.TrialOfTheDamned-0">
-      <LevelName>Text.Level.TrialofTheDamned</LevelName>
+      <LevelName>(NEW) TrialofTheDamned</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>HORROR</Theme>
       <CustomTheme>Trial_custom.txt</CustomTheme>
@@ -1159,7 +1159,7 @@
       <Flags>17</Flags>
     </XContainerResourceDetails>
     <LevelDetails id="FE.Unlocked.Tutorial2-0">
-      <LevelName>Text.Tut.Dumps</LevelName>
+      <LevelName>(NEW) Dumps</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
       <CustomTheme>dumps.txt</CustomTheme>
