@@ -66,7 +66,7 @@
       <LandFile>aitest.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -88,7 +88,7 @@
       <LandFile>animstest.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -110,7 +110,7 @@
       <LandFile>balloon.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles>balloontwk.xml</Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Ball.brief</Brief>
       <Image>Mission_BB.tga</Image>
       <LevelNumber>29</LevelNumber>
@@ -132,7 +132,7 @@
       <LandFile>beanstalk.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles>beanstalktwk</Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Beanstalk.Brief3</Brief>
       <Image>Mission_Beanstalk.tga</Image>
       <LevelNumber>17</LevelNumber>
@@ -154,7 +154,7 @@
       <LandFile>boldly.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Mount.brief</Brief>
       <Image>Mission_TBG.tga</Image>
       <LevelNumber>28</LevelNumber>
@@ -176,7 +176,7 @@
       <LandFile>breakfast.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Breakfast.brief</Brief>
       <Image>Mission_Breakfast.tga</Image>
       <LevelNumber>31</LevelNumber>
@@ -198,7 +198,7 @@
       <LandFile>Chute1.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Chute1.brief</Brief>
       <Image></Image>
       <LevelNumber>9</LevelNumber>
@@ -220,7 +220,7 @@
       <LandFile>chute2.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Chute2.brief</Brief>
       <Image></Image>
       <LevelNumber>10</LevelNumber>
@@ -242,7 +242,7 @@
       <LandFile>chute3.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles>beanstalktwk.xml</Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Chute3.brief</Brief>
       <Image></Image>
       <LevelNumber>11</LevelNumber>
@@ -264,7 +264,7 @@
       <LandFile>clean.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Clean.brief</Brief>
       <Image>Mission_ISNCHYC.tga</Image>
       <LevelNumber>11</LevelNumber>
@@ -286,7 +286,7 @@
       <LandFile>crocketeer.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>6</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Crocketeer.brief</Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -308,7 +308,7 @@
       <LandFile>Deathmatch10.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch10.Brief</Brief>
       <Image></Image>
       <LevelNumber>21</LevelNumber>
@@ -330,7 +330,7 @@
       <LandFile>Deathmatch1.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch1.Brief</Brief>
       <Image></Image>
       <LevelNumber>12</LevelNumber>
@@ -352,7 +352,7 @@
       <LandFile>Deathmatch2.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch2.Brief</Brief>
       <Image></Image>
       <LevelNumber>13</LevelNumber>
@@ -374,7 +374,7 @@
       <LandFile>Deathmatch3.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch3.Brief</Brief>
       <Image></Image>
       <LevelNumber>14</LevelNumber>
@@ -396,7 +396,7 @@
       <LandFile>Deathmatch4.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch4.Brief</Brief>
       <Image></Image>
       <LevelNumber>15</LevelNumber>
@@ -418,7 +418,7 @@
       <LandFile>Deathmatch5.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch5.Brief</Brief>
       <Image></Image>
       <LevelNumber>16</LevelNumber>
@@ -440,7 +440,7 @@
       <LandFile>Deathmatch6.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch6.Brief</Brief>
       <Image></Image>
       <LevelNumber>17</LevelNumber>
@@ -462,7 +462,7 @@
       <LandFile>Deathmatch7.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch7.Brief</Brief>
       <Image></Image>
       <LevelNumber>18</LevelNumber>
@@ -484,7 +484,7 @@
       <LandFile>Deathmatch8.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Deathmatch8.Brief</Brief>
       <Image></Image>
       <LevelNumber>19</LevelNumber>
@@ -506,7 +506,7 @@
       <LandFile>deathtest.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>2</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -528,7 +528,7 @@
       <LandFile>falling.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Falling.brief</Brief>
       <Image>Mission_FFY.tga</Image>
       <LevelNumber>13</LevelNumber>
@@ -550,7 +550,7 @@
       <LandFile>hide.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles>Steps</Particles>
-      <LevelType>6</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Steps.brief</Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -572,7 +572,7 @@
       <LandFile>homing.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Shotgun3.brief</Brief>
       <Image>Challenge_SG3.tga</Image>
       <LevelNumber>2</LevelNumber>
@@ -594,7 +594,7 @@
       <LandFile>hookline.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Hook.brief</Brief>
       <Image>Mission_HLS.tga</Image>
       <LevelNumber>25</LevelNumber>
@@ -616,7 +616,7 @@
       <LandFile>jetpackchall2.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Jetpack2.brief</Brief>
       <Image></Image>
       <LevelNumber>7</LevelNumber>
@@ -638,7 +638,7 @@
       <LandFile>jetpackchall3.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Jetpack3.Brief2</Brief>
       <Image></Image>
       <LevelNumber>8</LevelNumber>
@@ -660,7 +660,7 @@
       <LandFile>MD Random1.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -682,7 +682,7 @@
       <LandFile>MD Random2.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>1</LevelNumber>
@@ -704,7 +704,7 @@
       <LandFile>MD Random3.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>2</LevelNumber>
@@ -726,7 +726,7 @@
       <LandFile>MD Random4.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>3</LevelNumber>
@@ -748,7 +748,7 @@
       <LandFile>MD Random5.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>4</LevelNumber>
@@ -770,7 +770,7 @@
       <LandFile>MD Random6.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>5</LevelNumber>
@@ -792,7 +792,7 @@
       <LandFile>MD Random7.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>6</LevelNumber>
@@ -814,7 +814,7 @@
       <LandFile>MD Random8.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>7</LevelNumber>
@@ -836,7 +836,7 @@
       <LandFile>MD Random9.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>1</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>8</LevelNumber>
@@ -858,7 +858,7 @@
       <LandFile>multiapplecore.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>2</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -880,7 +880,7 @@
       <LandFile>multifunfair.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>2</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -902,7 +902,7 @@
       <LandFile>multipegasus.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>2</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -924,7 +924,7 @@
       <LandFile>multitreevillage.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>2</LevelType>
+      <LevelType>5</LevelType>
       <Brief></Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -946,7 +946,7 @@
       <LandFile>notpc.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.NotPC.brief</Brief>
       <Image>Mission_AQF.tga</Image>
       <LevelNumber>20</LevelNumber>
@@ -968,7 +968,7 @@
       <LandFile>pdemo.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>2</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Pdemo</Brief>
       <Image></Image>
       <LevelNumber>2</LevelNumber>
@@ -990,7 +990,7 @@
       <LandFile>rum.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Rum.brief</Brief>
       <Image>Mission_RD.tga</Image>
       <LevelNumber>6</LevelNumber>
@@ -1012,7 +1012,7 @@
       <LandFile>Sheep1.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.SuperSheep1.brief</Brief>
       <Image></Image>
       <LevelNumber>3</LevelNumber>
@@ -1034,7 +1034,7 @@
       <LandFile>Sheep2.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.SuperSheep2.brief</Brief>
       <Image></Image>
       <LevelNumber>4</LevelNumber>
@@ -1056,7 +1056,7 @@
       <LandFile>spacestation.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles>AndyPartTwk.xml</Particles>
-      <LevelType>6</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Space.brief</Brief>
       <Image>Mission_OSS.tga</Image>
       <LevelNumber>0</LevelNumber>
@@ -1078,7 +1078,7 @@
       <LandFile>TargetHunt.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Shotgun1.brief</Brief>
       <Image></Image>
       <LevelNumber>0</LevelNumber>
@@ -1100,7 +1100,7 @@
       <LandFile>TargetHunt2.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.Shotgun2.brief</Brief>
       <Image></Image>
       <LevelNumber>1</LevelNumber>
@@ -1122,7 +1122,7 @@
       <LandFile>TargetHunt4.xom</LandFile>
       <TimeOfDay>EVENING</TimeOfDay>
       <Particles></Particles>
-      <LevelType>4</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Chall.SuperSheep3.brief</Brief>
       <Image></Image>
       <LevelNumber>5</LevelNumber>
@@ -1144,7 +1144,7 @@
       <LandFile>Trial.xom</LandFile>
       <TimeOfDay>NIGHT</TimeOfDay>
       <Particles></Particles>
-      <LevelType>0</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Miss.Trial.brief</Brief>
       <Image>Mission_TD.tga</Image>
       <LevelNumber>22</LevelNumber>
@@ -1166,7 +1166,7 @@
       <LandFile>tutorial2.xom</LandFile>
       <TimeOfDay>DAY</TimeOfDay>
       <Particles></Particles>
-      <LevelType>3</LevelType>
+      <LevelType>5</LevelType>
       <Brief>Tut.Dumps.brief</Brief>
       <Image>Tutorial_DITD.tga</Image>
       <LevelNumber>1</LevelNumber>
