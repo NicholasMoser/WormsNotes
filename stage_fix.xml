@@ -1,0 +1,1177 @@
+      <ContainerResources href="FE.Level.AITest"/>
+      <ContainerResources href="FE.Level.Animtest"/>
+      <ContainerResources href="FE.Level.Balloon"/>
+      <ContainerResources href="FE.Level.Beanstalk"/>
+      <ContainerResources href="FE.Level.Boldly"/>
+      <ContainerResources href="FE.Level.Breakfast"/>
+      <ContainerResources href="FE.Level.Chute1"/>
+      <ContainerResources href="FE.Level.Chute2"/>
+      <ContainerResources href="FE.Level.Chute3"/>
+      <ContainerResources href="FE.Level.Clean"/>
+      <ContainerResources href="FE.Level.Crocketeer"/>
+      <ContainerResources href="FE.Level.Deathmatch10"/>
+      <ContainerResources href="FE.Level.Deathmatch1"/>
+      <ContainerResources href="FE.Level.Deathmatch2"/>
+      <ContainerResources href="FE.Level.Deathmatch3"/>
+      <ContainerResources href="FE.Level.Deathmatch4"/>
+      <ContainerResources href="FE.Level.Deathmatch5"/>
+      <ContainerResources href="FE.Level.Deathmatch6"/>
+      <ContainerResources href="FE.Level.Deathmatch7"/>
+      <ContainerResources href="FE.Level.Deathmatch8"/>
+      <ContainerResources href="FE.Level.Deathtest"/>
+      <ContainerResources href="FE.Level.Falling"/>
+      <ContainerResources href="FE.Level.User"/>
+      <ContainerResources href="FE.Level.Hide"/>
+      <ContainerResources href="FE.Level.TargetHunt3"/>
+      <ContainerResources href="FE.Level.Hookline"/>
+      <ContainerResources href="FE.Level.JetpackChall2"/>
+      <ContainerResources href="FE.Level.JetpackChall3"/>
+      <ContainerResources href="FE.Level.Random1"/>
+      <ContainerResources href="FE.Level.Random2"/>
+      <ContainerResources href="FE.Level.Random3"/>
+      <ContainerResources href="FE.Level.Random4"/>
+      <ContainerResources href="FE.Level.Random5"/>
+      <ContainerResources href="FE.Level.Random6"/>
+      <ContainerResources href="FE.Level.Random7"/>
+      <ContainerResources href="FE.Level.Random8"/>
+      <ContainerResources href="FE.Level.Random9"/>
+      <ContainerResources href="FE.Level.Multiapplecore"/>
+      <ContainerResources href="FE.Level.Multifunfair"/>
+      <ContainerResources href="FE.Level.Multipegasus"/>
+      <ContainerResources href="FE.Level.Multitree"/>
+      <ContainerResources href="FE.Level.NotPC"/>
+      <ContainerResources href="FE.Level.Pdemo"/>
+      <ContainerResources href="FE.Level.RumDeal"/>
+      <ContainerResources href="FE.Level.Sheep1"/>
+      <ContainerResources href="FE.Level.Sheep2"/>
+      <ContainerResources href="FE.Level.Spacestation"/>
+      <ContainerResources href="FE.Level.TargetHunt"/>
+      <ContainerResources href="FE.Level.TargetHunt2"/>
+      <ContainerResources href="FE.Level.Sheep3"/>
+      <ContainerResources href="FE.Level.TrialOfTheDamned"/>
+      <ContainerResources href="FE.Level.Tutorial2"/>
+
+...
+
+    <XContainerResourceDetails id="FE.Level.AITest">
+      <Value href="FE.Level.AITest-0"/>
+      <Name>FE.Level.AITest</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.AITest-0">
+      <LevelName>Text.Level.AITest</LevelName>
+      <ScriptName>aitest</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>aitest.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Animtest">
+      <Value href="FE.Level.Animtest-0"/>
+      <Name>FE.Level.Animtest</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Animtest-0">
+      <LevelName>Text.Level.AnimsTest</LevelName>
+      <ScriptName>animstest</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>animstest.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Balloon">
+      <Value href="FE.Level.Balloon-0"/>
+      <Name>FE.Level.Balloon</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Balloon-0">
+      <LevelName>Text.Level.Balloon</LevelName>
+      <ScriptName>balloon</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>balloon.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles>balloontwk.xml</Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Ball.brief</Brief>
+      <Image>Mission_BB.tga</Image>
+      <LevelNumber>29</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Beanstalk">
+      <Value href="FE.Level.Beanstalk-0"/>
+      <Name>FE.Level.Beanstalk</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Beanstalk-0">
+      <LevelName>Text.Level.Beanstalk</LevelName>
+      <ScriptName>beanstalk</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>beanstalk.txt</CustomTheme>
+      <LandFile>beanstalk.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles>beanstalktwk</Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Beanstalk.Brief3</Brief>
+      <Image>Mission_Beanstalk.tga</Image>
+      <LevelNumber>17</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Boldly">
+      <Value href="FE.Level.Boldly-0"/>
+      <Name>FE.Level.Boldly</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Boldly-0">
+      <LevelName>Text.Level.Boldly</LevelName>
+      <ScriptName>boldly</ScriptName>
+      <Theme>LUNAR</Theme>
+      <CustomTheme>boldly.txt</CustomTheme>
+      <LandFile>boldly.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Mount.brief</Brief>
+      <Image>Mission_TBG.tga</Image>
+      <LevelNumber>28</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Breakfast">
+      <Value href="FE.Level.Breakfast-0"/>
+      <Name>FE.Level.Breakfast</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Breakfast-0">
+      <LevelName>Text.Level.Breakfast</LevelName>
+      <ScriptName>BREAKFAST</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>breakfast.txt</CustomTheme>
+      <LandFile>breakfast.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Breakfast.brief</Brief>
+      <Image>Mission_Breakfast.tga</Image>
+      <LevelNumber>31</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Chute1">
+      <Value href="FE.Level.Chute1-0"/>
+      <Name>FE.Level.Chute1</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Chute1-0">
+      <LevelName>Text.Level.chute1</LevelName>
+      <ScriptName>Chute1</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>Chute1.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Chute1.brief</Brief>
+      <Image></Image>
+      <LevelNumber>9</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Chute2">
+      <Value href="FE.Level.Chute2-0"/>
+      <Name>FE.Level.Chute2</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Chute2-0">
+      <LevelName>Text.Level.chute2</LevelName>
+      <ScriptName>chute2</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>ice.txt</CustomTheme>
+      <LandFile>chute2.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Chute2.brief</Brief>
+      <Image></Image>
+      <LevelNumber>10</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Chute3">
+      <Value href="FE.Level.Chute3-0"/>
+      <Name>FE.Level.Chute3</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Chute3-0">
+      <LevelName>Text.Level.chute3</LevelName>
+      <ScriptName>chute3</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>beanstalk.txt</CustomTheme>
+      <LandFile>chute3.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles>beanstalktwk.xml</Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Chute3.brief</Brief>
+      <Image></Image>
+      <LevelNumber>11</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Clean">
+      <Value href="FE.Level.Clean-0"/>
+      <Name>FE.Level.Clean</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Clean-0">
+      <LevelName>Text.Level.Clean</LevelName>
+      <ScriptName>clean</ScriptName>
+      <Theme>LUNAR</Theme>
+      <CustomTheme>Clean.txt</CustomTheme>
+      <LandFile>clean.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Clean.brief</Brief>
+      <Image>Mission_ISNCHYC.tga</Image>
+      <LevelNumber>11</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Crocketeer">
+      <Value href="FE.Level.Crocketeer-0"/>
+      <Name>FE.Level.Crocketeer</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Crocketeer-0">
+      <LevelName>Text.Level.Crocketeer</LevelName>
+      <ScriptName>CROCKETEER</ScriptName>
+      <Theme>LUNAR</Theme>
+      <CustomTheme>crocketeer.txt</CustomTheme>
+      <LandFile>crocketeer.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>6</LevelType>
+      <Brief>Miss.Crocketeer.brief</Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch10">
+      <Value href="FE.Level.Deathmatch10-0"/>
+      <Name>FE.Level.Deathmatch10</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch10-0">
+      <LevelName>Text.Level.Deathmatch10</LevelName>
+      <ScriptName>Deathmatch10</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>helterskelter.txt</CustomTheme>
+      <LandFile>Deathmatch10.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch10.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>21</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch1">
+      <Value href="FE.Level.Deathmatch1-0"/>
+      <Name>FE.Level.Deathmatch1</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch1-0">
+      <LevelName>Text.Level.Deathmatch1</LevelName>
+      <ScriptName>Deathmatch1</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>PLAICE.txt</CustomTheme>
+      <LandFile>Deathmatch1.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch1.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>12</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch2">
+      <Value href="FE.Level.Deathmatch2-0"/>
+      <Name>FE.Level.Deathmatch2</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch2-0">
+      <LevelName>Text.Level.Deathmatch2</LevelName>
+      <ScriptName>Deathmatch2</ScriptName>
+      <Theme>ARCTIC</Theme>
+      <CustomTheme>Deathmatch2.txt</CustomTheme>
+      <LandFile>Deathmatch2.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch2.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>13</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch3">
+      <Value href="FE.Level.Deathmatch3-0"/>
+      <Name>FE.Level.Deathmatch3</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch3-0">
+      <LevelName>Text.Level.Deathmatch3</LevelName>
+      <ScriptName>Deathmatch3</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>funfair.txt</CustomTheme>
+      <LandFile>Deathmatch3.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch3.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>14</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch4">
+      <Value href="FE.Level.Deathmatch4-0"/>
+      <Name>FE.Level.Deathmatch4</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch4-0">
+      <LevelName>Text.Level.Deathmatch4</LevelName>
+      <ScriptName>Deathmatch4</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>holiday.txt</CustomTheme>
+      <LandFile>Deathmatch4.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch4.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>15</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch5">
+      <Value href="FE.Level.Deathmatch5-0"/>
+      <Name>FE.Level.Deathmatch5</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch5-0">
+      <LevelName>Text.Level.Deathmatch5</LevelName>
+      <ScriptName>Deathmatch5</ScriptName>
+      <Theme>ARCTIC</Theme>
+      <CustomTheme>ice.txt</CustomTheme>
+      <LandFile>Deathmatch5.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch5.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>16</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch6">
+      <Value href="FE.Level.Deathmatch6-0"/>
+      <Name>FE.Level.Deathmatch6</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch6-0">
+      <LevelName>Text.Level.Deathmatch6</LevelName>
+      <ScriptName>Deathmatch6</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>Deathmatch6.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch6.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>17</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch7">
+      <Value href="FE.Level.Deathmatch7-0"/>
+      <Name>FE.Level.Deathmatch7</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch7-0">
+      <LevelName>Text.Level.Deathmatch7</LevelName>
+      <ScriptName>Deathmatch7</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>countingsheep.txt</CustomTheme>
+      <LandFile>Deathmatch7.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch7.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>18</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathmatch8">
+      <Value href="FE.Level.Deathmatch8-0"/>
+      <Name>FE.Level.Deathmatch8</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathmatch8-0">
+      <LevelName>Text.Level.Deathmatch8</LevelName>
+      <ScriptName>Deathmatch8</ScriptName>
+      <Theme>HORROR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>Deathmatch8.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Deathmatch8.Brief</Brief>
+      <Image></Image>
+      <LevelNumber>19</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>false</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Deathtest">
+      <Value href="FE.Level.Deathtest-0"/>
+      <Name>FE.Level.Deathtest</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Deathtest-0">
+      <LevelName>Text.Level.deathtest</LevelName>
+      <ScriptName>deathtest</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>deathtest.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>2</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Falling">
+      <Value href="FE.Level.Falling-0"/>
+      <Name>FE.Level.Falling</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Falling-0">
+      <LevelName>Text.Level.Falling</LevelName>
+      <ScriptName>FALLING</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>falling.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Falling.brief</Brief>
+      <Image>Mission_FFY.tga</Image>
+      <LevelNumber>13</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Hide">
+      <Value href="FE.Level.Hide-0"/>
+      <Name>FE.Level.Hide</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Hide-0">
+      <LevelName>Text.Level.Hide</LevelName>
+      <ScriptName>hide</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>hide.txt</CustomTheme>
+      <LandFile>hide.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles>Steps</Particles>
+      <LevelType>6</LevelType>
+      <Brief>Miss.Steps.brief</Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.TargetHunt3">
+      <Value href="FE.Level.TargetHunt3-0"/>
+      <Name>FE.Level.TargetHunt3</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.TargetHunt3-0">
+      <LevelName>Text.Level.TargetHunt3</LevelName>
+      <ScriptName>HOMING</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>homing.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Shotgun3.brief</Brief>
+      <Image>Challenge_SG3.tga</Image>
+      <LevelNumber>2</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Hookline">
+      <Value href="FE.Level.Hookline-0"/>
+      <Name>FE.Level.Hookline</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Hookline-0">
+      <LevelName>Text.Level.Hookline</LevelName>
+      <ScriptName>hookline</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>hookline.txt</CustomTheme>
+      <LandFile>hookline.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Hook.brief</Brief>
+      <Image>Mission_HLS.tga</Image>
+      <LevelNumber>25</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.JetpackChall2">
+      <Value href="FE.Level.JetpackChall2-0"/>
+      <Name>FE.Level.JetpackChall2</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.JetpackChall2-0">
+      <LevelName>Text.Chall.Jetpack2</LevelName>
+      <ScriptName>jetpackchall2</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>team17.txt</CustomTheme>
+      <LandFile>jetpackchall2.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Jetpack2.brief</Brief>
+      <Image></Image>
+      <LevelNumber>7</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.JetpackChall3">
+      <Value href="FE.Level.JetpackChall3-0"/>
+      <Name>FE.Level.JetpackChall3</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.JetpackChall3-0">
+      <LevelName>Text.Chall.Jetpack3</LevelName>
+      <ScriptName>jetpackchall3</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>jetpackchall3.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Jetpack3.Brief2</Brief>
+      <Image></Image>
+      <LevelNumber>8</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random1">
+      <Value href="FE.Level.Random1-0"/>
+      <Name>FE.Level.Random1</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random1-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random1.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random2">
+      <Value href="FE.Level.Random2-0"/>
+      <Name>FE.Level.Random2</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random2-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>HORROR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random2.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>1</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random3">
+      <Value href="FE.Level.Random3-0"/>
+      <Name>FE.Level.Random3</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random3-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random3.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>2</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random4">
+      <Value href="FE.Level.Random4-0"/>
+      <Name>FE.Level.Random4</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random4-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random4.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>3</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random5">
+      <Value href="FE.Level.Random5-0"/>
+      <Name>FE.Level.Random5</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random5-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>LUNAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random5.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>4</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random6">
+      <Value href="FE.Level.Random6-0"/>
+      <Name>FE.Level.Random6</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random6-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>ARCTIC</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random6.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>5</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random7">
+      <Value href="FE.Level.Random7-0"/>
+      <Name>FE.Level.Random7</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random7-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random7.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>6</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random8">
+      <Value href="FE.Level.Random8-0"/>
+      <Name>FE.Level.Random8</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random8-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>HORROR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random8.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>7</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Random9">
+      <Value href="FE.Level.Random9-0"/>
+      <Name>FE.Level.Random9</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Random9-0">
+      <LevelName></LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>MD Random9.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>1</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>8</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Multiapplecore">
+      <Value href="FE.Level.Multiapplecore-0"/>
+      <Name>FE.Level.Multiapplecore</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Multiapplecore-0">
+      <LevelName>Text.Level.MultiAppleCore</LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>multiapplecore.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>2</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Multifunfair">
+      <Value href="FE.Level.Multifunfair-0"/>
+      <Name>FE.Level.Multifunfair</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Multifunfair-0">
+      <LevelName>Text.Level.MultiFunFair</LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>funfair.txt</CustomTheme>
+      <LandFile>multifunfair.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>2</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Multipegasus">
+      <Value href="FE.Level.Multipegasus-0"/>
+      <Name>FE.Level.Multipegasus</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Multipegasus-0">
+      <LevelName>Text.Level.MultiPegasus</LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>multipegasus.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>2</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Multitree">
+      <Value href="FE.Level.Multitree-0"/>
+      <Name>FE.Level.Multitree</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Multitree-0">
+      <LevelName>Text.Level.MultiTreeVillage</LevelName>
+      <ScriptName>stdvs,wormpot</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>treevillage.txt</CustomTheme>
+      <LandFile>multitreevillage.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>2</LevelType>
+      <Brief></Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.NotPC">
+      <Value href="FE.Level.NotPC-0"/>
+      <Name>FE.Level.NotPC</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.NotPC-0">
+      <LevelName>Text.Level.NotPC</LevelName>
+      <ScriptName>notpc</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>notpc.txt</CustomTheme>
+      <LandFile>notpc.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.NotPC.brief</Brief>
+      <Image>Mission_AQF.tga</Image>
+      <LevelNumber>20</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Pdemo">
+      <Value href="FE.Level.Pdemo-0"/>
+      <Name>FE.Level.Pdemo</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Pdemo-0">
+      <LevelName>Text.Tut.pdemo</LevelName>
+      <ScriptName>pdemo</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>pdemo.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>2</LevelType>
+      <Brief>Pdemo</Brief>
+      <Image></Image>
+      <LevelNumber>2</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.RumDeal">
+      <Value href="FE.Level.RumDeal-0"/>
+      <Name>FE.Level.RumDeal</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.RumDeal-0">
+      <LevelName>Text.Level.RumDeal</LevelName>
+      <ScriptName>rum</ScriptName>
+      <Theme>PIRATE</Theme>
+      <CustomTheme>rum.txt</CustomTheme>
+      <LandFile>rum.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Rum.brief</Brief>
+      <Image>Mission_RD.tga</Image>
+      <LevelNumber>6</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Sheep1">
+      <Value href="FE.Level.Sheep1-0"/>
+      <Name>FE.Level.Sheep1</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Sheep1-0">
+      <LevelName>Text.Level.Sheep1</LevelName>
+      <ScriptName>Sheep1</ScriptName>
+      <Theme>LUNAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>Sheep1.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.SuperSheep1.brief</Brief>
+      <Image></Image>
+      <LevelNumber>3</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Sheep2">
+      <Value href="FE.Level.Sheep2-0"/>
+      <Name>FE.Level.Sheep2</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Sheep2-0">
+      <LevelName>Text.Level.Sheep2</LevelName>
+      <ScriptName>Sheep2</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>Sheep2.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.SuperSheep2.brief</Brief>
+      <Image></Image>
+      <LevelNumber>4</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Spacestation">
+      <Value href="FE.Level.Spacestation-0"/>
+      <Name>FE.Level.Spacestation</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Spacestation-0">
+      <LevelName>Text.Level.Spacestation</LevelName>
+      <ScriptName>spacestation</ScriptName>
+      <Theme>LUNAR</Theme>
+      <CustomTheme>spacestation.txt</CustomTheme>
+      <LandFile>spacestation.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles>AndyPartTwk.xml</Particles>
+      <LevelType>6</LevelType>
+      <Brief>Miss.Space.brief</Brief>
+      <Image>Mission_OSS.tga</Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.TargetHunt">
+      <Value href="FE.Level.TargetHunt-0"/>
+      <Name>FE.Level.TargetHunt</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.TargetHunt-0">
+      <LevelName>Text.Level.TargetHunt</LevelName>
+      <ScriptName>TargetHunt</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>cherry.txt</CustomTheme>
+      <LandFile>TargetHunt.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Shotgun1.brief</Brief>
+      <Image></Image>
+      <LevelNumber>0</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.TargetHunt2">
+      <Value href="FE.Level.TargetHunt2-0"/>
+      <Name>FE.Level.TargetHunt2</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.TargetHunt2-0">
+      <LevelName>Text.Level.TargetHunt2</LevelName>
+      <ScriptName>TargetHunt2</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>TargetHunt2.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.Shotgun2.brief</Brief>
+      <Image></Image>
+      <LevelNumber>1</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Sheep3">
+      <Value href="FE.Level.Sheep3-0"/>
+      <Name>FE.Level.Sheep3</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Sheep3-0">
+      <LevelName>Text.Level.Sheep3</LevelName>
+      <ScriptName>TargetHunt4</ScriptName>
+      <Theme>WAR</Theme>
+      <CustomTheme></CustomTheme>
+      <LandFile>TargetHunt4.xom</LandFile>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>4</LevelType>
+      <Brief>Chall.SuperSheep3.brief</Brief>
+      <Image></Image>
+      <LevelNumber>5</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.TrialOfTheDamned">
+      <Value href="FE.Level.TrialOfTheDamned-0"/>
+      <Name>FE.Level.TrialOfTheDamned</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.TrialOfTheDamned-0">
+      <LevelName>Text.Level.TrialofTheDamned</LevelName>
+      <ScriptName>TRIAL</ScriptName>
+      <Theme>HORROR</Theme>
+      <CustomTheme>Trial_custom.txt</CustomTheme>
+      <LandFile>Trial.xom</LandFile>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>0</LevelType>
+      <Brief>Miss.Trial.brief</Brief>
+      <Image>Mission_TD.tga</Image>
+      <LevelNumber>22</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
+    <XContainerResourceDetails id="FE.Level.Tutorial2">
+      <Value href="FE.Level.Tutorial2-0"/>
+      <Name>FE.Level.Tutorial2</Name>
+      <Flags>17</Flags>
+    </XContainerResourceDetails>
+    <LevelDetails id="FE.Level.Tutorial2-0">
+      <LevelName>Text.Tut.Dumps</LevelName>
+      <ScriptName>tutorial2</ScriptName>
+      <Theme>ENGLAND</Theme>
+      <CustomTheme>dumps.txt</CustomTheme>
+      <LandFile>tutorial2.xom</LandFile>
+      <TimeOfDay>DAY</TimeOfDay>
+      <Particles></Particles>
+      <LevelType>3</LevelType>
+      <Brief>Tut.Dumps.brief</Brief>
+      <Image>Tutorial_DITD.tga</Image>
+      <LevelNumber>1</LevelNumber>
+      <Lock></Lock>
+      <LongestWins>true</LongestWins>
+      <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+      <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+    </LevelDetails>
