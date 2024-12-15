@@ -1,64 +1,64 @@
-      <ContainerResources href="FE.Level.AITest"/>
-      <ContainerResources href="FE.Level.Animtest"/>
-      <ContainerResources href="FE.Level.Balloon"/>
-      <ContainerResources href="FE.Level.Beanstalk"/>
-      <ContainerResources href="FE.Level.Boldly"/>
-      <ContainerResources href="FE.Level.Breakfast"/>
-      <ContainerResources href="FE.Level.Chute1"/>
-      <ContainerResources href="FE.Level.Chute2"/>
-      <ContainerResources href="FE.Level.Chute3"/>
-      <ContainerResources href="FE.Level.Clean"/>
-      <ContainerResources href="FE.Level.Crocketeer"/>
-      <ContainerResources href="FE.Level.Deathmatch10"/>
-      <ContainerResources href="FE.Level.Deathmatch1"/>
-      <ContainerResources href="FE.Level.Deathmatch2"/>
-      <ContainerResources href="FE.Level.Deathmatch3"/>
-      <ContainerResources href="FE.Level.Deathmatch4"/>
-      <ContainerResources href="FE.Level.Deathmatch5"/>
-      <ContainerResources href="FE.Level.Deathmatch6"/>
-      <ContainerResources href="FE.Level.Deathmatch7"/>
-      <ContainerResources href="FE.Level.Deathmatch8"/>
-      <ContainerResources href="FE.Level.Deathtest"/>
-      <ContainerResources href="FE.Level.Falling"/>
-      <ContainerResources href="FE.Level.User"/>
-      <ContainerResources href="FE.Level.Hide"/>
-      <ContainerResources href="FE.Level.TargetHunt3"/>
-      <ContainerResources href="FE.Level.Hookline"/>
-      <ContainerResources href="FE.Level.JetpackChall2"/>
-      <ContainerResources href="FE.Level.JetpackChall3"/>
-      <ContainerResources href="FE.Level.Random1"/>
-      <ContainerResources href="FE.Level.Random2"/>
-      <ContainerResources href="FE.Level.Random3"/>
-      <ContainerResources href="FE.Level.Random4"/>
-      <ContainerResources href="FE.Level.Random5"/>
-      <ContainerResources href="FE.Level.Random6"/>
-      <ContainerResources href="FE.Level.Random7"/>
-      <ContainerResources href="FE.Level.Random8"/>
-      <ContainerResources href="FE.Level.Random9"/>
-      <ContainerResources href="FE.Level.Multiapplecore"/>
-      <ContainerResources href="FE.Level.Multifunfair"/>
-      <ContainerResources href="FE.Level.Multipegasus"/>
-      <ContainerResources href="FE.Level.Multitree"/>
-      <ContainerResources href="FE.Level.NotPC"/>
-      <ContainerResources href="FE.Level.Pdemo"/>
-      <ContainerResources href="FE.Level.RumDeal"/>
-      <ContainerResources href="FE.Level.Sheep1"/>
-      <ContainerResources href="FE.Level.Sheep2"/>
-      <ContainerResources href="FE.Level.Spacestation"/>
-      <ContainerResources href="FE.Level.TargetHunt"/>
-      <ContainerResources href="FE.Level.TargetHunt2"/>
-      <ContainerResources href="FE.Level.Sheep3"/>
-      <ContainerResources href="FE.Level.TrialOfTheDamned"/>
-      <ContainerResources href="FE.Level.Tutorial2"/>
+      <ContainerResources href="FE.Unlocked.AITest"/>
+      <ContainerResources href="FE.Unlocked.Animtest"/>
+      <ContainerResources href="FE.Unlocked.Balloon"/>
+      <ContainerResources href="FE.Unlocked.Beanstalk"/>
+      <ContainerResources href="FE.Unlocked.Boldly"/>
+      <ContainerResources href="FE.Unlocked.Breakfast"/>
+      <ContainerResources href="FE.Unlocked.Chute1"/>
+      <ContainerResources href="FE.Unlocked.Chute2"/>
+      <ContainerResources href="FE.Unlocked.Chute3"/>
+      <ContainerResources href="FE.Unlocked.Clean"/>
+      <ContainerResources href="FE.Unlocked.Crocketeer"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch10"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch1"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch2"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch3"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch4"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch5"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch6"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch7"/>
+      <ContainerResources href="FE.Unlocked.Deathmatch8"/>
+      <ContainerResources href="FE.Unlocked.Deathtest"/>
+      <ContainerResources href="FE.Unlocked.Falling"/>
+      <ContainerResources href="FE.Unlocked.User"/>
+      <ContainerResources href="FE.Unlocked.Hide"/>
+      <ContainerResources href="FE.Unlocked.TargetHunt3"/>
+      <ContainerResources href="FE.Unlocked.Hookline"/>
+      <ContainerResources href="FE.Unlocked.JetpackChall2"/>
+      <ContainerResources href="FE.Unlocked.JetpackChall3"/>
+      <ContainerResources href="FE.Unlocked.Random1"/>
+      <ContainerResources href="FE.Unlocked.Random2"/>
+      <ContainerResources href="FE.Unlocked.Random3"/>
+      <ContainerResources href="FE.Unlocked.Random4"/>
+      <ContainerResources href="FE.Unlocked.Random5"/>
+      <ContainerResources href="FE.Unlocked.Random6"/>
+      <ContainerResources href="FE.Unlocked.Random7"/>
+      <ContainerResources href="FE.Unlocked.Random8"/>
+      <ContainerResources href="FE.Unlocked.Random9"/>
+      <ContainerResources href="FE.Unlocked.Multiapplecore"/>
+      <ContainerResources href="FE.Unlocked.Multifunfair"/>
+      <ContainerResources href="FE.Unlocked.Multipegasus"/>
+      <ContainerResources href="FE.Unlocked.Multitree"/>
+      <ContainerResources href="FE.Unlocked.NotPC"/>
+      <ContainerResources href="FE.Unlocked.Pdemo"/>
+      <ContainerResources href="FE.Unlocked.RumDeal"/>
+      <ContainerResources href="FE.Unlocked.Sheep1"/>
+      <ContainerResources href="FE.Unlocked.Sheep2"/>
+      <ContainerResources href="FE.Unlocked.Spacestation"/>
+      <ContainerResources href="FE.Unlocked.TargetHunt"/>
+      <ContainerResources href="FE.Unlocked.TargetHunt2"/>
+      <ContainerResources href="FE.Unlocked.Sheep3"/>
+      <ContainerResources href="FE.Unlocked.TrialOfTheDamned"/>
+      <ContainerResources href="FE.Unlocked.Tutorial2"/>
 
 ...
 
-    <XContainerResourceDetails id="FE.Level.AITest">
-      <Value href="FE.Level.AITest-0"/>
-      <Name>FE.Level.AITest</Name>
+    <XContainerResourceDetails id="FE.Unlocked.AITest">
+      <Value href="FE.Unlocked.AITest-0"/>
+      <Name>FE.Unlocked.AITest</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.AITest-0">
+    <LevelDetails id="FE.Unlocked.AITest-0">
       <LevelName>Text.Level.AITest</LevelName>
       <ScriptName>aitest</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -75,12 +75,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Animtest">
-      <Value href="FE.Level.Animtest-0"/>
-      <Name>FE.Level.Animtest</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Animtest">
+      <Value href="FE.Unlocked.Animtest-0"/>
+      <Name>FE.Unlocked.Animtest</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Animtest-0">
+    <LevelDetails id="FE.Unlocked.Animtest-0">
       <LevelName>Text.Level.AnimsTest</LevelName>
       <ScriptName>animstest</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -97,12 +97,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Balloon">
-      <Value href="FE.Level.Balloon-0"/>
-      <Name>FE.Level.Balloon</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Balloon">
+      <Value href="FE.Unlocked.Balloon-0"/>
+      <Name>FE.Unlocked.Balloon</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Balloon-0">
+    <LevelDetails id="FE.Unlocked.Balloon-0">
       <LevelName>Text.Level.Balloon</LevelName>
       <ScriptName>balloon</ScriptName>
       <Theme>WAR</Theme>
@@ -119,12 +119,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Beanstalk">
-      <Value href="FE.Level.Beanstalk-0"/>
-      <Name>FE.Level.Beanstalk</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Beanstalk">
+      <Value href="FE.Unlocked.Beanstalk-0"/>
+      <Name>FE.Unlocked.Beanstalk</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Beanstalk-0">
+    <LevelDetails id="FE.Unlocked.Beanstalk-0">
       <LevelName>Text.Level.Beanstalk</LevelName>
       <ScriptName>beanstalk</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -141,12 +141,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Boldly">
-      <Value href="FE.Level.Boldly-0"/>
-      <Name>FE.Level.Boldly</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Boldly">
+      <Value href="FE.Unlocked.Boldly-0"/>
+      <Name>FE.Unlocked.Boldly</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Boldly-0">
+    <LevelDetails id="FE.Unlocked.Boldly-0">
       <LevelName>Text.Level.Boldly</LevelName>
       <ScriptName>boldly</ScriptName>
       <Theme>LUNAR</Theme>
@@ -163,12 +163,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Breakfast">
-      <Value href="FE.Level.Breakfast-0"/>
-      <Name>FE.Level.Breakfast</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Breakfast">
+      <Value href="FE.Unlocked.Breakfast-0"/>
+      <Name>FE.Unlocked.Breakfast</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Breakfast-0">
+    <LevelDetails id="FE.Unlocked.Breakfast-0">
       <LevelName>Text.Level.Breakfast</LevelName>
       <ScriptName>BREAKFAST</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -185,12 +185,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Chute1">
-      <Value href="FE.Level.Chute1-0"/>
-      <Name>FE.Level.Chute1</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Chute1">
+      <Value href="FE.Unlocked.Chute1-0"/>
+      <Name>FE.Unlocked.Chute1</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Chute1-0">
+    <LevelDetails id="FE.Unlocked.Chute1-0">
       <LevelName>Text.Level.chute1</LevelName>
       <ScriptName>Chute1</ScriptName>
       <Theme>WAR</Theme>
@@ -207,12 +207,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Chute2">
-      <Value href="FE.Level.Chute2-0"/>
-      <Name>FE.Level.Chute2</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Chute2">
+      <Value href="FE.Unlocked.Chute2-0"/>
+      <Name>FE.Unlocked.Chute2</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Chute2-0">
+    <LevelDetails id="FE.Unlocked.Chute2-0">
       <LevelName>Text.Level.chute2</LevelName>
       <ScriptName>chute2</ScriptName>
       <Theme>PIRATE</Theme>
@@ -229,12 +229,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Chute3">
-      <Value href="FE.Level.Chute3-0"/>
-      <Name>FE.Level.Chute3</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Chute3">
+      <Value href="FE.Unlocked.Chute3-0"/>
+      <Name>FE.Unlocked.Chute3</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Chute3-0">
+    <LevelDetails id="FE.Unlocked.Chute3-0">
       <LevelName>Text.Level.chute3</LevelName>
       <ScriptName>chute3</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -251,12 +251,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Clean">
-      <Value href="FE.Level.Clean-0"/>
-      <Name>FE.Level.Clean</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Clean">
+      <Value href="FE.Unlocked.Clean-0"/>
+      <Name>FE.Unlocked.Clean</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Clean-0">
+    <LevelDetails id="FE.Unlocked.Clean-0">
       <LevelName>Text.Level.Clean</LevelName>
       <ScriptName>clean</ScriptName>
       <Theme>LUNAR</Theme>
@@ -273,12 +273,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Crocketeer">
-      <Value href="FE.Level.Crocketeer-0"/>
-      <Name>FE.Level.Crocketeer</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Crocketeer">
+      <Value href="FE.Unlocked.Crocketeer-0"/>
+      <Name>FE.Unlocked.Crocketeer</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Crocketeer-0">
+    <LevelDetails id="FE.Unlocked.Crocketeer-0">
       <LevelName>Text.Level.Crocketeer</LevelName>
       <ScriptName>CROCKETEER</ScriptName>
       <Theme>LUNAR</Theme>
@@ -295,12 +295,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch10">
-      <Value href="FE.Level.Deathmatch10-0"/>
-      <Name>FE.Level.Deathmatch10</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch10">
+      <Value href="FE.Unlocked.Deathmatch10-0"/>
+      <Name>FE.Unlocked.Deathmatch10</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch10-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch10-0">
       <LevelName>Text.Level.Deathmatch10</LevelName>
       <ScriptName>Deathmatch10</ScriptName>
       <Theme>PIRATE</Theme>
@@ -317,12 +317,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch1">
-      <Value href="FE.Level.Deathmatch1-0"/>
-      <Name>FE.Level.Deathmatch1</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch1">
+      <Value href="FE.Unlocked.Deathmatch1-0"/>
+      <Name>FE.Unlocked.Deathmatch1</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch1-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch1-0">
       <LevelName>Text.Level.Deathmatch1</LevelName>
       <ScriptName>Deathmatch1</ScriptName>
       <Theme>PIRATE</Theme>
@@ -339,12 +339,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch2">
-      <Value href="FE.Level.Deathmatch2-0"/>
-      <Name>FE.Level.Deathmatch2</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch2">
+      <Value href="FE.Unlocked.Deathmatch2-0"/>
+      <Name>FE.Unlocked.Deathmatch2</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch2-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch2-0">
       <LevelName>Text.Level.Deathmatch2</LevelName>
       <ScriptName>Deathmatch2</ScriptName>
       <Theme>ARCTIC</Theme>
@@ -361,12 +361,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch3">
-      <Value href="FE.Level.Deathmatch3-0"/>
-      <Name>FE.Level.Deathmatch3</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch3">
+      <Value href="FE.Unlocked.Deathmatch3-0"/>
+      <Name>FE.Unlocked.Deathmatch3</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch3-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch3-0">
       <LevelName>Text.Level.Deathmatch3</LevelName>
       <ScriptName>Deathmatch3</ScriptName>
       <Theme>PIRATE</Theme>
@@ -383,12 +383,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch4">
-      <Value href="FE.Level.Deathmatch4-0"/>
-      <Name>FE.Level.Deathmatch4</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch4">
+      <Value href="FE.Unlocked.Deathmatch4-0"/>
+      <Name>FE.Unlocked.Deathmatch4</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch4-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch4-0">
       <LevelName>Text.Level.Deathmatch4</LevelName>
       <ScriptName>Deathmatch4</ScriptName>
       <Theme>PIRATE</Theme>
@@ -405,12 +405,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch5">
-      <Value href="FE.Level.Deathmatch5-0"/>
-      <Name>FE.Level.Deathmatch5</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch5">
+      <Value href="FE.Unlocked.Deathmatch5-0"/>
+      <Name>FE.Unlocked.Deathmatch5</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch5-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch5-0">
       <LevelName>Text.Level.Deathmatch5</LevelName>
       <ScriptName>Deathmatch5</ScriptName>
       <Theme>ARCTIC</Theme>
@@ -427,12 +427,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch6">
-      <Value href="FE.Level.Deathmatch6-0"/>
-      <Name>FE.Level.Deathmatch6</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch6">
+      <Value href="FE.Unlocked.Deathmatch6-0"/>
+      <Name>FE.Unlocked.Deathmatch6</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch6-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch6-0">
       <LevelName>Text.Level.Deathmatch6</LevelName>
       <ScriptName>Deathmatch6</ScriptName>
       <Theme>WAR</Theme>
@@ -449,12 +449,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch7">
-      <Value href="FE.Level.Deathmatch7-0"/>
-      <Name>FE.Level.Deathmatch7</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch7">
+      <Value href="FE.Unlocked.Deathmatch7-0"/>
+      <Name>FE.Unlocked.Deathmatch7</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch7-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch7-0">
       <LevelName>Text.Level.Deathmatch7</LevelName>
       <ScriptName>Deathmatch7</ScriptName>
       <Theme>PIRATE</Theme>
@@ -471,12 +471,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathmatch8">
-      <Value href="FE.Level.Deathmatch8-0"/>
-      <Name>FE.Level.Deathmatch8</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathmatch8">
+      <Value href="FE.Unlocked.Deathmatch8-0"/>
+      <Name>FE.Unlocked.Deathmatch8</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathmatch8-0">
+    <LevelDetails id="FE.Unlocked.Deathmatch8-0">
       <LevelName>Text.Level.Deathmatch8</LevelName>
       <ScriptName>Deathmatch8</ScriptName>
       <Theme>HORROR</Theme>
@@ -493,12 +493,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Deathtest">
-      <Value href="FE.Level.Deathtest-0"/>
-      <Name>FE.Level.Deathtest</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Deathtest">
+      <Value href="FE.Unlocked.Deathtest-0"/>
+      <Name>FE.Unlocked.Deathtest</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Deathtest-0">
+    <LevelDetails id="FE.Unlocked.Deathtest-0">
       <LevelName>Text.Level.deathtest</LevelName>
       <ScriptName>deathtest</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -515,12 +515,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Falling">
-      <Value href="FE.Level.Falling-0"/>
-      <Name>FE.Level.Falling</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Falling">
+      <Value href="FE.Unlocked.Falling-0"/>
+      <Name>FE.Unlocked.Falling</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Falling-0">
+    <LevelDetails id="FE.Unlocked.Falling-0">
       <LevelName>Text.Level.Falling</LevelName>
       <ScriptName>FALLING</ScriptName>
       <Theme>WAR</Theme>
@@ -537,12 +537,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Hide">
-      <Value href="FE.Level.Hide-0"/>
-      <Name>FE.Level.Hide</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Hide">
+      <Value href="FE.Unlocked.Hide-0"/>
+      <Name>FE.Unlocked.Hide</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Hide-0">
+    <LevelDetails id="FE.Unlocked.Hide-0">
       <LevelName>Text.Level.Hide</LevelName>
       <ScriptName>hide</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -559,12 +559,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.TargetHunt3">
-      <Value href="FE.Level.TargetHunt3-0"/>
-      <Name>FE.Level.TargetHunt3</Name>
+    <XContainerResourceDetails id="FE.Unlocked.TargetHunt3">
+      <Value href="FE.Unlocked.TargetHunt3-0"/>
+      <Name>FE.Unlocked.TargetHunt3</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.TargetHunt3-0">
+    <LevelDetails id="FE.Unlocked.TargetHunt3-0">
       <LevelName>Text.Level.TargetHunt3</LevelName>
       <ScriptName>HOMING</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -581,12 +581,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Hookline">
-      <Value href="FE.Level.Hookline-0"/>
-      <Name>FE.Level.Hookline</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Hookline">
+      <Value href="FE.Unlocked.Hookline-0"/>
+      <Name>FE.Unlocked.Hookline</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Hookline-0">
+    <LevelDetails id="FE.Unlocked.Hookline-0">
       <LevelName>Text.Level.Hookline</LevelName>
       <ScriptName>hookline</ScriptName>
       <Theme>PIRATE</Theme>
@@ -603,12 +603,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.JetpackChall2">
-      <Value href="FE.Level.JetpackChall2-0"/>
-      <Name>FE.Level.JetpackChall2</Name>
+    <XContainerResourceDetails id="FE.Unlocked.JetpackChall2">
+      <Value href="FE.Unlocked.JetpackChall2-0"/>
+      <Name>FE.Unlocked.JetpackChall2</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.JetpackChall2-0">
+    <LevelDetails id="FE.Unlocked.JetpackChall2-0">
       <LevelName>Text.Chall.Jetpack2</LevelName>
       <ScriptName>jetpackchall2</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -625,12 +625,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.JetpackChall3">
-      <Value href="FE.Level.JetpackChall3-0"/>
-      <Name>FE.Level.JetpackChall3</Name>
+    <XContainerResourceDetails id="FE.Unlocked.JetpackChall3">
+      <Value href="FE.Unlocked.JetpackChall3-0"/>
+      <Name>FE.Unlocked.JetpackChall3</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.JetpackChall3-0">
+    <LevelDetails id="FE.Unlocked.JetpackChall3-0">
       <LevelName>Text.Chall.Jetpack3</LevelName>
       <ScriptName>jetpackchall3</ScriptName>
       <Theme>WAR</Theme>
@@ -647,12 +647,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random1">
-      <Value href="FE.Level.Random1-0"/>
-      <Name>FE.Level.Random1</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random1">
+      <Value href="FE.Unlocked.Random1-0"/>
+      <Name>FE.Unlocked.Random1</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random1-0">
+    <LevelDetails id="FE.Unlocked.Random1-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -669,12 +669,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random2">
-      <Value href="FE.Level.Random2-0"/>
-      <Name>FE.Level.Random2</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random2">
+      <Value href="FE.Unlocked.Random2-0"/>
+      <Name>FE.Unlocked.Random2</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random2-0">
+    <LevelDetails id="FE.Unlocked.Random2-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>HORROR</Theme>
@@ -691,12 +691,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random3">
-      <Value href="FE.Level.Random3-0"/>
-      <Name>FE.Level.Random3</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random3">
+      <Value href="FE.Unlocked.Random3-0"/>
+      <Name>FE.Unlocked.Random3</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random3-0">
+    <LevelDetails id="FE.Unlocked.Random3-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
@@ -713,12 +713,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random4">
-      <Value href="FE.Level.Random4-0"/>
-      <Name>FE.Level.Random4</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random4">
+      <Value href="FE.Unlocked.Random4-0"/>
+      <Name>FE.Unlocked.Random4</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random4-0">
+    <LevelDetails id="FE.Unlocked.Random4-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
@@ -735,12 +735,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random5">
-      <Value href="FE.Level.Random5-0"/>
-      <Name>FE.Level.Random5</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random5">
+      <Value href="FE.Unlocked.Random5-0"/>
+      <Name>FE.Unlocked.Random5</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random5-0">
+    <LevelDetails id="FE.Unlocked.Random5-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>LUNAR</Theme>
@@ -757,12 +757,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random6">
-      <Value href="FE.Level.Random6-0"/>
-      <Name>FE.Level.Random6</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random6">
+      <Value href="FE.Unlocked.Random6-0"/>
+      <Name>FE.Unlocked.Random6</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random6-0">
+    <LevelDetails id="FE.Unlocked.Random6-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ARCTIC</Theme>
@@ -779,12 +779,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random7">
-      <Value href="FE.Level.Random7-0"/>
-      <Name>FE.Level.Random7</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random7">
+      <Value href="FE.Unlocked.Random7-0"/>
+      <Name>FE.Unlocked.Random7</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random7-0">
+    <LevelDetails id="FE.Unlocked.Random7-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -801,12 +801,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random8">
-      <Value href="FE.Level.Random8-0"/>
-      <Name>FE.Level.Random8</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random8">
+      <Value href="FE.Unlocked.Random8-0"/>
+      <Name>FE.Unlocked.Random8</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random8-0">
+    <LevelDetails id="FE.Unlocked.Random8-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>HORROR</Theme>
@@ -823,12 +823,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Random9">
-      <Value href="FE.Level.Random9-0"/>
-      <Name>FE.Level.Random9</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Random9">
+      <Value href="FE.Unlocked.Random9-0"/>
+      <Name>FE.Unlocked.Random9</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Random9-0">
+    <LevelDetails id="FE.Unlocked.Random9-0">
       <LevelName></LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
@@ -845,12 +845,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Multiapplecore">
-      <Value href="FE.Level.Multiapplecore-0"/>
-      <Name>FE.Level.Multiapplecore</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Multiapplecore">
+      <Value href="FE.Unlocked.Multiapplecore-0"/>
+      <Name>FE.Unlocked.Multiapplecore</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Multiapplecore-0">
+    <LevelDetails id="FE.Unlocked.Multiapplecore-0">
       <LevelName>Text.Level.MultiAppleCore</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>PIRATE</Theme>
@@ -867,12 +867,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Multifunfair">
-      <Value href="FE.Level.Multifunfair-0"/>
-      <Name>FE.Level.Multifunfair</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Multifunfair">
+      <Value href="FE.Unlocked.Multifunfair-0"/>
+      <Name>FE.Unlocked.Multifunfair</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Multifunfair-0">
+    <LevelDetails id="FE.Unlocked.Multifunfair-0">
       <LevelName>Text.Level.MultiFunFair</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -889,12 +889,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Multipegasus">
-      <Value href="FE.Level.Multipegasus-0"/>
-      <Name>FE.Level.Multipegasus</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Multipegasus">
+      <Value href="FE.Unlocked.Multipegasus-0"/>
+      <Name>FE.Unlocked.Multipegasus</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Multipegasus-0">
+    <LevelDetails id="FE.Unlocked.Multipegasus-0">
       <LevelName>Text.Level.MultiPegasus</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>WAR</Theme>
@@ -911,12 +911,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Multitree">
-      <Value href="FE.Level.Multitree-0"/>
-      <Name>FE.Level.Multitree</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Multitree">
+      <Value href="FE.Unlocked.Multitree-0"/>
+      <Name>FE.Unlocked.Multitree</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Multitree-0">
+    <LevelDetails id="FE.Unlocked.Multitree-0">
       <LevelName>Text.Level.MultiTreeVillage</LevelName>
       <ScriptName>stdvs,wormpot</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -933,12 +933,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.NotPC">
-      <Value href="FE.Level.NotPC-0"/>
-      <Name>FE.Level.NotPC</Name>
+    <XContainerResourceDetails id="FE.Unlocked.NotPC">
+      <Value href="FE.Unlocked.NotPC-0"/>
+      <Name>FE.Unlocked.NotPC</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.NotPC-0">
+    <LevelDetails id="FE.Unlocked.NotPC-0">
       <LevelName>Text.Level.NotPC</LevelName>
       <ScriptName>notpc</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -955,12 +955,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Pdemo">
-      <Value href="FE.Level.Pdemo-0"/>
-      <Name>FE.Level.Pdemo</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Pdemo">
+      <Value href="FE.Unlocked.Pdemo-0"/>
+      <Name>FE.Unlocked.Pdemo</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Pdemo-0">
+    <LevelDetails id="FE.Unlocked.Pdemo-0">
       <LevelName>Text.Tut.pdemo</LevelName>
       <ScriptName>pdemo</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -977,12 +977,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.RumDeal">
-      <Value href="FE.Level.RumDeal-0"/>
-      <Name>FE.Level.RumDeal</Name>
+    <XContainerResourceDetails id="FE.Unlocked.RumDeal">
+      <Value href="FE.Unlocked.RumDeal-0"/>
+      <Name>FE.Unlocked.RumDeal</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.RumDeal-0">
+    <LevelDetails id="FE.Unlocked.RumDeal-0">
       <LevelName>Text.Level.RumDeal</LevelName>
       <ScriptName>rum</ScriptName>
       <Theme>PIRATE</Theme>
@@ -999,12 +999,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Sheep1">
-      <Value href="FE.Level.Sheep1-0"/>
-      <Name>FE.Level.Sheep1</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Sheep1">
+      <Value href="FE.Unlocked.Sheep1-0"/>
+      <Name>FE.Unlocked.Sheep1</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Sheep1-0">
+    <LevelDetails id="FE.Unlocked.Sheep1-0">
       <LevelName>Text.Level.Sheep1</LevelName>
       <ScriptName>Sheep1</ScriptName>
       <Theme>LUNAR</Theme>
@@ -1021,12 +1021,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Sheep2">
-      <Value href="FE.Level.Sheep2-0"/>
-      <Name>FE.Level.Sheep2</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Sheep2">
+      <Value href="FE.Unlocked.Sheep2-0"/>
+      <Name>FE.Unlocked.Sheep2</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Sheep2-0">
+    <LevelDetails id="FE.Unlocked.Sheep2-0">
       <LevelName>Text.Level.Sheep2</LevelName>
       <ScriptName>Sheep2</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -1043,12 +1043,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Spacestation">
-      <Value href="FE.Level.Spacestation-0"/>
-      <Name>FE.Level.Spacestation</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Spacestation">
+      <Value href="FE.Unlocked.Spacestation-0"/>
+      <Name>FE.Unlocked.Spacestation</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Spacestation-0">
+    <LevelDetails id="FE.Unlocked.Spacestation-0">
       <LevelName>Text.Level.Spacestation</LevelName>
       <ScriptName>spacestation</ScriptName>
       <Theme>LUNAR</Theme>
@@ -1065,12 +1065,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.TargetHunt">
-      <Value href="FE.Level.TargetHunt-0"/>
-      <Name>FE.Level.TargetHunt</Name>
+    <XContainerResourceDetails id="FE.Unlocked.TargetHunt">
+      <Value href="FE.Unlocked.TargetHunt-0"/>
+      <Name>FE.Unlocked.TargetHunt</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.TargetHunt-0">
+    <LevelDetails id="FE.Unlocked.TargetHunt-0">
       <LevelName>Text.Level.TargetHunt</LevelName>
       <ScriptName>TargetHunt</ScriptName>
       <Theme>ENGLAND</Theme>
@@ -1087,12 +1087,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.TargetHunt2">
-      <Value href="FE.Level.TargetHunt2-0"/>
-      <Name>FE.Level.TargetHunt2</Name>
+    <XContainerResourceDetails id="FE.Unlocked.TargetHunt2">
+      <Value href="FE.Unlocked.TargetHunt2-0"/>
+      <Name>FE.Unlocked.TargetHunt2</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.TargetHunt2-0">
+    <LevelDetails id="FE.Unlocked.TargetHunt2-0">
       <LevelName>Text.Level.TargetHunt2</LevelName>
       <ScriptName>TargetHunt2</ScriptName>
       <Theme>WAR</Theme>
@@ -1109,12 +1109,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Sheep3">
-      <Value href="FE.Level.Sheep3-0"/>
-      <Name>FE.Level.Sheep3</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Sheep3">
+      <Value href="FE.Unlocked.Sheep3-0"/>
+      <Name>FE.Unlocked.Sheep3</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Sheep3-0">
+    <LevelDetails id="FE.Unlocked.Sheep3-0">
       <LevelName>Text.Level.Sheep3</LevelName>
       <ScriptName>TargetHunt4</ScriptName>
       <Theme>WAR</Theme>
@@ -1131,12 +1131,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.TrialOfTheDamned">
-      <Value href="FE.Level.TrialOfTheDamned-0"/>
-      <Name>FE.Level.TrialOfTheDamned</Name>
+    <XContainerResourceDetails id="FE.Unlocked.TrialOfTheDamned">
+      <Value href="FE.Unlocked.TrialOfTheDamned-0"/>
+      <Name>FE.Unlocked.TrialOfTheDamned</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.TrialOfTheDamned-0">
+    <LevelDetails id="FE.Unlocked.TrialOfTheDamned-0">
       <LevelName>Text.Level.TrialofTheDamned</LevelName>
       <ScriptName>TRIAL</ScriptName>
       <Theme>HORROR</Theme>
@@ -1153,12 +1153,12 @@
       <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
       <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
     </LevelDetails>
-    <XContainerResourceDetails id="FE.Level.Tutorial2">
-      <Value href="FE.Level.Tutorial2-0"/>
-      <Name>FE.Level.Tutorial2</Name>
+    <XContainerResourceDetails id="FE.Unlocked.Tutorial2">
+      <Value href="FE.Unlocked.Tutorial2-0"/>
+      <Name>FE.Unlocked.Tutorial2</Name>
       <Flags>17</Flags>
     </XContainerResourceDetails>
-    <LevelDetails id="FE.Level.Tutorial2-0">
+    <LevelDetails id="FE.Unlocked.Tutorial2-0">
       <LevelName>Text.Tut.Dumps</LevelName>
       <ScriptName>tutorial2</ScriptName>
       <Theme>ENGLAND</Theme>
