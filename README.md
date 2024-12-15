@@ -24,6 +24,10 @@ be learned from [Worms 3D Anniversary Patch](https://github.com/heatray/W3DPatch
 The cutting room floor pages for the [console](https://tcrf.net/Worms_3D_(GameCube,_PlayStation_2,_Xbox))
 and [Windows](https://tcrf.net/Worms_3D_(Windows)) release also have some interesting notes.
 
+Even better is that there appear to be C# bindings for working with Worms related files:
+[CrateModGames/GameSpecific/Worms/Common](https://github.com/TheBetaM/CrateModLoader/tree/master/CrateModGames/GameSpecific/Worms/Common).
+Although [GameCube may not be fully supported](https://github.com/TheBetaM/CrateModLoader/blob/master/CrateModGames/GameSpecific/Worms/Worms3D/Game_Worms3D.cs#L12).
+
 ## Files
 
 ### XOM
@@ -162,6 +166,8 @@ This file contains most of the weapon data, and appears to be easy to configure 
     </MeleeWeaponPropertiesContainer>
 ```
 
+Some enum values can be found matching to [Worms Ultimate Mayhem](https://github.com/AlexBond2/Xom2Xml/blob/main/XOMSCHM/WUM/XEnum.md).
+
 Weapon damage is determined by this entry:
 
 ```xml
@@ -266,3 +272,58 @@ end
 And you can see the results here:
 
 ![Challenge mod](challenge_mod.gif?raw=true)
+
+## Skip Intro Cutscenes
+
+The method `main()` is at 0x8015b1a8, so the calls to the cutscenes should be somewhat early in that method.
+But upon further inspection, main appears to jump to interpreted code fairly early on. A better way of finding
+the intro video cutscene definitions might be to search for the video titles.
+
+Turns out it's even easier than that, you can simply delete or rename `files\FMV\NTSC\acclaim.thp` and
+`files\FMV\NTSC\t17logo.thp` to remove them from the intro. The MusyX splash screen is a combination of
+static images though. Specifically it's a combination of:
+
+- `files\Logos\License.tga`
+- `files\Frontend\Icons\musyxdolby.tga`
+- `files\Logos\musyxdolbytext.tga`
+
+These three are defined in `files\Bundles\bundle03.xom`. They're actually the only things defined in bundle03.
+This file unfortunately cannot be renamed or deleted without causing runtime errors.
+
+If we look at the file load order:
+
+```
+23:03:603 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      67 kB Local.xom
+23:03:792 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:       9 kB DefSave.xom
+23:03:903 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      13 kB Tweak.xom
+23:04:044 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      20 kB WeapTwk.xom
+23:04:158 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      96 kB MenuTwk.xom
+23:04:365 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:       6 kB CamTwk.xom
+23:04:492 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      18 kB Scripts.xom
+23:04:612 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:       7 kB HudTwk.xom
+23:04:720 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:       8 kB LvlSetup.xom
+23:04:837 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:       1 kB Persist.xom
+23:04:945 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      12 kB AITwk.xom
+23:05:102 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      17 kB MenuTwkGC.xom
+23:05:267 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:     192 kB PartTwk.xom
+23:05:481 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:     244 kB Language/NGC/American.xom
+23:05:768 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:     588 kB Bundles/bundle05.xom
+23:06:330 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:     138 kB Bundles/bundle03.xom
+23:07:125 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:       7 kB Audio/NGCSFX/NGCSFX.pool
+23:08:542 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:       1 kB Audio/NGCSFX/NGCSFX.proj
+23:08:543 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:   2,400 kB Audio/NGCSFX/NGCSFX.samp
+23:09:586 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      10 kB Audio/NGCSFX/NGCSFX.sdir
+23:09:705 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:      18 kB Bundles/Bundle02.xom
+23:13:815 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:   2,903 kB FMV/NTSC/acclaim.thp
+23:23:986 Core\HW\DVD\FileMonitor.cpp:86 W[FileMon]:   2,075 kB FMV/NTSC/t17logo.thp
+```
+
+bundle05.xom seems to have icons, the loading animation, boxes, buttons, and bars. So mostly UI.
+Looks like bundle03.xom is loaded from the DOL most likely, will be easier to remove at a later time.
+For now, just override the existing images with some mod related info.
+
+## Add More Maps to Multiplayer
+
+Multiplayer currently contains [a number of accessible maps](maps.md)
+
+

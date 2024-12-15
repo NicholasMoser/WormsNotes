@@ -36,7 +36,8 @@ for xom in tqdm(xoms):
     output_dir = tail.replace('.xom', '')
     try:
         # TODO: Most files fail and none extract the image
-        subprocess.check_output([xom2xml, xom, '-ximg-file', 'tg', '-ximg-dir', output_dir])
+        subprocess.check_output([xom2xml, xom])
+        #subprocess.check_output([xom2xml, xom, '-ximg-file', 'tg', '-ximg-dir', output_dir])
     except:
         print('error')
 
