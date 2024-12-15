@@ -322,8 +322,97 @@ bundle05.xom seems to have icons, the loading animation, boxes, buttons, and bar
 Looks like bundle03.xom is loaded from the DOL most likely, will be easier to remove at a later time.
 For now, just override the existing images with some mod related info.
 
+## Unlock Levels by Default
+
+The file `DefSave.xom` contains metadata on which files are locked by default. You can force it to be
+unlocked by default by removing a locked entry like so:
+
+```xml
+  <ContainerResources href="L.L.Leek"/>
+  ...
+  <XContainerResourceDetails id="L.L.Leek">
+    <Value href="L.L.Leek-0"/>
+    <Name>L.L.Leek</Name>
+    <Flags>17</Flags>
+  </XContainerResourceDetails>
+  <LockedContainer id="L.L.Leek-0">
+    <Locked>true</Locked>
+    <LockedTitle>Text.Level.Leek</LockedTitle>
+    <LockedIcon>5</LockedIcon>
+  </LockedContainer>
+```
+
+You can also then update Scripts.xom to remove the <lock>, for example changing:
+
+```xml
+<Lock>L.L.Leek</Lock>
+```
+
+to
+
+```xml
+<Lock></Lock>
+```
+
+## Navigate Deathmatch Maps Faster
+
+It would be nice to be able to scroll through the deathmatch map list faster, especially if and when we
+add more maps.
+
 ## Add More Maps to Multiplayer
 
-Multiplayer currently contains [a number of accessible maps](maps.md)
+Multiplayer currently contains [a number of accessible maps](maps.md). Some levels are playable in both
+campaign and deathmatch mode. For example in Scripts.xom:
 
+### Campaign Level Alien
 
+```xml
+<LevelDetails id="FE.Level.Alien-0">
+  <LevelName>Text.Level.Alien</LevelName>
+  <ScriptName>ALIEN</ScriptName>
+  <Theme>LUNAR</Theme>
+  <CustomTheme></CustomTheme>
+  <LandFile>alien.xom</LandFile>
+  <TimeOfDay>EVENING</TimeOfDay>
+  <Particles></Particles>
+  <LevelType>0</LevelType>
+  <Brief>Miss.Alien.brief</Brief>
+  <Image>Mission_AJS.tga</Image>
+  <LevelNumber>34</LevelNumber>
+  <Lock></Lock>
+  <LongestWins>true</LongestWins>
+  <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+  <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+</LevelDetails>
+```
+
+### Deathmatch Level Alien
+
+```xml
+<LevelDetails id="FE.Unlocked.Alien-0">
+  <LevelName>Text.Level.Alien</LevelName>
+  <ScriptName>stdvs,wormpot</ScriptName>
+  <Theme>LUNAR</Theme>
+  <CustomTheme></CustomTheme>
+  <LandFile>alien.xom</LandFile>
+  <TimeOfDay>EVENING</TimeOfDay>
+  <Particles></Particles>
+  <LevelType>5</LevelType>
+  <Brief></Brief>
+  <Image>Mission_AJS.tga</Image>
+  <LevelNumber>0</LevelNumber>
+  <Lock>L.L.Alien</Lock>
+  <LongestWins>true</LongestWins>
+  <AIPathNodeStartYOffset>0</AIPathNodeStartYOffset>
+  <AIPathNodeCollisionStep>20</AIPathNodeCollisionStep>
+</LevelDetails>
+```
+
+### Adding Levels
+
+Levels don't seem to be stored by LevelNumber in memory. Instead they are added by file and
+sorted by name. So to add a level you just need to add an entry to Scripts.xom with:
+
+- id starting with "FE.Unlocked."
+- `<LevelType>` set to 5
+- `<ScriptName>` set to "stdvs,wormpot"

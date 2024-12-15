@@ -27,7 +27,8 @@ Every deathmatch map also has a DAY, EVENING, and NIGHT version determined by th
 
 ## Deathmatch Maps
 
-The following maps are in display order in-game.
+The following maps are in order by the order they display in-game. A new save file only has
+Hold Until Relieved, Please No More Islands, Submission, and The Driving Range unlocked by default.
 
 ### A Good Nights Sleep
 
@@ -372,55 +373,94 @@ The following maps are in display order in-game.
 - Frontend/Levels/Mission_TC.tga
 - Frontend/Levels/Mission_TD.tga
 - Frontend/Levels/Tutorial_DITD.tga
-- Maps/aitest
-- Maps/animstest
-- Maps/balloon
-- Maps/beanstalk
-- Maps/boldly
-- Maps/breakfast
-- Maps/Chute1
-- Maps/chute2
-- Maps/chute3
-- Maps/clean
-- Maps/crocketeer
-- Maps/Deathmatch1
-- Maps/Deathmatch2
-- Maps/Deathmatch3
-- Maps/Deathmatch4
-- Maps/Deathmatch5
-- Maps/Deathmatch6
-- Maps/Deathmatch7
-- Maps/Deathmatch8
-- Maps/Deathmatch10
-- Maps/deathtest
-- Maps/falling
-- Maps/flattest
-- Maps/hide
-- Maps/homing
-- Maps/hookline
-- Maps/jetpackchall2
-- Maps/jetpackchall3
-- Maps/MD Random1
-- Maps/MD Random2
-- Maps/MD Random3
-- Maps/MD Random4
-- Maps/MD Random5
-- Maps/MD Random6
-- Maps/MD Random7
-- Maps/MD Random8
-- Maps/MD Random9
-- Maps/multiapplecore
-- Maps/multifunfair
-- Maps/multipegasus
-- Maps/multitreevillage
-- Maps/notpc
-- Maps/pdemo
-- Maps/rum
-- Maps/Sheep1
-- Maps/Sheep2
-- Maps/spacestation
-- Maps/TargetHunt2
-- Maps/TargetHunt4
-- Maps/TargetHunt
-- Maps/trial
-- Maps/tutorial2
+- Maps/aitest.xom
+- Maps/animstest.xom
+- Maps/balloon.xom
+- Maps/beanstalk.xom
+- Maps/boldly.xom
+- Maps/breakfast.xom
+- Maps/Chute1.xom
+- Maps/chute2.xom
+- Maps/chute3.xom
+- Maps/clean.xom
+- Maps/crocketeer.xom
+- Maps/Deathmatch1.xom
+- Maps/Deathmatch2.xom
+- Maps/Deathmatch3.xom
+- Maps/Deathmatch4.xom
+- Maps/Deathmatch5.xom
+- Maps/Deathmatch6.xom
+- Maps/Deathmatch7.xom
+- Maps/Deathmatch8.xom
+- Maps/Deathmatch10.xom
+- Maps/deathtest.xom
+- Maps/falling.xom
+- Maps/FLATTEST.XOM
+- Maps/hide.xom
+- Maps/homing.xom
+- Maps/hookline.xom
+- Maps/jetpackchall2.xom
+- Maps/jetpackchall3.xom
+- Maps/MD Random1.xom
+- Maps/MD Random2.xom
+- Maps/MD Random3.xom
+- Maps/MD Random4.xom
+- Maps/MD Random5.xom
+- Maps/MD Random6.xom
+- Maps/MD Random7.xom
+- Maps/MD Random8.xom
+- Maps/MD Random9.xom
+- Maps/multiapplecore.xom
+- Maps/multifunfair.xom
+- Maps/multipegasus.xom
+- Maps/multitreevillage.xom
+- Maps/notpc.xom
+- Maps/pdemo.xom
+- Maps/rum.xom
+- Maps/Sheep1.xom
+- Maps/Sheep2.xom
+- Maps/spacestation.xom
+- Maps/TargetHunt.xom
+- Maps/TargetHunt2.xom
+- Maps/TargetHunt4.xom
+- Maps/Trial.xom
+- Maps/tutorial2.xom
+
+There are also a few other .xom files without DAY/EVENING/NIGHT csh files, that may also be maps:
+
+- Maps/2Player.xom
+- Maps/4Player.xom
+- Maps/assaultcourse.xom
+- Maps/atlantis.xom
+- Maps/camtest.xom
+- Maps/chateau.xom
+- Maps/cratetest.xom
+- Maps/dumps.xom
+- Maps/E3demo.xom
+- Maps/E3multi.xom
+- Maps/E3single.xom
+- Maps/farmyard.xom
+- Maps/horror.xom
+- Maps/islands.xom
+- Maps/jeggett.xom
+- Maps/kong.xom
+- Maps/mike.xom
+- Maps/normaltest.xom
+- Maps/pdemo2.xom
+- Maps/pirate.xom
+- Maps/piratetest.xom
+- Maps/piratetest2.xom
+- Maps/ps2test.XOM
+- Maps/random.xom
+- Maps/scriptai.xom
+- Maps/Sheeptest.xom
+- Maps/snow.xom
+- Maps/stalag.xom
+- Maps/StevesFlattest.XOM
+- Maps/submission2.xom
+- Maps/team17.xom
+- Maps/tennis.xom
+- Maps/unitcube.xom
+- Maps/VsCpu.xom
+- Maps/w.xom
+- Maps/wormisland.xom
