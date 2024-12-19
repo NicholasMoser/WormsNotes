@@ -35,16 +35,12 @@ Although [GameCube may not be fully supported](https://github.com/TheBetaM/Crate
 XOM files contain 3D geometry, textures, colors, and effects.
 They are used to show in-game worm, weapon, and map objects.
 
-May be able to be viewed with [xom-import](https://github.com/Psycrow101/Blender-3D-XOM-plugin).
-Can be converted to XML for modification with [Xom2Xml](https://github.com/AlexBond2/Xom2Xml).
+I've had the most success with viewing XOM files using [xomview](https://gitlab.com/w4tweaks/xomview).
+Models may also be viewed in blender with [xom-import](https://github.com/Psycrow101/Blender-3D-XOM-plugin).
+Last, they can be converted to XML for modification with [Xom2Xml](https://github.com/AlexBond2/Xom2Xml).
+Although not every xom file on the GameCube version can be converted currently.
 
 Here is an [example of a XOM file converted to XML](https://gist.github.com/NicholasMoser/38a5f0284f038f744de088f7f48f7506).
-
-I can see that the artists used Maya as their editor based on this path in one of the bundle files:
-
-```
-C:/Documents and Settings/amorriss/My Documents/maya/projects/Worms3d/boggyb all clips.mb
-```
 
 ### TGA
 
@@ -77,8 +73,8 @@ You can disassemble the code using [Ghidra](https://ghidra-sre.org/) and
 
 ## Text Modification
 
-You can find all of the game text in `files\Language`. It looks like the developers originally created
-csv files, such as `NGCMessages.csv`, and then converted them to XOM objects in the `files\Language\NGC`
+You can find all of the game text in `files/Language`. It looks like the developers originally created
+csv files, such as `NGCMessages.csv`, and then converted them to XOM objects in the `files/Language/NGC`
 directory. You therefore can modify these messages by modifying the respective XOM object, such as `American.xom`.
 
 ![Example of replacing text](/text_mod.png?raw=true "Example of replacing text")
@@ -181,7 +177,7 @@ Here is an example of modifying this value to 100:
 ## Campaign Modification
 
 Each campaign level seems to have its own lua file, making modification incredibly simple.
-The first campaign level, D-Day, has the file `files\Scripts\dday.lua`. Here's an example
+The first campaign level, D-Day, has the file `files/Scripts/dday.lua`. Here's an example
 of the definition of an enemy worm:
 
 ```lua
@@ -201,7 +197,7 @@ You can easily change things like the name of the worm:
 
 ## Challenge Modification
 
-The first challenge, Shotgun Challenge 1, can be found in the file `files\Scripts\TargetHunt.lua`.
+The first challenge, Shotgun Challenge 1, can be found in the file `files/Scripts/TargetHunt.lua`.
 Any lua files are trivial to modify, so for this challenge I changed it from having only the
 shotgun to having all weapons from the D-Day campaign:
 
@@ -279,16 +275,17 @@ The method `main()` is at 0x8015b1a8, so the calls to the cutscenes should be so
 But upon further inspection, main appears to jump to interpreted code fairly early on. A better way of finding
 the intro video cutscene definitions might be to search for the video titles.
 
-Turns out it's even easier than that, you can simply delete or rename `files\FMV\NTSC\acclaim.thp` and
-`files\FMV\NTSC\t17logo.thp` to remove them from the intro. The MusyX splash screen is a combination of
+Turns out it's even easier than that, you can simply delete or rename `files/FMV/NTSC/acclaim.thp` and
+`files/FMV/NTSC/t17logo.thp` to remove them from the intro. The MusyX splash screen is a combination of
 static images though. Specifically it's a combination of:
 
-- `files\Logos\License.tga`
-- `files\Frontend\Icons\musyxdolby.tga`
-- `files\Logos\musyxdolbytext.tga`
+- `files/Logos/License.tga`
+- `files/Frontend/Icons/musyxdolby.tga`
+- `files/Logos/musyxdolbytext.tga`
 
-These three are defined in `files\Bundles\bundle03.xom`. They're actually the only things defined in bundle03.
-This file unfortunately cannot be renamed or deleted without causing runtime errors.
+These three are defined in `files/Bundles/bundle03.xom`. They're actually the only things defined in bundle03.
+To modify them, you must modify them **in** bundle03.xom, not the file paths under `Logos/` and `Frontend/`.
+The file bundle03.xom unfortunately cannot be renamed or deleted without causing runtime errors.
 
 If we look at the file load order:
 
@@ -358,6 +355,9 @@ to
 
 It would be nice to be able to scroll through the deathmatch map list faster, especially if and when we
 add more maps.
+
+However it looks like the Delay value for this is in MultiplayerMenu which may be defined in MenuTwk.xom
+which currently cannot be extracted with xom2xml.
 
 ## Add More Maps to Multiplayer
 
