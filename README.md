@@ -416,3 +416,22 @@ sorted by name. So to add a level you just need to add an entry to Scripts.xom w
 - id starting with "FE.Unlocked."
 - `<LevelType>` set to 5
 - `<ScriptName>` set to "stdvs,wormpot"
+
+## Change Controller
+
+Multiplayer normally follows a "hotseat" pattern, where only 1 controller is used.
+This controller is passed between players as they take their turns.
+
+While all controllers are polled in memory, only controller 1 is written out to a useful location.
+Thankfully, we can easily hijack the controller port this is pointing to at 0x80301548.
+
+You can simply change the 0 in:
+
+```asm
+li  r25, 0
+```
+
+to the respective controller port. A future gecko code can simply swap to the controller port
+for the respective human team matching that port.
+
+This would be useful for Dolphin online play where each player uses their respective controller.
