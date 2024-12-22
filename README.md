@@ -431,7 +431,56 @@ You can simply change the 0 in:
 li  r25, 0
 ```
 
-to the respective controller port. A future gecko code can simply swap to the controller port
-for the respective human team matching that port.
+to the respective controller port.
 
-This would be useful for Dolphin online play where each player uses their respective controller.
+Here is a Gecko Code to swap the current active controller to the team matching the current team index. In other words,
+when it's Player 1's turn, controller 1 is active. When it's player 2's turn, controller 2 is active. Etc.
+
+```gecko
+C21563BC 00000007
+7C040378 7C030378
+3D20800F 6129CB5C
+7D2903A6 4E800421
+80630034 2C030000
+4082000C 3D208040
+9089352C 807F0130
+38810024 00000000
+C2301548 00000002
+3F208040 8339352C
+60000000 00000000
+```
+
+and here's the annotated assembly code for this gecko code:
+
+```asm
+loc_0x801563BC:
+  # Get the currently active team's data via GetTeamData() at 0x800fcb5c.
+  # This clobbers r0, r3, and r9. r3 will need to be restored by the end of the code
+  # since it is used in the function call in the next instruction at 0x801563c0.
+  # We have r4 free since we overwrite it at the end, so let's move r0 (active team) to it.
+  # We also must move r0 (active team) to r3 as part of the function call to GetTeamData().
+  mr r4, r0
+  mr r3, r0
+  lis   r9, 0x800f
+  ori   r9, r9, 0xCB5C
+  mtctr r9
+  bctrl
+  # Check if the current active team is AI
+  lwz r3,  0x34(r3)
+  cmpwi r3, 0
+  bne end
+  # If it's not AI, store r4 (the active team) into 0x8040352C
+  lis r9, 0x8040
+  stw r4, 13612(r9)
+end:
+  # Restore r3 and run original replaced instruction
+  lwz	r3, 0x0130 (r31)
+  addi r4, r1, 0x24
+
+...
+
+loc_0x80301548:
+  # Load 0x8040352C into r25 as the controller to be read from
+  lis r25, 0x8040
+  lwz r25, 13612(r25)
+```

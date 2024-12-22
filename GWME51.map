@@ -4615,7 +4615,7 @@
 80155fac 00000060 80155fac 0 zz_80155fac_
 8015600c 000000f8 8015600c 0 zz_8015600c_
 80156104 00000188 80156104 0 zz_80156104_
-8015628c 000001cc 8015628c 0 zz_8015628c_
+8015628c 000001cc 8015628c 0 update_worm_and_team
 80156458 000000e8 80156458 0 zz_80156458_
 80156540 000000b8 80156540 0 zz_80156540_
 801565f8 00000084 801565f8 0 zz_801565f8_
@@ -5512,7 +5512,7 @@
 80178fc4 00000068 80178fc4 0 zz_80178fc4_
 8017902c 00000084 8017902c 0 zz_8017902c_
 801790b0 0000000c 801790b0 0 zz_801790b0_
-801790bc 00000044 801790bc 0 zz_801790bc_
+801790bc 00000044 801790bc 0 update_value
 80179100 00000084 80179100 0 zz_80179100_
 80179184 0000000c 80179184 0 zz_80179184_
 80179190 00000044 80179190 0 zz_80179190_
@@ -9101,7 +9101,7 @@
 801ea4ec 0000005c 801ea4ec 0 zz_801ea4ec_
 801ea548 00000018 801ea548 0 zz_801ea548_
 801ea560 00000048 801ea560 0 zz_801ea560_
-801ea5a8 0000004c 801ea5a8 0 zz_801ea5a8_
+801ea5a8 0000004c 801ea5a8 0 init_team
 801ea5f4 00000054 801ea5f4 0 zz_801ea5f4_
 801ea648 0000014c 801ea648 0 zz_801ea648_
 801ea794 00000174 801ea794 0 zz_801ea794_
@@ -9127,7 +9127,7 @@
 801eb4e8 0000002c 801eb4e8 0 zz_801eb4e8_
 801eb514 0000001c 801eb514 0 zz_801eb514_
 801eb530 00000034 801eb530 0 zz_801eb530_
-801eb564 00000008 801eb564 0 GXInitTexObjUserData 	gx.a GXTexture.o
+801eb564 00000008 801eb564 0 mov
 801eb56c 0000004c 801eb56c 0 zz_801eb56c_
 801eb5b8 00000144 801eb5b8 0 zz_801eb5b8_
 801eb6fc 0000005c 801eb6fc 0 zz_801eb6fc_
@@ -9139,10 +9139,10 @@
 801eb854 0000005c 801eb854 0 zz_801eb854_
 801eb8b0 000000f0 801eb8b0 0 zz_801eb8b0_
 801eb9a0 00000054 801eb9a0 0 zz_801eb9a0_
-801ebb30 0000008c 801ebb30 0 zz_801ebb30_
+801ebb30 0000008c 801ebb30 0 InitBoolData
 801ebbbc 0000009c 801ebbbc 0 zz_801ebbbc_
 801ebc58 00000098 801ebc58 0 zz_801ebc58_
-801ebcf0 0000008c 801ebcf0 0 zz_801ebcf0_
+801ebcf0 0000008c 801ebcf0 0 InitIntData
 801ebd7c 0000009c 801ebd7c 0 zz_801ebd7c_
 801ebe18 0000009c 801ebe18 0 zz_801ebe18_
 801ebeb4 0000008c 801ebeb4 0 zz_801ebeb4_
@@ -9185,7 +9185,7 @@
 801ed4ac 0000017c 801ed4ac 0 zz_801ed4ac_
 801ed628 00000044 801ed628 0 zz_801ed628_
 801ed66c 0000009c 801ed66c 0 zz_801ed66c_
-801ed708 00000074 801ed708 0 zz_801ed708_
+801ed708 00000074 801ed708 0 InitStringData
 801ed77c 000000b4 801ed77c 0 zz_801ed77c_
 801ed830 00000084 801ed830 0 zz_801ed830_
 801ed8b4 00000084 801ed8b4 0 zz_801ed8b4_
@@ -9691,7 +9691,7 @@
 801fe504 000000f0 801fe504 0 zz_801fe504_
 801fe5f4 000000a8 801fe5f4 0 zz_801fe5f4_
 801fe69c 00000078 801fe69c 0 zz_801fe69c_
-801fe714 00000020 801fe714 0 cPlayer::PostPhysicsUpdate(void)
+801fe714 00000020 801fe714 0 malloc
 801fe734 00000028 801fe734 0 zz_801fe734_
 801fe75c 00000020 801fe75c 0 cPlayer::PostPhysicsUpdate(void)
 801fe77c 00000028 801fe77c 0 zz_801fe77c_
@@ -10617,7 +10617,7 @@
 8021f404 00000044 8021f404 0 zz_8021f404_
 8021f448 0000032c 8021f448 0 zz_8021f448_
 8021f774 00000180 8021f774 0 zz_8021f774_
-8021f8f4 000008bc 8021f8f4 0 zz_8021f8f4_
+8021f8f4 000008bc 8021f8f4 0 Init_MenuItemDesc
 802201b0 0000000c 802201b0 0 GetOneTimerLeadGroundContactAnims(void)
 802201bc 00000068 802201bc 0 zz_802201bc_
 80220224 00000044 80220224 0 zz_80220224_
@@ -10629,7 +10629,7 @@
 802206fc 00000044 802206fc 0 zz_802206fc_
 80220740 000000cc 80220740 0 zz_80220740_
 8022080c 000000a4 8022080c 0 zz_8022080c_
-802208b0 00000240 802208b0 0 zz_802208b0_
+802208b0 00000240 802208b0 0 Init_PercentButtonDesc
 80220af0 0000000c 80220af0 0 GetOneTimerLeadGroundContactAnims(void)
 80220afc 00000068 80220afc 0 zz_80220afc_
 80220b64 00000044 80220b64 0 zz_80220b64_
@@ -12281,7 +12281,7 @@
 80242cc0 0000000c 80242cc0 0 GetOneTimerLeadGroundContactAnims(void)
 80242ccc 00000068 80242ccc 0 zz_80242ccc_
 80242d34 00000044 80242d34 0 zz_80242d34_
-80242d78 000000d8 80242d78 0 zz_80242d78_
+80242d78 000000d8 80242d78 0 init_team2
 80242e50 0000007c 80242e50 0 zz_80242e50_
 80242ecc 00000230 80242ecc 0 zz_80242ecc_
 802430fc 0000000c 802430fc 0 GetOneTimerLeadGroundContactAnims(void)
@@ -12604,34 +12604,34 @@
 80249f04 00000008 80249f04 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
 80249f0c 00000008 80249f0c 0 GXInitTexObjUserData 	gx.a GXTexture.o
 80249f14 00000008 80249f14 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-80249f1c 00000068 80249f1c 0 zz_80249f1c_
-80249f84 00000008 80249f84 0 J3DTexGenBlock4::getNBTScale(void) 	J3DGraphBase.a J3DMatBlock.o
-80249f8c 00000008 80249f8c 0 GXInitTexObjUserData 	gx.a GXTexture.o
-80249f94 00000008 80249f94 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-80249f9c 00000008 80249f9c 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) 	J3DGraphBase.a J3DMatBlock.o
-80249fa4 00000008 80249fa4 0 J3DColorBlockLightOff::getColorChanNum(void) const 	J3DGraphBase.a J3DMatBlock.o
-80249fac 00000008 80249fac 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) 	J3DGraphBase.a J3DMatBlock.o
-80249fb4 00000008 80249fb4 0 J3DColorBlockLightOff::getColorChanNum(void) const 	J3DGraphBase.a J3DMatBlock.o
-80249fbc 00000008 80249fbc 0 GXInitTexObjUserData 	gx.a GXTexture.o
-80249fc4 00000008 80249fc4 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-80249fcc 00000008 80249fcc 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) 	J3DGraphBase.a J3DMatBlock.o
-80249fd4 00000008 80249fd4 0 J3DColorBlockLightOff::getColorChanNum(void) const 	J3DGraphBase.a J3DMatBlock.o
-80249fdc 00000008 80249fdc 0 GXInitTexObjUserData 	gx.a GXTexture.o
-80249fe4 00000008 80249fe4 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-80249fec 00000008 80249fec 0 GXInitTexObjUserData 	gx.a GXTexture.o
-80249ff4 00000008 80249ff4 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-80249ffc 00000008 80249ffc 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) 	J3DGraphBase.a J3DMatBlock.o
-8024a004 00000008 8024a004 0 J3DColorBlockLightOff::getColorChanNum(void) const 	J3DGraphBase.a J3DMatBlock.o
-8024a00c 00000008 8024a00c 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) 	J3DGraphBase.a J3DMatBlock.o
-8024a014 00000008 8024a014 0 J3DColorBlockLightOff::getColorChanNum(void) const 	J3DGraphBase.a J3DMatBlock.o
-8024a01c 00000008 8024a01c 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) 	J3DGraphBase.a J3DMatBlock.o
-8024a024 00000008 8024a024 0 J3DColorBlockLightOff::getColorChanNum(void) const 	J3DGraphBase.a J3DMatBlock.o
-8024a02c 00000008 8024a02c 0 GXInitTexObjUserData 	gx.a GXTexture.o
-8024a034 00000008 8024a034 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-8024a03c 00000008 8024a03c 0 GXInitTexObjUserData 	gx.a GXTexture.o
-8024a044 00000008 8024a044 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
-8024a04c 00000068 8024a04c 0 zz_8024a04c_
-8024a0b4 00000008 8024a0b4 0 J3DTexGenBlock4::getNBTScale(void) 	J3DGraphBase.a J3DMatBlock.o
+80249f1c 00000068 80249f1c 0 SetName__17TeamDataContainerRC7XString
+80249f84 00000008 80249f84 0 GetName__C17TeamDataContainer
+80249f8c 00000008 80249f8c 0 SetActive__17TeamDataContainerb
+80249f94 00000008 80249f94 0 GetActive__C17TeamDataContainer
+80249f9c 00000008 80249f9c 0 SetWormCountStart__17TeamDataContainerUc
+80249fa4 00000008 80249fa4 0 GetWormCountStart__C17TeamDataContainer
+80249fac 00000008 80249fac 0 SetTeamColour__17TeamDataContainerUc
+80249fb4 00000008 80249fb4 0 GetTeamColour__C17TeamDataContainer
+80249fbc 00000008 80249fbc 0 SetTeamMustSurvive__17TeamDataContainerb
+80249fc4 00000008 80249fc4 0 GetTeamMustSurvive__C17TeamDataContainer
+80249fcc 00000008 80249fcc 0 SetAlliedGroup__17TeamDataContainerUc
+80249fd4 00000008 80249fd4 0 GetAlliedGroup__C17TeamDataContainer
+80249fdc 00000008 80249fdc 0 SetDisableCPUAttack__17TeamDataContainerb
+80249fe4 00000008 80249fe4 0 GetDisableCPUAttack__C17TeamDataContainer
+80249fec 00000008 80249fec 0 SetIsAIControlled__17TeamDataContainerb
+80249ff4 00000008 80249ff4 0 GetIsAIControlled__C17TeamDataContainer
+80249ffc 00000008 80249ffc 0 SetRoundsWon__17TeamDataContainerUc
+8024a004 00000008 8024a004 0 GetRoundsWon__C17TeamDataContainer
+8024a00c 00000008 8024a00c 0 SetGraveIndex__17TeamDataContainerUc
+8024a014 00000008 8024a014 0 GetGraveIndex__C17TeamDataContainer
+8024a01c 00000008 8024a01c 0 SetWormsCountEnd__17TeamDataContainerUc
+8024a024 00000008 8024a024 0 GetWormsCountEnd__C17TeamDataContainer
+8024a02c 00000008 8024a02c 0 SetSurrendered__17TeamDataContainerb
+8024a034 00000008 8024a034 0 GetSurrendered__C17TeamDataContainer
+8024a03c 00000008 8024a03c 0 SetScorePoints__17TeamDataContainerUi
+8024a044 00000008 8024a044 0 GetScorePoints__C17TeamDataContainer
+8024a04c 00000068 8024a04c 0 SetFlagGfxName__17TeamDataContainerRC7XString
+8024a0b4 00000008 8024a0b4 0 GetFlagGfxName__C17TeamDataContainer
 8024a0bc 00000008 8024a0bc 0 GXInitTexObjUserData 	gx.a GXTexture.o
 8024a0c4 00000008 8024a0c4 0 CBGetBytesAvailableForRead 	TRK_Hollywood_Revolution.a C:\products\RVL\runtime_libs\gamedev\cust_connection\utils\common\Circle
 8024a0cc 00000008 8024a0cc 0 J3DColorBlockLightOff::setColorChanNum(unsigned char) 	J3DGraphBase.a J3DMatBlock.o
