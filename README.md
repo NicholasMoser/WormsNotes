@@ -478,26 +478,26 @@ and here's the annotated assembly code for this gecko code:
 
 ```asm
 loc_0x801563BC:
-  # Get the currently active team's data via GetTeamData() at 0x800fcb5c.
-  # This clobbers r0, r3, and r9. r3 will need to be restored by the end of the code
-  # since it is used in the function call in the next instruction at 0x801563c0.
-  # We have r4 free since we overwrite it at the end, so let's move r0 (active team) to it.
-  # We also must move r0 (active team) to r3 as part of the function call to GetTeamData().
+  ; Get the currently active team's data via GetTeamData() at 0x800fcb5c.
+  ; This clobbers r0, r3, and r9. r3 will need to be restored by the end of the code
+  ; since it is used in the function call in the next instruction at 0x801563c0.
+  ; We have r4 free since we overwrite it at the end, so let's move r0 (active team) to it.
+  ; We also must move r0 (active team) to r3 as part of the function call to GetTeamData().
   mr r4, r0
   mr r3, r0
   lis   r9, 0x800f
   ori   r9, r9, 0xCB5C
   mtctr r9
   bctrl
-  # Check if the current active team is AI
+  ; Check if the current active team is AI
   lwz r3,  0x34(r3)
   cmpwi r3, 0
   bne end
-  # If it's not AI, store r4 (the active team) into 0x8040352C
+  ; If it's not AI, store r4 (the active team) into 0x8040352C
   lis r9, 0x8040
   stw r4, 13612(r9)
 end:
-  # Restore r3 and run original replaced instruction
+  ; Restore r3 and run original replaced instruction
   lwz	r3, 0x0130 (r31)
   addi r4, r1, 0x24
 
