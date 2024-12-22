@@ -1,19 +1,35 @@
 # Worms 3D Notes
 
-- [Overview](#Overview)
-- [Files](#Files)
-  - [XOM](#XOM)
-  - [TGA](#TGA)
-  - [Lua](#Lua)
-  - [CSH](#CSH)
-  - [DOL](#DOL)
-- [Text Modification](#Text-Modification)
-- [Weapon Modification](#Weapon-Modification)
-  - [WeapTwk.xom](#WeapTwkxom)
-- [Campaign Modification](#Campaign-Modification)
-- [Challenge Modification](#Challenge-Modification)
+<!-- vscode-markdown-toc -->
+* 1. [Overview](#Overview)
+* 2. [Files](#Files)
+	* 2.1. [XOM](#XOM)
+	* 2.2. [TGA](#TGA)
+	* 2.3. [Lua](#Lua)
+	* 2.4. [CSH](#CSH)
+	* 2.5. [DOL](#DOL)
+* 3. [Symbol Map](#SymbolMap)
+* 4. [Text Modification](#TextModification)
+* 5. [Weapon Modification](#WeaponModification)
+	* 5.1. [WeapTwk.xom](#WeapTwk.xom)
+* 6. [Campaign Modification](#CampaignModification)
+* 7. [Challenge Modification](#ChallengeModification)
+* 8. [Skip Intro Cutscenes](#SkipIntroCutscenes)
+* 9. [Unlock Levels by Default](#UnlockLevelsbyDefault)
+* 10. [Navigate Deathmatch Maps Faster](#NavigateDeathmatchMapsFaster)
+* 11. [Add More Maps to Multiplayer](#AddMoreMapstoMultiplayer)
+	* 11.1. [Campaign Level Alien](#CampaignLevelAlien)
+	* 11.2. [Deathmatch Level Alien](#DeathmatchLevelAlien)
+	* 11.3. [Adding Levels](#AddingLevels)
+* 12. [Change Controller](#ChangeController)
 
-## Overview
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+##  1. <a name='Overview'></a>Overview
 
 This page contains notes found in the internals of Worms 3D on the GameCube.
 I've been able to make some modifications to the game which are shown in below sections.
@@ -28,9 +44,9 @@ Even better is that there appear to be C# bindings for working with Worms relate
 [CrateModGames/GameSpecific/Worms/Common](https://github.com/TheBetaM/CrateModLoader/tree/master/CrateModGames/GameSpecific/Worms/Common).
 Although [GameCube may not be fully supported](https://github.com/TheBetaM/CrateModLoader/blob/master/CrateModGames/GameSpecific/Worms/Worms3D/Game_Worms3D.cs#L12).
 
-## Files
+##  2. <a name='Files'></a>Files
 
-### XOM
+###  2.1. <a name='XOM'></a>XOM
 
 XOM files contain 3D geometry, textures, colors, and effects.
 They are used to show in-game worm, weapon, and map objects.
@@ -42,19 +58,19 @@ Although not every xom file on the GameCube version can be converted currently.
 
 Here is an [example of a XOM file converted to XML](https://gist.github.com/NicholasMoser/38a5f0284f038f744de088f7f48f7506).
 
-### TGA
+###  2.2. <a name='TGA'></a>TGA
 
 [Truevision TGA](https://en.wikipedia.org/wiki/Truevision_TGA) graphics files are textures
 that can be opened and modified in Photoshop.
 
 ![TGA File](/tga.png?raw=true "TGA File")
 
-### Lua
+###  2.3. <a name='Lua'></a>Lua
 
 Worms 3D seems to utilize some lua scripting, which would make modding the game and creating
 custom scenarios much easier.
 
-### CSH
+###  2.4. <a name='CSH'></a>CSH
 
 Currently unknown. Seems to accompany every map file for each time of day, for example:
 
@@ -65,13 +81,21 @@ countingsheepEVENING.csh
 countingsheepNIGHT.csh
 ```
 
-### DOL
+###  2.5. <a name='DOL'></a>DOL
 
 Like all GameCube games, the actual logic of the game is found in the `main.dol` file which is in PowerPC assembly.
 You can disassemble the code using [Ghidra](https://ghidra-sre.org/) and
 [Ghidra GameCube Loader](https://github.com/Cuyler36/Ghidra-GameCube-Loader).
 
-## Text Modification
+##  3. <a name='SymbolMap'></a>Symbol Map
+
+There is a symbol map in the PS2 EU version of the game, making it much easier to understand the underlying code of the game:
+https://www.retroreversing.com/ps2-unstripped/
+
+After extracting files from the ISO dump, you can simply run the Linux command `readelf -Ws sles_518.43 >> symbol.map`
+to get a symbol map from the binary.
+
+##  4. <a name='TextModification'></a>Text Modification
 
 You can find all of the game text in `files/Language`. It looks like the developers originally created
 csv files, such as `NGCMessages.csv`, and then converted them to XOM objects in the `files/Language/NGC`
@@ -79,7 +103,7 @@ directory. You therefore can modify these messages by modifying the respective X
 
 ![Example of replacing text](/text_mod.png?raw=true "Example of replacing text")
 
-## Weapon Modification
+##  5. <a name='WeaponModification'></a>Weapon Modification
 
 This section details my efforts to find where weapon damage is set. If you'd prefer to avoid the technical parts,
 skip to the next section.
@@ -99,7 +123,7 @@ Unfortunately, the call stack above this point looks like this code is determine
 After [doing some research](https://t17forum.worms2d.info/index.php/t-39070.html), I can see that it is interpreted
 from XOM files.
 
-### WeapTwk.xom
+###  5.1. <a name='WeapTwk.xom'></a>WeapTwk.xom
 
 This file contains most of the weapon data, and appears to be easy to configure after conversion with
 [Xom2Xml](https://github.com/AlexBond2/Xom2Xml). For example, here is data for fire punch:
@@ -174,7 +198,7 @@ Here is an example of modifying this value to 100:
 
 ![Fire punch damage mod](compressed.gif?raw=true)
 
-## Campaign Modification
+##  6. <a name='CampaignModification'></a>Campaign Modification
 
 Each campaign level seems to have its own lua file, making modification incredibly simple.
 The first campaign level, D-Day, has the file `files/Scripts/dday.lua`. Here's an example
@@ -195,7 +219,7 @@ You can easily change things like the name of the worm:
 
 ![Campaign mod](campaign_mod.png?raw=true)
 
-## Challenge Modification
+##  7. <a name='ChallengeModification'></a>Challenge Modification
 
 The first challenge, Shotgun Challenge 1, can be found in the file `files/Scripts/TargetHunt.lua`.
 Any lua files are trivial to modify, so for this challenge I changed it from having only the
@@ -269,7 +293,7 @@ And you can see the results here:
 
 ![Challenge mod](challenge_mod.gif?raw=true)
 
-## Skip Intro Cutscenes
+##  8. <a name='SkipIntroCutscenes'></a>Skip Intro Cutscenes
 
 The method `main()` is at 0x8015b1a8, so the calls to the cutscenes should be somewhat early in that method.
 But upon further inspection, main appears to jump to interpreted code fairly early on. A better way of finding
@@ -319,7 +343,7 @@ bundle05.xom seems to have icons, the loading animation, boxes, buttons, and bar
 Looks like bundle03.xom is loaded from the DOL most likely, will be easier to remove at a later time.
 For now, just override the existing images with some mod related info.
 
-## Unlock Levels by Default
+##  9. <a name='UnlockLevelsbyDefault'></a>Unlock Levels by Default
 
 The file `DefSave.xom` contains metadata on which files are locked by default. You can force it to be
 unlocked by default by removing a locked entry like so:
@@ -351,7 +375,7 @@ to
 <Lock></Lock>
 ```
 
-## Navigate Deathmatch Maps Faster
+##  10. <a name='NavigateDeathmatchMapsFaster'></a>Navigate Deathmatch Maps Faster
 
 It would be nice to be able to scroll through the deathmatch map list faster, especially if and when we
 add more maps.
@@ -359,12 +383,12 @@ add more maps.
 However it looks like the Delay value for this is in MultiplayerMenu which may be defined in MenuTwk.xom
 which currently cannot be extracted with xom2xml.
 
-## Add More Maps to Multiplayer
+##  11. <a name='AddMoreMapstoMultiplayer'></a>Add More Maps to Multiplayer
 
 Multiplayer currently contains [a number of accessible maps](maps.md). Some levels are playable in both
 campaign and deathmatch mode. For example in Scripts.xom:
 
-### Campaign Level Alien
+###  11.1. <a name='CampaignLevelAlien'></a>Campaign Level Alien
 
 ```xml
 <LevelDetails id="FE.Level.Alien-0">
@@ -386,7 +410,7 @@ campaign and deathmatch mode. For example in Scripts.xom:
 </LevelDetails>
 ```
 
-### Deathmatch Level Alien
+###  11.2. <a name='DeathmatchLevelAlien'></a>Deathmatch Level Alien
 
 ```xml
 <LevelDetails id="FE.Unlocked.Alien-0">
@@ -408,7 +432,7 @@ campaign and deathmatch mode. For example in Scripts.xom:
 </LevelDetails>
 ```
 
-### Adding Levels
+###  11.3. <a name='AddingLevels'></a>Adding Levels
 
 Levels don't seem to be stored by LevelNumber in memory. Instead they are added by file and
 sorted by name. So to add a level you just need to add an entry to Scripts.xom with:
@@ -417,7 +441,7 @@ sorted by name. So to add a level you just need to add an entry to Scripts.xom w
 - `<LevelType>` set to 5
 - `<ScriptName>` set to "stdvs,wormpot"
 
-## Change Controller
+##  12. <a name='ChangeController'></a>Change Controller
 
 Multiplayer normally follows a "hotseat" pattern, where only 1 controller is used.
 This controller is passed between players as they take their turns.
