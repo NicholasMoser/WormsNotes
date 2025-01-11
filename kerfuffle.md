@@ -439,6 +439,22 @@ This is because this code is unused in the GameCube version of the game, and lik
 One example of a function in this area is `AttemptConnection__16NetClientService` at 0x8021b8c8.
 Or we can use the variables at 0x803b2efc which appear to have no references to them.
 
+## Gun Wobble
+
+Seems to be determined in WeakTwk.xom by the following entries:
+
+- GunWobble.Period
+- GunWobble.Speed
+- GunWobble.MaxAmp
+
+To remove gun wobble just change `GunWobble.MaxAmp` to 0. Max amplitude is how
+far the cursor sways, and period is how quickly it sways.
+
+## Jetpack Altitude
+
+Seems to be determined in Tweak.xom by the entry: `Jetpack.MaxAltitude`.
+It is overriden in some Lua scripts, likely for vertical stages.
+
 ## Codes
 
 ### Change Controller
