@@ -6,6 +6,7 @@ This repository contains notes found in the internals of Worms 3D on the GameCub
 
 - [Modding](modding.md)
 - [Worms 3D Kerfuffle](kerfuffle.md)
+- [Testing](testing.md)
 - [Maps](maps.md)
 - [DOL Header](dol_header.md)
 - [Worms 3D Complete Save Data](worms-3d.6441.gci)
