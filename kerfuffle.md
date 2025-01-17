@@ -443,9 +443,9 @@ Or we can use the variables at 0x803b2efc which appear to have no references to 
 
 Seems to be determined in WeakTwk.xom by the following entries:
 
-- GunWobble.Period
-- GunWobble.Speed
-- GunWobble.MaxAmp
+- `GunWobble.Period`
+- `GunWobble.Speed`
+- `GunWobble.MaxAmp`
 
 To remove gun wobble just change `GunWobble.MaxAmp` to 0. Max amplitude is how
 far the cursor sways, and period is how quickly it sways.
@@ -454,6 +454,39 @@ far the cursor sways, and period is how quickly it sways.
 
 Seems to be determined in Tweak.xom by the entry: `Jetpack.MaxAltitude`.
 It is overriden in some Lua scripts, likely for vertical stages.
+
+## Death Explosion
+
+Seems to be determined in Tweak.xom by the entries:
+
+- `Worm.DeathImpulseMagnitude`
+- `Worm.DeathImpulseRadius`
+- `Worm.DeathLandDamageRadius`
+- `Worm.DeathWormDamageRadius`
+- `Worm.DeathWormDamageMagnitude`
+
+## Worm Movement
+
+Seems to be determined in Tweak.xom by the entries:
+
+- `Worm.StepUpHeight`
+- `Worm.BounceMultiplier`
+
+## Nerf Red Bull
+
+To disable low gravity for red bull, simply add a nop to the instruction at
+0x800f766c.
+
+This instruction calls `SetFloat()` on "Low.Gravity.Multiplier" in the function
+`OnEndPostLaunchDelay__25RedbullUtilityLogicEntity`.
+
+It looks like the particle emitter is immediately after it,
+if we wanted to remove that. Also your movement is stopped in the function
+`OnFireButtonPressed__25RedbullUtilityLogicEntity` and is likely reset in
+`OnEndPostLaunchDelay__25RedbullUtilityLogicEntity`.
+
+It appears that the movement speed increase also occurs somewhere around
+`OnEndPostLaunchDelay__25RedbullUtilityLogicEntity`.
 
 ## Codes
 
