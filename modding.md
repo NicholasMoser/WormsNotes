@@ -105,6 +105,17 @@ that can be opened and modified in Photoshop.
 
 ![TGA File](img/tga.png?raw=true "TGA File")
 
+The format for the PS2 and GameCube TGA files is slightly different than in the PC version.
+
+![TGA Modes](img/tga_modes.png?raw=true "TGA Modes")
+
+This is the reason that opening TGA files with XomView shows the images as corrupted:
+
+![XomView TGA](img/xomview_tga.png?raw=true "XomView TGA")
+
+Unfortunately because of this you cannot currently replace these files, even
+with unmodified versions of TGA files.
+
 ### Lua
 
 [Lua scripts](https://en.wikipedia.org/wiki/Lua_(programming_language)) are programming
