@@ -20,11 +20,12 @@ Health is set at instruction 0x80140f3c in the `main.dol`.
 If a worm has taken damage, the damage will be set to `worm->new_health` (offset 0x24).
 
 Damage is subtracted from total health at instruction 0x80149598. Damage is set at 0x80148f3c which is passed in as the
-second parameter of the method starting at 0x80148e8c.
+second parameter of the function starting at 0x80148e8c.
 
 Damage is calculated at the function at 0x80143bdc, which will be called `calculate_damage`.
+Later decomp efforts showed this function to actually be `HandleMessage__15WormLogicEntityPC7Message`
 Blast damage is calculated at the function at 0x80148a58, which will be called `calculate_blast_damage`.
-Somewhere in these methods, it must account for the weapon being used. Let's start by just looking at Fire Punch,
+Somewhere in these functions, it must account for the weapon being used. Let's start by just looking at Fire Punch,
 which appears to always do 30 damage. The 30 must be stored somewhere we can modify.
 
 Unfortunately, the call stack above this point looks like this code is determined via an interpreter of some sort.
@@ -477,6 +478,9 @@ Seems to be determined in Tweak.xom by the entries:
 To disable low gravity for red bull, simply add a nop to the instruction at
 0x800f766c.
 
+To disable quick walk for red bull, simply add a nop to the instruction at
+0x800f76a0.
+
 This instruction calls `SetFloat()` on "Low.Gravity.Multiplier" in the function
 `OnEndPostLaunchDelay__25RedbullUtilityLogicEntity`.
 
@@ -487,6 +491,23 @@ if we wanted to remove that. Also your movement is stopped in the function
 
 It appears that the movement speed increase also occurs somewhere around
 `OnEndPostLaunchDelay__25RedbullUtilityLogicEntity`.
+
+The movement speed increase occurs in the function `ActivateQuickWalk__15WormLogicEntity`
+at address 0x8014fd28. This is called when the message "FastWalk.Activate" is active.
+This is set in the function `__static_initialization_and_destruction_0` for
+`RedbullUtilityLogicEntity` at address 0x800f7744. Instead of nopping that function,
+we should instead nop the location where we set it to 1, which is at 0x800f76a0.
+
+## Remove Demo Timers
+
+There is a timer in the title that goes to a demo if you wait too long.
+There is also a timer in the main menu that goes to the title if you wait too long.
+
+The first is `FCS.TitleScreenTimeout` in  Local.xom, defaulted to 60000.
+This can be changed to the maximum unsigned integer, 2147483647.
+
+The second is `FCS.MainMenuTimeout` in Local.xom, defaulted to 30000.
+This can be changed to the maximum unsigned integer, 2147483647.
 
 ## Codes
 
