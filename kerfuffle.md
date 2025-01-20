@@ -509,6 +509,25 @@ This can be changed to the maximum unsigned integer, 2147483647.
 The second is `FCS.MainMenuTimeout` in Local.xom, defaulted to 30000.
 This can be changed to the maximum unsigned integer, 2147483647.
 
+## Table Population
+
+Most tables seem to be populated in `HandleMessage__22TablePopulationServicePC7Message`.
+This should be where we look to change the contents of things like missions, levels, etc.
+`PopulatePauseMenu__22TablePopulationService` may be useful for Retry Mission.
+
+## Unlock All Campaign/Challenges by Default
+
+It seems like unlocking campaign missions and challenges is more difficult than removing the
+`IsLocked` check. `GetMissionCount__14MissionService13LevelTypeEnum` does correctly return
+0x23 even if nothing is unlocked, so the count is always correct.
+
+The code we need to modify is in the function `GetTopCampaignForTeam__14MissionServiceG7XString`
+at address 0x802810b0. We just need to change the conditional branch at 0x802810a4 to an
+unconditional branch, so `bne+ -0x9C` (0x4082FF64) to `b -0x9C` (0x4BFFFF64).
+
+For tutorials, we need to do the same at address 0x80281214, replacing
+`bne+ -0x98` (0x4082FF68) with `b -0x98` (0x4BFFFF68).
+
 ## Codes
 
 ### Change Controller
