@@ -284,8 +284,8 @@
   800151fc 00002c 800151fc  4 FUN_800151fc 	Global
   8001523c 000028 8001523c  4 FUN_8001523c 	Global
   80015264 000028 80015264  4 FUN_80015264 	Global
-  8001528c 000020 8001528c  4 FUN_8001528c 	Global
-  800152ac 000020 800152ac  4 FUN_800152ac 	Global
+  8001528c 000020 8001528c  4 Alloc__11AiAllocatorUi 	Global
+  800152ac 000020 800152ac  4 Free__11AiAllocatorPv 	Global
   800152cc 000030 800152cc  4 FUN_800152cc 	Global
   800152fc 0000e0 800152fc  4 FUN_800152fc 	Global
   800153dc 000024 800153dc  4 FUN_800153dc 	Global
@@ -3327,8 +3327,8 @@
   8010abb0 000004 8010abb0  4 FUN_8010abb0 	Global
   8010abb4 000060 8010abb4  4 FUN_8010abb4 	Global
   8010ac14 00002c 8010ac14  4 FUN_8010ac14 	Global
-  8010ac40 00001c 8010ac40  4 FUN_8010ac40 	Global
-  8010ac5c 000008 8010ac5c  4 FUN_8010ac5c 	Global
+  8010ac40 00001c 8010ac40  4 __13StringMessageUsPCc 	Global
+  8010ac5c 000008 8010ac5c  4 GetString__C13StringMessage 	Global
   8010ac64 000014 8010ac64  4 FUN_8010ac64 	Global
   8010b084 00008c 8010b084  4 FUN_8010b084 	Global
   8010b110 000080 8010b110  4 FUN_8010b110 	Global
@@ -3394,30 +3394,30 @@
   8010e9f8 000038 8010e9f8  4 FUN_8010e9f8 	Global
   8010ea30 00008c 8010ea30  4 FUN_8010ea30 	Global
   8010eabc 000258 8010eabc  4 FUN_8010eabc 	Global
-  8010ed14 000458 8010ed14  4 FUN_8010ed14 	Global
-  8010f174 0009b8 8010f174  4 FUN_8010f174 	Global
-  8010fb2c 000004 8010fb2c  4 FUN_8010fb2c 	Global
-  8010fb30 000538 8010fb30  4 FUN_8010fb30 	Global
-  80110068 0003a4 80110068  4 FUN_80110068 	Global
-  8011040c 0003a4 8011040c  4 FUN_8011040c 	Global
-  801107b0 00084c 801107b0  4 FUN_801107b0 	Global
-  80110ffc 000b84 80110ffc  4 FUN_80110ffc 	Global
-  80111b80 000cf4 80111b80  4 FUN_80111b80 	Global
-  80112874 00079c 80112874  4 FUN_80112874 	Global
-  80113010 0003cc 80113010  4 FUN_80113010 	Global
-  801133dc 0007e0 801133dc  4 FUN_801133dc 	Global
-  80113bbc 0003bc 80113bbc  4 FUN_80113bbc 	Global
-  80113f78 00030c 80113f78  4 FUN_80113f78 	Global
-  80114284 000670 80114284  4 FUN_80114284 	Global
-  801148f4 000498 801148f4  4 FUN_801148f4 	Global
-  80114d8c 00065c 80114d8c  4 FUN_80114d8c 	Global
-  801153e8 0006f4 801153e8  4 FUN_801153e8 	Global
-  80115adc 000554 80115adc  4 FUN_80115adc 	Global
-  80116030 00059c 80116030  4 FUN_80116030 	Global
-  801165cc 000568 801165cc  4 FUN_801165cc 	Global
-  80116b34 000948 80116b34  4 FUN_80116b34 	Global
-  8011747c 0004ac 8011747c  4 FUN_8011747c 	Global
-  80117928 000b58 80117928  4 FUN_80117928 	Global
+  8010ed14 000458 8010ed14  4 HandleMessage__22TablePopulationServicePC7Message 	Global
+  8010f174 0009b8 8010f174  4 Initialize__22TablePopulationService 	Global
+  8010fb2c 000004 8010fb2c  4 Cleanup__22TablePopulationService 	Global
+  8010fb30 000538 8010fb30  4 PopulateLevelTable__22TablePopulationService 	Global
+  80110068 0003a4 80110068  4 PopulateCustomLevelsTable__22TablePopulationService 	Global
+  8011040c 0003a4 8011040c  4 PopulateRandomLevelsTable__22TablePopulationService 	Global
+  801107b0 00084c 801107b0  4 PopulateBarracks__22TablePopulationService 	Global
+  80110ffc 000b84 80110ffc  4 PopulateTeamsInLocalGameTable__22TablePopulationService 	Global
+  80111b80 000cf4 80111b80  4 PopulateTeamsResultsTable__22TablePopulationService 	Global
+  80112874 00079c 80112874  4 PopulateTable__22TablePopulationServiceP18XContainerResource13LevelTypeEnum 	Global
+  80113010 0003cc 80113010  4 PopulateLandscapeTable__22TablePopulationService 	Global
+  801133dc 0007e0 801133dc  4 PopulateSchemes__22TablePopulationService 	Global
+  80113bbc 0003bc 80113bbc  4 PopulatePauseMenu__22TablePopulationService 	Global
+  80113f78 00030c 80113f78  4 PopulateSpectatorPauseMenu__22TablePopulationService 	Global
+  80114284 000670 80114284  4 PopulateBarracksCampaign__22TablePopulationService 	Global
+  801148f4 000498 801148f4  4 PopulateBarracksChallenge__22TablePopulationService 	Global
+  80114d8c 00065c 80114d8c  4 PopulateBarracksTutorial__22TablePopulationService 	Global
+  801153e8 0006f4 801153e8  4 PopulateWormsList__22TablePopulationService 	Global
+  80115adc 000554 80115adc  4 PopulateAlliesList__22TablePopulationService 	Global
+  80116030 00059c 80116030  4 PopulateSoundBankList__22TablePopulationService 	Global
+  801165cc 000568 801165cc  4 PopulateSpecialWeapons__22TablePopulationService 	Global
+  80116b34 000948 80116b34  4 PopulateLocks__22TablePopulationService 	Global
+  8011747c 0004ac 8011747c  4 PopulateFlags__22TablePopulationService 	Global
+  80117928 000b58 80117928  4 PopulateWormNames__22TablePopulationService 	Global
   80118480 000070 80118480  4 FUN_80118480 	Global
   801184f0 00002c 801184f0  4 FUN_801184f0 	Global
   8011851c 000044 8011851c  4 FUN_8011851c 	Global
@@ -4154,10 +4154,10 @@
   8015b17c 00002c 8015b17c  4 FUN_8015b17c 	Global
   8015b1a8 0000b4 8015b1a8  4 FUN_8015b1a8 	Global
   8015b25c 000048 8015b25c  4 FUN_8015b25c 	Global
-  8015b2a4 000038 8015b2a4  4 FUN_8015b2a4 	Global
+  8015b2a4 000038 8015b2a4  4 GetResourceDescriptor__3GRMRC7XString 	Global
   8015b2dc 000034 8015b2dc  4 FUN_8015b2dc 	Global
   8015b310 000040 8015b310  4 FUN_8015b310 	Global
-  8015b350 00003c 8015b350  4 FUN_8015b350 	Global
+  8015b350 00003c 8015b350  4 LoadSection__3GRMUc 	Global
   8015b38c 00003c 8015b38c  4 FUN_8015b38c 	Global
   8015b3d4 000044 8015b3d4  4 FUN_8015b3d4 	Global
   8015b418 000060 8015b418  4 FUN_8015b418 	Global
@@ -4268,13 +4268,13 @@
   8015f930 000004 8015f930  4 FUN_8015f930 	Global
   8015f934 00004c 8015f934  4 FUN_8015f934 	Global
   8015f980 000040 8015f980  4 FUN_8015f980 	Global
-  8015f9c0 000048 8015f9c0  4 FUN_8015f9c0 	Global
+  8015f9c0 000048 8015f9c0  4 _$_13AutoMessageID 	Global
   8015fa08 000078 8015fa08  4 GetMessageID__13AutoMessageIDb 	Global
   8015fa80 000008 8015fa80  4 FUN_8015fa80 	Global
   8015fa88 00003c 8015fa88  4 FUN_8015fa88 	Global
   8015fac4 000040 8015fac4  4 __eq__FUsR13AutoMessageID 	Global
   8015fb04 000068 8015fb04  4 FUN_8015fb04 	Global
-  8015fb6c 000048 8015fb6c  4 FUN_8015fb6c 	Global
+  8015fb6c 000048 8015fb6c  4 __22GeneratedAutoMessageIDPCc 	Global
   8015fbb4 000094 8015fbb4  4 FUN_8015fbb4 	Global
   8015fc48 00004c 8015fc48  4 FUN_8015fc48 	Global
   8015fc94 000058 8015fc94  4 FUN_8015fc94 	Global
@@ -4382,7 +4382,7 @@
   80162ca4 00005c 80162ca4  4 FUN_80162ca4 	Global
   80162d18 00003c 80162d18  4 FUN_80162d18 	Global
   80162d54 000030 80162d54  4 FUN_80162d54 	Global
-  80162da4 000020 80162da4  4 FUN_80162da4 	Global
+  80162da4 000020 80162da4  4 HandleMessage__7ServicePC7Message 	Global
   80162dc4 000060 80162dc4  4 FUN_80162dc4 	Global
   80162e24 00002c 80162e24  4 FUN_80162e24 	Global
   80162e60 000048 80162e60  4 FUN_80162e60 	Global
@@ -4774,7 +4774,7 @@
   80178290 000088 80178290  4 FUN_80178290 	Global
   80178318 000258 80178318  4 FUN_80178318 	Global
   80178570 00036c 80178570  4 FUN_80178570 	Global
-  801788dc 000070 801788dc  4 FUN_801788dc 	Global
+  801788dc 000070 801788dc  4 _$_14DataAccessInfo 	Global
   8017894c 00006c 8017894c  4 FUN_8017894c 	Global
   801789b8 000028 801789b8  4 FUN_801789b8 	Global
   801789e0 0000f0 801789e0  4 FUN_801789e0 	Global
@@ -4812,7 +4812,7 @@
   80179884 00000c 80179884  4 FUN_80179884 	Global
   80179890 0000f8 80179890  4 FUN_80179890 	Global
   80179988 000078 80179988  4 FUN_80179988 	Global
-  80179a00 00003c 80179a00  4 FUN_80179a00 	Global
+  80179a00 00003c 80179a00  4 EditData__18XContainerResourceR14DataAccessInfo 	Global
   80179a3c 000068 80179a3c  4 FUN_80179a3c 	Global
   80179aa4 000134 80179aa4  4 FUN_80179aa4 	Global
   80179bd8 000044 80179bd8  4 FUN_80179bd8 	Global
@@ -5082,7 +5082,7 @@
   8018b7d8 0000a4 8018b7d8  4 FUN_8018b7d8 	Global
   8018b87c 0000c8 8018b87c  4 FUN_8018b87c 	Global
   8018b944 000058 8018b944  4 FUN_8018b944 	Global
-  8018b99c 000104 8018b99c  4 FUN_8018b99c 	Global
+  8018b99c 000104 8018b99c  4 GetNumUTF8CharsInWidth__15XTextDescriptorPCcff 	Global
   8018bab0 0000f4 8018bab0  4 FUN_8018bab0 	Global
   8018bba4 000098 8018bba4  4 FUN_8018bba4 	Global
   8018bc3c 0000c8 8018bc3c  4 FUN_8018bc3c 	Global
@@ -5203,8 +5203,8 @@
   80190b90 00000c 80190b90  4 FUN_80190b90 	Global
   80190b9c 00005c 80190b9c  4 FUN_80190b9c 	Global
   80190c10 000048 80190c10  4 FUN_80190c10 	Global
-  80190c58 000028 80190c58  4 FUN_80190c58 	Global
-  80190c80 000030 80190c80  4 FUN_80190c80 	Global
+  80190c58 000028 80190c58  4 Alloc__13AnimAllocatorUi 	Global
+  80190c80 000030 80190c80  4 Free__13AnimAllocatorPv 	Global
   80190cb0 0000bc 80190cb0  4 FUN_80190cb0 	Global
   80190d6c 0001ec 80190d6c  4 FUN_80190d6c 	Global
   80190f58 000688 80190f58  4 FUN_80190f58 	Global
@@ -5228,8 +5228,8 @@
   801947d4 0001b8 801947d4  4 FUN_801947d4 	Global
   8019498c 000ea8 8019498c  4 FUN_8019498c 	Global
   8019583c 000068 8019583c  4 FUN_8019583c 	Global
-  801958a4 000450 801958a4  4 FUN_801958a4 	Global
-  80195cf4 0002a4 80195cf4  4 FUN_80195cf4 	Global
+  801958a4 000450 801958a4  4 Attach__13XAnimInstanceP5XNode 	Global
+  80195cf4 0002a4 80195cf4  4 AttachToNode__13XAnimInstanceP5XNode 	Global
   80195f98 0000e8 80195f98  4 FUN_80195f98 	Global
   80196080 0000ec 80196080  4 FUN_80196080 	Global
   80196190 0001ac 80196190  4 FUN_80196190 	Global
@@ -5287,19 +5287,21 @@
   80198ef8 00014c 80198ef8  4 FUN_80198ef8 	Global
   80199044 000088 80199044  4 FUN_80199044 	Global
   801990cc 0003ac 801990cc  4 FUN_801990cc 	Global
-  80199480 0000f4 80199480  4 FUN_80199480 	Global
-  80199574 000310 80199574  4 FUN_80199574 	Global
+  80199480 0000f4 80199480  4 StartQueuedAnims__14XAnimScheduler 	Global
+  80199574 000310 80199574  4 LoopAndExpireAnims__14XAnimScheduler 	Global
   80199884 000030 80199884  4 FUN_80199884 	Global
-  801998b4 000414 801998b4  4 FUN_801998b4 	Global
-  80199cc8 0000cc 80199cc8  4 FUN_80199cc8 	Global
-  80199d94 000234 80199d94  4 FUN_80199d94 	Global
-  80199fc8 000078 80199fc8  4 FUN_80199fc8 	Global
-  8019a12c 0002c8 8019a12c  4 FUN_8019a12c 	Global
-  8019a3f4 000030 8019a3f4  4 FUN_8019a3f4 	Global
-  8019a460 00004c 8019a460  4 FUN_8019a460 	Global
-  8019a4ac 000020 8019a4ac  4 FUN_8019a4ac 	Global
-  8019a4cc 000298 8019a4cc  4 FUN_8019a4cc 	Global
-  8019a764 000064 8019a764  4 FUN_8019a764 	Global
+  801998b4 000414 801998b4  4 StopConflictingAnims__14XAnimScheduler 	Global
+  80199cc8 0000cc 80199cc8  4 SetPlayingAnimWeights__14XAnimScheduler 	Global
+  80199d94 000234 80199d94  4 ScalePlayingAnimWeights__14XAnimScheduler 	Global
+  80199fc8 000078 80199fc8  4 Update__14XAnimScheduler 	Global
+  8019a040 000008 8019a040  4 SetGlobalTime__14XAnimSchedulerf 	Global
+  8019a048 0000e4 8019a048  4 GetTimeToFinish__14XAnimSchedulerRf 	Global
+  8019a12c 0002c8 8019a12c  4 Stop__14XAnimSchedulerUi 	Global
+  8019a3f4 000030 8019a3f4  4 IsPlaying__14XAnimSchedulerUi 	Global
+  8019a460 00004c 8019a460  4 SetAnimationLooping__14XAnimSchedulerUib 	Global
+  8019a4ac 000020 8019a4ac  4 GetScheduledClipInfo__14XAnimSchedulerUi 	Global
+  8019a4cc 000298 8019a4cc  4 BuildClipAttributeMasks__14XAnimScheduler 	Global
+  8019a764 000064 8019a764  4 FindClipFromID__14XAnimSchedulerUi 	Global
   8019a7c8 00055c 8019a7c8  4 FUN_8019a7c8 	Global
   8019ad24 0002a4 8019ad24  4 FUN_8019ad24 	Global
   8019afc8 00005c 8019afc8  4 FUN_8019afc8 	Global
@@ -7245,14 +7247,14 @@
   801e9080 000108 801e9080  4 FUN_801e9080 	Global
   801e9188 0000a4 801e9188  4 FUN_801e9188 	Global
   801e922c 00002c 801e922c  4 FUN_801e922c 	Global
-  801e9258 0001c8 801e9258  4 FUN_801e9258 	Global
+  801e9258 0001c8 801e9258  4 OnClassInit__15XContainerClassP8XomClass 	Global
   801e9420 000094 801e9420  4 FUN_801e9420 	Global
   801e94b4 000098 801e94b4  4 FUN_801e94b4 	Global
   801e954c 00006c 801e954c  4 FUN_801e954c 	Global
   801e95b8 000160 801e95b8  4 FUN_801e95b8 	Global
   801e9718 0009c4 801e9718  4 FUN_801e9718 	Global
   801ea0e8 00018c 801ea0e8  4 FUN_801ea0e8 	Global
-  801ea274 00002c 801ea274  4 FUN_801ea274 	Global
+  801ea274 00002c 801ea274  4 GetEnumField__C15XContainerClassUi 	Global
   801ea2a0 0000a0 801ea2a0  4 FUN_801ea2a0 	Global
   801ea340 0000e8 801ea340  4 FUN_801ea340 	Global
   801ea434 000068 801ea434  4 FUN_801ea434 	Global
@@ -7260,8 +7262,8 @@
   801ea4e0 00000c 801ea4e0  4 FUN_801ea4e0 	Global
   801ea4ec 00005c 801ea4ec  4 FUN_801ea4ec 	Global
   801ea560 000048 801ea560  4 FUN_801ea560 	Global
-  801ea5a8 00004c 801ea5a8  4 FUN_801ea5a8 	Global
-  801ea5f4 000054 801ea5f4  4 FUN_801ea5f4 	Global
+  801ea5a8 00004c 801ea5a8  4 __10XContainerUi 	Global
+  801ea5f4 000054 801ea5f4  4 _$_10XContainer 	Global
   801ea648 00014c 801ea648  4 FUN_801ea648 	Global
   801ea794 000174 801ea794  4 FUN_801ea794 	Global
   801ea908 000024 801ea908  4 FUN_801ea908 	Global
@@ -7271,8 +7273,8 @@
   801eaa58 00012c 801eaa58  4 FUN_801eaa58 	Global
   801eab8c 000034 801eab8c  4 FUN_801eab8c 	Global
   801eabc0 000008 801eabc0  4 FUN_801eabc0 	Global
-  801eabc8 000034 801eabc8  4 FUN_801eabc8 	Global
-  801eabfc 000034 801eabfc  4 FUN_801eabfc 	Global
+  801eabc8 000034 801eabc8  4 __nw__10XContainerUi 	Global
+  801eabfc 000034 801eabfc  4 __dl__10XContainerPv 	Global
   801eac30 000150 801eac30  4 FUN_801eac30 	Global
   801ead94 00002c 801ead94  4 FUN_801ead94 	Global
   801eadcc 000044 801eadcc  4 FUN_801eadcc 	Global
@@ -7286,7 +7288,7 @@
   801eb564 000008 801eb564  4 FUN_801eb564 	Global
   801eb56c 00004c 801eb56c  4 FUN_801eb56c 	Global
   801eb5b8 000144 801eb5b8  4 FUN_801eb5b8 	Global
-  801eb6fc 00005c 801eb6fc  4 FUN_801eb6fc 	Global
+  801eb6fc 00005c 801eb6fc  4 GetCompositeElementCount__C16XFieldDescriptor 	Global
   801eb758 00000c 801eb758  4 FUN_801eb758 	Global
   801eb764 000070 801eb764  4 FUN_801eb764 	Global
   801eb7f4 000060 801eb7f4  4 FUN_801eb7f4 	Global
@@ -7295,32 +7297,32 @@
   801eb9a0 000054 801eb9a0  4 FUN_801eb9a0 	Global
   801eb9fc 00009c 801eb9fc  4 FUN_801eb9fc 	Global
   801eba98 000098 801eba98  4 FUN_801eba98 	Global
-  801ebb30 00008c 801ebb30  4 FUN_801ebb30 	Global
+  801ebb30 00008c 801ebb30  4 Initialize__17XSFBoolDescriptorP15XContainerClassPCQ217XSFBoolDescriptor9FieldInfo 	Global
   801ebbbc 00009c 801ebbbc  4 FUN_801ebbbc 	Global
   801ebc58 000098 801ebc58  4 FUN_801ebc58 	Global
-  801ebcf0 00008c 801ebcf0  4 FUN_801ebcf0 	Global
+  801ebcf0 00008c 801ebcf0  4 Initialize__18XSFUint8DescriptorP15XContainerClassPCQ218XSFUint8Descriptor9FieldInfo 	Global
   801ebd7c 00009c 801ebd7c  4 FUN_801ebd7c 	Global
   801ebe18 00009c 801ebe18  4 FUN_801ebe18 	Global
-  801ebeb4 00008c 801ebeb4  4 FUN_801ebeb4 	Global
+  801ebeb4 00008c 801ebeb4  4 Initialize__17XSFInt8DescriptorP15XContainerClassPCQ217XSFInt8Descriptor9FieldInfo 	Global
   801ebf40 00009c 801ebf40  4 FUN_801ebf40 	Global
   801ebfdc 000098 801ebfdc  4 FUN_801ebfdc 	Global
-  801ec074 00008c 801ec074  4 FUN_801ec074 	Global
+  801ec074 00008c 801ec074  4 Initialize__19XSFUint16DescriptorP15XContainerClassPCQ219XSFUint16Descriptor9FieldInfo 	Global
   801ec100 00009c 801ec100  4 FUN_801ec100 	Global
   801ec19c 000098 801ec19c  4 FUN_801ec19c 	Global
   801ec234 00008c 801ec234  4 FUN_801ec234 	Global
   801ec2c0 00009c 801ec2c0  4 FUN_801ec2c0 	Global
   801ec35c 000098 801ec35c  4 FUN_801ec35c 	Global
-  801ec3f4 00008c 801ec3f4  4 FUN_801ec3f4 	Global
+  801ec3f4 00008c 801ec3f4  4 Initialize__19XSFUint32DescriptorP15XContainerClassPCQ219XSFUint32Descriptor9FieldInfo 	Global
   801ec480 00009c 801ec480  4 FUN_801ec480 	Global
   801ec51c 000098 801ec51c  4 FUN_801ec51c 	Global
-  801ec5b4 00008c 801ec5b4  4 FUN_801ec5b4 	Global
+  801ec5b4 00008c 801ec5b4  4 Initialize__18XSFInt32DescriptorP15XContainerClassPCQ218XSFInt32Descriptor9FieldInfo 	Global
   801ec640 0000a0 801ec640  4 FUN_801ec640 	Global
   801ec6e0 00009c 801ec6e0  4 FUN_801ec6e0 	Global
   801ec77c 0000a0 801ec77c  4 FUN_801ec77c 	Global
   801ec81c 00009c 801ec81c  4 FUN_801ec81c 	Global
   801ec8b8 000098 801ec8b8  4 FUN_801ec8b8 	Global
   801ec950 000098 801ec950  4 FUN_801ec950 	Global
-  801ec9e8 00008c 801ec9e8  4 FUN_801ec9e8 	Global
+  801ec9e8 00008c 801ec9e8  4 Initialize__20XSFFloat32DescriptorP15XContainerClassPCQ220XSFFloat32Descriptor9FieldInfo 	Global
   801eca74 000098 801eca74  4 FUN_801eca74 	Global
   801ecb0c 000098 801ecb0c  4 FUN_801ecb0c 	Global
   801ecba4 00009c 801ecba4  4 FUN_801ecba4 	Global
@@ -7335,13 +7337,13 @@
   801ed128 00008c 801ed128  4 FUN_801ed128 	Global
   801ed1b4 00009c 801ed1b4  4 FUN_801ed1b4 	Global
   801ed250 000098 801ed250  4 FUN_801ed250 	Global
-  801ed2e8 00008c 801ed2e8  4 FUN_801ed2e8 	Global
+  801ed2e8 00008c 801ed2e8  4 Initialize__17XSFEnumDescriptorP15XContainerClassPCQ217XSFEnumDescriptor9FieldInfo 	Global
   801ed374 00009c 801ed374  4 FUN_801ed374 	Global
   801ed410 00009c 801ed410  4 FUN_801ed410 	Global
   801ed4ac 00017c 801ed4ac  4 FUN_801ed4ac 	Global
   801ed628 000044 801ed628  4 FUN_801ed628 	Global
   801ed66c 00009c 801ed66c  4 FUN_801ed66c 	Global
-  801ed708 000074 801ed708  4 FUN_801ed708 	Global
+  801ed708 000074 801ed708  4 Initialize__19XSFStringDescriptorP15XContainerClassPCQ219XSFStringDescriptor9FieldInfo 	Global
   801ed77c 0000b4 801ed77c  4 FUN_801ed77c 	Global
   801ed830 000084 801ed830  4 FUN_801ed830 	Global
   801ed8b4 000084 801ed8b4  4 FUN_801ed8b4 	Global
@@ -7391,11 +7393,11 @@
   801ef154 000174 801ef154  4 FUN_801ef154 	Global
   801ef2c8 000184 801ef2c8  4 FUN_801ef2c8 	Global
   801ef44c 0000b8 801ef44c  4 FUN_801ef44c 	Global
-  801ef504 00012c 801ef504  4 FUN_801ef504 	Global
-  801ef630 00008c 801ef630  4 FUN_801ef630 	Global
+  801ef504 00012c 801ef504  4 XomDoEditMF__FPP8XomArrayUiUiUi 	Global
+  801ef630 00008c 801ef630  4 XomAppendMFCtr__FP10XContainerUiUiT0 	Global
   801ef6bc 0000ec 801ef6bc  4 FUN_801ef6bc 	Global
   801ef7a8 000094 801ef7a8  4 FUN_801ef7a8 	Global
-  801ef83c 0000dc 801ef83c  4 FUN_801ef83c 	Global
+  801ef83c 0000dc 801ef83c  4 XomRemoveMFCtr__FP10XContainerUiUiUiUi 	Global
   801ef918 00011c 801ef918  4 FUN_801ef918 	Global
   801efa34 000054 801efa34  4 FUN_801efa34 	Global
   801efa88 000004 801efa88  4 FUN_801efa88 	Global
@@ -7412,14 +7414,14 @@
   801f0254 000064 801f0254  4 FUN_801f0254 	Global
   801f02b8 000064 801f02b8  4 FUN_801f02b8 	Global
   801f031c 000064 801f031c  4 FUN_801f031c 	Global
-  801f0380 000064 801f0380  4 FUN_801f0380 	Global
+  801f0380 000064 801f0380  4 Initialize__20XMFFloat32DescriptorP15XContainerClassPCQ216XFieldDescriptor9FieldInfo 	Global
   801f03e4 000064 801f03e4  4 FUN_801f03e4 	Global
   801f0448 000064 801f0448  4 FUN_801f0448 	Global
-  801f04ac 000064 801f04ac  4 FUN_801f04ac 	Global
+  801f04ac 000064 801f04ac  4 Initialize__19XMFStringDescriptorP15XContainerClassPCQ216XFieldDescriptor9FieldInfo 	Global
   801f0510 00009c 801f0510  4 FUN_801f0510 	Global
   801f05ac 000084 801f05ac  4 FUN_801f05ac 	Global
   801f0630 00009c 801f0630  4 FUN_801f0630 	Global
-  801f06cc 000084 801f06cc  4 FUN_801f06cc 	Global
+  801f06cc 000084 801f06cc  4 Initialize__21XSFVector3fDescriptorP15XContainerClassPCQ221XSFVector3fDescriptor9FieldInfo 	Global
   801f0750 00009c 801f0750  4 FUN_801f0750 	Global
   801f07ec 00009c 801f07ec  4 FUN_801f07ec 	Global
   801f0888 00009c 801f0888  4 FUN_801f0888 	Global
@@ -8260,7 +8262,7 @@
   8020bb10 000048 8020bb10  4 FUN_8020bb10 	Global
   8020bb58 00002c 8020bb58  4 FUN_8020bb58 	Global
   8020bb84 000038 8020bb84  4 FUN_8020bb84 	Global
-  8020bbbc 000040 8020bbbc  4 FUN_8020bbbc 	Global
+  8020bbbc 000040 8020bbbc  4 XomInternalCreateInstance__FRC5_GUID 	Global
   8020bbfc 000028 8020bbfc  4 FUN_8020bbfc 	Global
   8020bc24 000174 8020bc24  4 FUN_8020bc24 	Global
   8020bd98 000028 8020bd98  4 FUN_8020bd98 	Global
@@ -8271,26 +8273,26 @@
   8020bfbc 00002c 8020bfbc  4 FUN_8020bfbc 	Global
   8020bff0 000034 8020bff0  4 FUN_8020bff0 	Global
   8020c024 000044 8020c024  4 FUN_8020c024 	Global
-  8020c068 000028 8020c068  4 FUN_8020c068 	Global
-  8020c090 000098 8020c090  4 FUN_8020c090 	Global
+  8020c068 000028 8020c068  4 FreeRep__10XStringRep 	Global
+  8020c090 000098 8020c090  4 __7XStringPCc 	Global
   8020c128 00009c 8020c128  4 FUN_8020c128 	Global
   8020c1c4 000038 8020c1c4  4 FUN_8020c1c4 	Global
   8020c1fc 000078 8020c1fc  4 FUN_8020c1fc 	Global
-  8020c274 000020 8020c274  4 FUN_8020c274 	Global
+  8020c274 000020 8020c274  4 __as__7XStringPCc 	Global
   8020c294 00009c 8020c294  4 FUN_8020c294 	Global
   8020c330 0000a0 8020c330  4 FUN_8020c330 	Global
   8020c3d0 000098 8020c3d0  4 FUN_8020c3d0 	Global
-  8020c468 0000e0 8020c468  4 FUN_8020c468 	Global
+  8020c468 0000e0 8020c468  4 __apl__7XStringPCc 	Global
   8020c548 00003c 8020c548  4 FUN_8020c548 	Global
   8020c584 0000b4 8020c584  4 FUN_8020c584 	Global
   8020c638 000134 8020c638  4 FUN_8020c638 	Global
   8020c76c 0000b8 8020c76c  4 FUN_8020c76c 	Global
   8020c824 0000b8 8020c824  4 FUN_8020c824 	Global
   8020c8dc 00009c 8020c8dc  4 FUN_8020c8dc 	Global
-  8020c978 0000d4 8020c978  4 FUN_8020c978 	Global
-  8020ca4c 0000b0 8020ca4c  4 FUN_8020ca4c 	Global
-  8020cafc 000004 8020cafc  4 FUN_8020cafc 	Global
-  8020cb00 000004 8020cb00  4 FUN_8020cb00 	Global
+  8020c978 0000d4 8020c978  4 Extend__7XStringPCcUi 	Global
+  8020ca4c 0000b0 8020ca4c  4 PrintF__7XStringPCce 	Global
+  8020cafc 000004 8020cafc  4 AddInstance__7XString 	Global
+  8020cb00 000004 8020cb00  4 RemoveInstance__7XString 	Global
   8020cb04 000004 8020cb04  4 FUN_8020cb04 	Global
   8020cb08 000054 8020cb08  4 FUN_8020cb08 	Global
   8020cb5c 000084 8020cb5c  4 FUN_8020cb5c 	Global
@@ -8458,7 +8460,7 @@
   80213288 000044 80213288  4 FUN_80213288 	Global
   802132cc 000058 802132cc  4 FUN_802132cc 	Global
   80213324 0001ec 80213324  4 FUN_80213324 	Global
-  80213510 000528 80213510  4 FUN_80213510 	Global
+  80213510 000528 80213510  4 malloc 	Global
   80213a38 000128 80213a38  4 free 	Global
   80213b60 00012c 80213b60  4 FUN_80213b60 	Global
   80213c8c 00033c 80213c8c  4 FUN_80213c8c 	Global
@@ -9417,7 +9419,7 @@
   8023e39c 000098 8023e39c  4 FUN_8023e39c 	Global
   8023e434 00007c 8023e434  4 FUN_8023e434 	Global
   8023e4b0 000140 8023e4b0  4 FUN_8023e4b0 	Global
-  8023e5f0 000644 8023e5f0  4 FUN_8023e5f0 	Global
+  8023e5f0 000644 8023e5f0  4 __static_initialization_and_destruction_0 	Global
   8023ec34 00005c 8023ec34  4 FUN_8023ec34 	Global
   8023ec94 00005c 8023ec94  4 FUN_8023ec94 	Global
   8023ecf4 00005c 8023ecf4  4 FUN_8023ecf4 	Global
@@ -9509,27 +9511,29 @@
   80241eb8 000068 80241eb8  4 FUN_80241eb8 	Global
   80241f28 000068 80241f28  4 FUN_80241f28 	Global
   80241f98 000068 80241f98  4 FUN_80241f98 	Global
-  80242008 00002c 80242008  4 FUN_80242008 	Global
-  80242040 000068 80242040  4 FUN_80242040 	Global
-  802420a8 000044 802420a8  4 FUN_802420a8 	Global
-  802420ec 0002a0 802420ec  4 FUN_802420ec 	Global
-  8024238c 000090 8024238c  4 FUN_8024238c 	Global
-  8024241c 0008a4 8024241c  4 FUN_8024241c 	Global
-  80242ccc 000068 80242ccc  4 FUN_80242ccc 	Global
-  80242d34 000044 80242d34  4 FUN_80242d34 	Global
-  80242d78 0000d8 80242d78  4 FUN_80242d78 	Global
-  80242e50 00007c 80242e50  4 FUN_80242e50 	Global
-  80242ecc 000230 80242ecc  4 FUN_80242ecc 	Global
-  80243108 000068 80243108  4 FUN_80243108 	Global
-  80243170 000044 80243170  4 FUN_80243170 	Global
-  802431b4 00005c 802431b4  4 FUN_802431b4 	Global
-  80243210 000070 80243210  4 FUN_80243210 	Global
-  80243280 0000c4 80243280  4 FUN_80243280 	Global
-  80243350 000068 80243350  4 FUN_80243350 	Global
-  802433b8 000044 802433b8  4 FUN_802433b8 	Global
-  802433fc 0003ec 802433fc  4 FUN_802433fc 	Global
-  802437e8 000120 802437e8  4 FUN_802437e8 	Global
-  80243908 000df4 80243908  4 FUN_80243908 	Global
+  80242008 00002c 80242008  4 _GLOBAL_$I$_10BaseNetMsg$c_typeinfodata 	Global
+  80242040 000068 80242040  4 CreateInstance___17WormDataContainer 	Global
+  802420a8 000044 802420a8  4 OnFinalRelease__17WormDataContainer 	Global
+  802420ec 0002a0 802420ec  4 __17WormDataContainerUi 	Global
+  8024238c 000090 8024238c  4 _$_17WormDataContainer 	Global
+  8024241c 0008a4 8024241c  4 InitClass__17WormDataContainerP8XomClass 	Global
+  80242ccc 000068 80242ccc  4 CreateInstance___17TeamDataContainer 	Global
+  80242d34 000044 80242d34  4 OnFinalRelease__17TeamDataContainer 	Global
+  80242d78 0000d8 80242d78  4 __17TeamDataContainerUi 	Global
+  80242e50 00007c 80242e50  4 _$_17TeamDataContainer 	Global
+  80242ecc 000230 80242ecc  4 InitClass__17TeamDataContainerP8XomClass 	Global
+  80243108 000068 80243108  4 CreateInstance___27SingleLevelDetailsContainer 	Global
+  80243170 000044 80243170  4 OnFinalRelease__27SingleLevelDetailsContainer 	Global
+  802431b4 00005c 802431b4  4 __27SingleLevelDetailsContainerUi 	Global
+  80243210 000070 80243210  4 _$_27SingleLevelDetailsContainer 	Global
+  80243280 0000c4 80243280  4 InitClass__27SingleLevelDetailsContainerP8XomClass 	Global
+  80243344 00000c 80243344  4 GetClass__C24ParticleEmitterContainer 	Global
+  80243350 000068 80243350  4 CreateInstance___24ParticleEmitterContainer 	Global
+  802433b8 000044 802433b8  4 OnFinalRelease__24ParticleEmitterContainer 	Global
+  802433fc 0003ec 802433fc  4 __24ParticleEmitterContainerUi 	Global
+  802437e8 000120 802437e8  4 _$_24ParticleEmitterContainer 	Global
+  80243908 000df4 80243908  4 InitClass__24ParticleEmitterContainerP8XomClass 	Global
+  802446fc 00000c 802446fc  4 GetClass__C32ParticleColliderEmitterContainer 	Global
   80244708 000068 80244708  4 FUN_80244708 	Global
   80244770 000044 80244770  4 FUN_80244770 	Global
   802447b4 000088 802447b4  4 FUN_802447b4 	Global
@@ -9617,7 +9621,7 @@
   802486d8 0001f4 802486d8  4 FUN_802486d8 	Global
   802488cc 0003dc 802488cc  4 FUN_802488cc 	Global
   80248ca8 00005c 80248ca8  4 FUN_80248ca8 	Global
-  80248d04 00026c 80248d04  4 FUN_80248d04 	Global
+  80248d04 00026c 80248d04  4 Reset__17WormDataContainer 	Global
   80248f70 00005c 80248f70  4 FUN_80248f70 	Global
   80248fcc 00005c 80248fcc  4 FUN_80248fcc 	Global
   80249028 00005c 80249028  4 FUN_80249028 	Global
@@ -10275,39 +10279,41 @@
   8027e96c 00005c 8027e96c  4 FUN_8027e96c 	Global
   8027e9e0 0000dc 8027e9e0  4 FUN_8027e9e0 	Global
   8027eabc 00029c 8027eabc  4 FUN_8027eabc 	Global
-  8027ed58 00045c 8027ed58  4 FUN_8027ed58 	Global
-  8027f1bc 00016c 8027f1bc  4 FUN_8027f1bc 	Global
-  8027f328 00000c 8027f328  4 FUN_8027f328 	Global
-  8027f334 000080 8027f334  4 FUN_8027f334 	Global
-  8027f3b4 00011c 8027f3b4  4 FUN_8027f3b4 	Global
-  8027f4d0 000234 8027f4d0  4 FUN_8027f4d0 	Global
-  8027f704 000234 8027f704  4 FUN_8027f704 	Global
-  8027f938 0007a0 8027f938  4 FUN_8027f938 	Global
-  802800d8 00068c 802800d8  4 FUN_802800d8 	Global
-  80280764 000820 80280764  4 FUN_80280764 	Global
-  80280f84 000190 80280f84  4 FUN_80280f84 	Global
-  80281114 000168 80281114  4 FUN_80281114 	Global
-  8028127c 000274 8028127c  4 FUN_8028127c 	Global
-  802814f0 0001b4 802814f0  4 FUN_802814f0 	Global
-  802816a4 0001a4 802816a4  4 FUN_802816a4 	Global
-  80281848 000794 80281848  4 FUN_80281848 	Global
-  80281fdc 000e9c 80281fdc  4 FUN_80281fdc 	Global
-  80282e78 000174 80282e78  4 FUN_80282e78 	Global
-  80282fec 000174 80282fec  4 FUN_80282fec 	Global
-  80283160 000334 80283160  4 FUN_80283160 	Global
-  80283494 000004 80283494  4 FUN_80283494 	Global
+  8027ed58 00045c 8027ed58  4 HandleMessage__14MissionServicePC7Message 	Global
+  8027f1bc 00016c 8027f1bc  4 Initialize__14MissionService 	Global
+  8027f328 00000c 8027f328  4 Cleanup__14MissionService 	Global
+  8027f334 000080 8027f334  4 GetMissionCount__14MissionService13LevelTypeEnum 	Global
+  8027f3b4 00011c 8027f3b4  4 GetMissionID__14MissionService13LevelTypeEnumUi 	Global
+  8027f4d0 000234 8027f4d0  4 GetMissionName__14MissionService13LevelTypeEnumUi 	Global
+  8027f704 000234 8027f704  4 GetMissionDesc__14MissionService13LevelTypeEnumUi 	Global
+  8027f938 0007a0 8027f938  4 AddTeamToCampaign__14MissionServicePCc 	Global
+  802800d8 00068c 802800d8  4 AddTeamToChallenge__14MissionServicePCc 	Global
+  80280764 000820 80280764  4 SetMissionDetails__14MissionService 	Global
+  80280f84 000190 80280f84  4 GetTopCampaignForTeam__14MissionServiceG7XString 	Global
+  80281114 000168 80281114  4 GetTopTutorialForTeam__14MissionServiceG7XString 	Global
+  8028127c 000274 8028127c  4 InitMission__14MissionService13LevelTypeEnum 	Global
+  802814f0 0001b4 802814f0  4 NextMission__14MissionService 	Global
+  802816a4 0001a4 802816a4  4 PreviousMission__14MissionService 	Global
+  80281848 000794 80281848  4 AddTeamToTutorial__14MissionServicePCc 	Global
+  80281fdc 000e9c 80281fdc  4 SetReturnText__14MissionService 	Global
+  80282e78 000174 80282e78  4 NextPed__14MissionService 	Global
+  80282fec 000174 80282fec  4 PrevPed__14MissionService 	Global
+  80283160 000334 80283160  4 GetPed__14MissionService 	Global
+  80283494 000004 80283494  4 PlayPedMovie__14MissionService 	Global
   80283498 000144 80283498  4 FUN_80283498 	Global
-  802835dc 00024c 802835dc  4 FUN_802835dc 	Global
+  802835dc 00024c 802835dc  4 ReInitMission__14MissionService13LevelTypeEnum 	Global
   80283828 001154 80283828  4 FUN_80283828 	Global
-  8028497c 000460 8028497c  4 FUN_8028497c 	Global
-  80284ddc 0001fc 80284ddc  4 FUN_80284ddc 	Global
+  8028497c 000460 8028497c  4 GetLockedResults__14MissionService 	Global
+  80284ddc 0001fc 80284ddc  4 GetMissionImage__14MissionService13LevelTypeEnumUi 	Global
   80284fd8 0000e4 80284fd8  4 FUN_80284fd8 	Global
   802850bc 000108 802850bc  4 FUN_802850bc 	Global
-  802851c4 000198 802851c4  4 FUN_802851c4 	Global
+  802851c4 000198 802851c4  4 NoTeamInGame__14MissionService 	Global
   8028535c 00014c 8028535c  4 FUN_8028535c 	Global
-  802854a8 0027dc 802854a8  4 FUN_802854a8 	Global
+  802854a8 0027dc 802854a8  4 PrepareData__14MissionServicePCc 	Global
   80287c84 0001a0 80287c84  4 FUN_80287c84 	Global
-  80287e24 0001b8 80287e24  4 FUN_80287e24 	Global
+  80287e24 0001b8 80287e24  4 IsThisLocked__14MissionServiceG7XString 	Global
+  80287ee8 000001 80287ee8  8 second_check 	Global
+  80287fb4 000001 80287fb4  8 exit 	Global
   80287fdc 000100 80287fdc  4 FUN_80287fdc 	Global
   802880dc 00002c 802880dc  4 FUN_802880dc 	Global
   80288114 000044 80288114  4 FUN_80288114 	Global
@@ -10556,7 +10562,7 @@
   8029f3a8 00080c 8029f3a8  4 FUN_8029f3a8 	Global
   8029fbb4 00010c 8029fbb4  4 FUN_8029fbb4 	Global
   8029fcc0 00017c 8029fcc0  4 FUN_8029fcc0 	Global
-  8029fe3c 000440 8029fe3c  4 FUN_8029fe3c 	Global
+  8029fe3c 000440 8029fe3c  4 AddStrings__13TextBoxEntityPCcff 	Global
   802a027c 000064 802a027c  4 FUN_802a027c 	Global
   802a02e0 000050 802a02e0  4 FUN_802a02e0 	Global
   802a0330 000070 802a0330  4 FUN_802a0330 	Global
@@ -11129,7 +11135,7 @@
   802cca3c 000074 802cca3c  4 FUN_802cca3c 	Global
   802ccab0 00007c 802ccab0  4 FUN_802ccab0 	Global
   802ccb2c 00007c 802ccb2c  4 FUN_802ccb2c 	Global
-  802ccba8 000120 802ccba8  4 FUN_802ccba8 	Global
+  802ccba8 000120 802ccba8  4 ApplyDeletes__12TelnetObjectPCc 	Global
   802cccc8 00009c 802cccc8  4 FUN_802cccc8 	Global
   802ccd64 000054 802ccd64  4 FUN_802ccd64 	Global
   802ccdb8 00030c 802ccdb8  4 FUN_802ccdb8 	Global
@@ -11682,10 +11688,15 @@
   802e3b90 000058 802e3b90  4 FUN_802e3b90 	Global
   802e3c6c 000050 802e3c6c  4 FUN_802e3c6c 	Global
   802e3cbc 000234 802e3cbc  4 FUN_802e3cbc 	Global
-  802e468c 000064 802e468c  4 FUN_802e468c 	Global
+  802e3f04 0006ac 802e3f04  4 FUN_802e3f04 	Global
+  802e468c 000024 802e468c  4 FUN_802e468c 	Global
+  802e46b0 000040 802e46b0  4 FUN_802e46b0 	Global
   802e4730 000044 802e4730  4 FUN_802e4730 	Global
   802e4774 0001c4 802e4774  4 FUN_802e4774 	Global
+  802e4938 0001c4 802e4938  4 FUN_802e4938 	Global
+  802e4afc 000214 802e4afc  4 FUN_802e4afc 	Global
   802e5050 00013c 802e5050  4 FUN_802e5050 	Global
+  802e5290 00010c 802e5290  4 FUN_802e5290 	Global
   802e5404 000074 802e5404  4 FUN_802e5404 	Global
   802e5478 00002c 802e5478  4 FUN_802e5478 	Global
   802e54a4 000004 802e54a4  4 thunk_FUN_802e5478 	Global
@@ -11758,9 +11769,9 @@
   802eaf08 00088c 802eaf08  4 FUN_802eaf08 	Global
   802eb794 000008 802eb794  4 FUN_802eb794 	Global
   802eb79c 0000b8 802eb79c  4 FUN_802eb79c 	Global
-  802eb854 0000f4 802eb854  4 FUN_802eb854 	Global
+  802eb854 0000f4 802eb854  4 fflush 	Global
   802eb948 00005c 802eb948  4 FUN_802eb948 	Global
-  802eb9a4 0000b0 802eb9a4  4 FUN_802eb9a4 	Global
+  802eb9a4 0000b0 802eb9a4  4 __sinit 	Global
   802eba54 000144 802eba54  4 FUN_802eba54 	Global
   802ebb98 0000ec 802ebb98  4 FUN_802ebb98 	Global
   802ebc84 000030 802ebc84  4 FUN_802ebc84 	Global
@@ -11770,8 +11781,8 @@
   802ebdc8 00002c 802ebdc8  4 FUN_802ebdc8 	Global
   802ebdf4 0000e0 802ebdf4  4 FUN_802ebdf4 	Global
   802ebed4 0003e4 802ebed4  4 FUN_802ebed4 	Global
-  802ec2b8 00037c 802ec2b8  4 FUN_802ec2b8 	Global
-  802ec634 000080 802ec634  4 FUN_802ec634 	Global
+  802ec2b8 00037c 802ec2b8  4 __sfvwrite 	Global
+  802ec634 000080 802ec634  4 _fwalk 	Global
   802ec6b4 0000d8 802ec6b4  4 FUN_802ec6b4 	Global
   802ec78c 0000ac 802ec78c  4 FUN_802ec78c 	Global
   802ec838 000020 802ec838  4 FUN_802ec838 	Global
@@ -11788,7 +11799,7 @@
   802edcdc 0000d4 802edcdc  4 FUN_802edcdc 	Global
   802eddb0 00005c 802eddb0  4 vsprintf 	Global
   802ede0c 000074 802ede0c  4 FUN_802ede0c 	Global
-  802ede80 0000e8 802ede80  4 FUN_802ede80 	Global
+  802ede80 0000e8 802ede80  4 __swsetup 	Global
   802edf68 000018 802edf68  4 FUN_802edf68 	Global
   802edf80 000030 802edf80  4 FUN_802edf80 	Global
   802edfb0 000098 802edfb0  4 FUN_802edfb0 	Global
@@ -11806,21 +11817,21 @@
   802eefd0 000330 802eefd0  4 FUN_802eefd0 	Global
   802ef300 000198 802ef300  4 FUN_802ef300 	Global
   802ef498 000038 802ef498  4 FUN_802ef498 	Global
-  802ef4d0 0000c0 802ef4d0  4 FUN_802ef4d0 	Global
+  802ef4d0 0000c0 802ef4d0  4 memchr 	Global
   802ef590 000090 802ef590  4 FUN_802ef590 	Global
   802ef620 0000a4 802ef620  4 memcpy 	Global
-  802ef6c4 0000ec 802ef6c4  4 FUN_802ef6c4 	Global
-  802ef7b0 000094 802ef7b0  4 FUN_802ef7b0 	Global
+  802ef6c4 0000ec 802ef6c4  4 memmove 	Global
+  802ef7b0 000094 802ef7b0  4 memset 	Global
   802ef844 000004 802ef844  4 thunk_FUN_802ef850 	Global
   802ef850 000090 802ef850  4 FUN_802ef850 	Global
   802ef8d8 000090 802ef8d8  4 FUN_802ef8d8 	Global
-  802ef968 00009c 802ef968  4 FUN_802ef968 	Global
-  802efa04 0000a8 802efa04  4 FUN_802efa04 	Global
+  802ef968 00009c 802ef968  4 strchr 	Global
+  802efa04 0000a8 802efa04  4 strcmp 	Global
   802efaac 000020 802efaac  4 FUN_802efaac 	Global
   802efacc 000084 802efacc  4 FUN_802efacc 	Global
   802efb50 000070 802efb50  4 FUN_802efb50 	Global
   802efbc0 0005d0 802efbc0  4 FUN_802efbc0 	Global
-  802f0190 00006c 802f0190  4 FUN_802f0190 	Global
+  802f0190 00006c 802f0190  4 strlen 	Global
   802f01fc 000044 802f01fc  4 FUN_802f01fc 	Global
   802f0240 0000ac 802f0240  4 FUN_802f0240 	Global
   802f02ec 0000e0 802f02ec  4 FUN_802f02ec 	Global
@@ -12826,7 +12837,7 @@
   80340470 000004 80340470  4 FUN_80340470 	Global
   80340474 00004c 80340474  4 FUN_80340474 	Global
   803404c0 000040 803404c0  4 FUN_803404c0 	Global
-  80340500 000044 80340500  4 FUN_80340500 	Global
+  80340500 000044 80340500  4 _S_oom_malloc__Q24_STLt14__malloc_alloc1i0Ui 	Global
   80340544 00002c 80340544  4 FUN_80340544 	Global
   80340570 000004 80340570  4 FUN_80340570 	Global
   80340574 000004 80340574  4 FUN_80340574 	Global
@@ -12834,7 +12845,7 @@
   803405dc 000064 803405dc  4 FUN_803405dc 	Global
   80340640 00006c 80340640  4 FUN_80340640 	Global
   803406ac 000004 803406ac  4 xom_instance_interface__H1Z18XContainerResource_P24IXDataResourceDescriptor_PX01 	Global
-  803406b0 000040 803406b0  4 FUN_803406b0 	Global
+  803406b0 000040 803406b0  4 Release__7XString 	Global
   803406f0 000044 803406f0  4 FUN_803406f0 	Global
   80340734 000044 80340734  4 FUN_80340734 	Global
   80340778 000044 80340778  4 FUN_80340778 	Global
@@ -12842,7 +12853,7 @@
   80340838 00007c 80340838  4 FUN_80340838 	Global
   803408b4 00007c 803408b4  4 FUN_803408b4 	Global
   80340930 00007c 80340930  4 FUN_80340930 	Global
-  803409ac 00000c 803409ac  4 FUN_803409ac 	Global
+  803409ac 00000c 803409ac  4 GetRep__C7XString 	Global
   803409b8 000044 803409b8  4 FUN_803409b8 	Global
   803409fc 000044 803409fc  4 FUN_803409fc 	Global
   80340a40 000044 80340a40  4 FUN_80340a40 	Global
@@ -12897,7 +12908,7 @@
   80341754 000044 80341754  4 FUN_80341754 	Global
   80341798 000044 80341798  4 FUN_80341798 	Global
   803417dc 000004 803417dc  4 FUN_803417dc 	Global
-  803417e0 000070 803417e0  4 FUN_803417e0 	Global
+  803417e0 000070 803417e0  4 __7XString 	Global
   80341850 000008 80341850  4 FUN_80341850 	Global
   80341858 000058 80341858  4 FUN_80341858 	Global
   803418b0 000044 803418b0  4 FUN_803418b0 	Global
@@ -12915,8 +12926,8 @@
   80341ba0 000004 80341ba0  4 FUN_80341ba0 	Global
   80341ba4 0000e4 80341ba4  4 FUN_80341ba4 	Global
   80341c88 00004c 80341c88  4 FUN_80341c88 	Global
-  80341cd4 000230 80341cd4  4 FUN_80341cd4 	Global
-  80341f04 0001c8 80341f04  4 FUN_80341f04 	Global
+  80341cd4 000230 80341cd4  4 _M_fill_insert__Q24_STLt6vector2ZfZt15arena_allocator2ZfZ11AiAllocatorPfUiRCf 	Global
+  80341f04 0001c8 80341f04  4 _M_fill_insert__Q24_STLt6vector2ZUcZt15arena_allocator2ZUcZ11AiAllocatorPUcUiRCUc 	Global
   803420cc 000004 803420cc  4 FUN_803420cc 	Global
   803420d8 000044 803420d8  4 FUN_803420d8 	Global
   8034211c 000080 8034211c  4 FUN_8034211c 	Global
@@ -12970,10 +12981,10 @@
   80343300 0000a0 80343300  4 FUN_80343300 	Global
   803433a0 00003c 803433a0  4 FUN_803433a0 	Global
   803433dc 0000a8 803433dc  4 __t11XTempString1i32PCce 	Global
-  80343484 000004 80343484  4 FUN_80343484 	Global
+  80343484 000004 80343484  4 xom_descriptor_cast__H1Z15XTextDescriptor_P24IXBaseResourceDescriptor_PX01 	Global
   80343488 000020 80343488  4 FUN_80343488 	Global
-  803434a8 000258 803434a8  4 FUN_803434a8 	Global
-  80343700 000108 80343700  4 FUN_80343700 	Global
+  803434a8 000258 803434a8  4 _M_fill_insert__Q24_STLt6vector2ZUiZQ24_STLt9allocator1ZUiPUiUiRCUi 	Global
+  80343700 000108 80343700  4 reserve__Q24_STLt6vector2ZUiZQ24_STLt9allocator1ZUiUi 	Global
   80343808 000008 80343808  4 FUN_80343808 	Global
   80343810 000068 80343810  4 FUN_80343810 	Global
   80343878 000084 80343878  4 FUN_80343878 	Global
@@ -12998,7 +13009,7 @@
   80345824 000308 80345824  4 FUN_80345824 	Global
   80345b2c 000260 80345b2c  4 FUN_80345b2c 	Global
   80345d8c 00028c 80345d8c  4 FUN_80345d8c 	Global
-  80346018 00025c 80346018  4 FUN_80346018 	Global
+  80346018 00025c 80346018  4 _M_fill_insert__Q24_STLt6vector2ZUsZQ24_STLt9allocator1ZUsPUsUiRCUs 	Global
   80346274 000048 80346274  4 FUN_80346274 	Global
   803462bc 0000ac 803462bc  4 FUN_803462bc 	Global
   80346368 0000e4 80346368  4 FUN_80346368 	Global
@@ -13046,7 +13057,7 @@
   80349e78 000134 80349e78  4 FUN_80349e78 	Global
   80349fac 000070 80349fac  4 FUN_80349fac 	Global
   8034a01c 00009c 8034a01c  4 FUN_8034a01c 	Global
-  8034a0b8 000468 8034a0b8  4 FUN_8034a0b8 	Global
+  8034a0b8 000468 8034a0b8  4 UpdateScheduledTasks__Q311TaskManager8TaskTree13ScheduleStatePQ311TaskManager8TaskTree13ScheduleStateUiUi 	Global
   8034a520 000010 8034a520  4 FUN_8034a520 	Global
   8034a530 000010 8034a530  4 FUN_8034a530 	Global
   8034a540 00007c 8034a540  4 FUN_8034a540 	Global
@@ -13088,13 +13099,13 @@
   8034e2b8 000010 8034e2b8  4 FUN_8034e2b8 	Global
   8034e2c8 0002dc 8034e2c8  4 FUN_8034e2c8 	Global
   8034e5a4 0003a0 8034e5a4  4 FUN_8034e5a4 	Global
-  8034e944 0001cc 8034e944  4 FUN_8034e944 	Global
-  8034eb10 0007c4 8034eb10  4 FUN_8034eb10 	Global
-  8034f2d4 00069c 8034f2d4  4 FUN_8034f2d4 	Global
-  8034f970 000230 8034f970  4 FUN_8034f970 	Global
-  8034fba0 000230 8034fba0  4 FUN_8034fba0 	Global
-  8034fdd0 000130 8034fdd0  4 FUN_8034fdd0 	Global
-  8034ff00 0007c8 8034ff00  4 FUN_8034ff00 	Global
+  8034e944 0001cc 8034e944  4 __as__Q24_STLt6vector2ZQ213XAnimInstance20CurveEvaluationCacheZt15arena_allocator2ZQ213XAnimInstance20CurveEvaluationCacheZ13AnimAllocatorRCQ24_STLt6vector2ZQ213XAnimInstance20CurveEvaluationCacheZt15arena_allocator2ZQ213XAnimInstance20CurveEvaluationCacheZ13AnimAllocator 	Global
+  8034eb10 0007c4 8034eb10  4 _M_fill_insert__Q24_STLt6vector2ZQ213XAnimInstance19ClipEvaluationCacheZt15arena_allocator2ZQ213XAnimInstance19ClipEvaluationCacheZ13AnimAllocatorPQ213XAnimInstance19ClipEvaluationCacheUiRCQ213XAnimInstance19ClipEvaluationCache 	Global
+  8034f2d4 00069c 8034f2d4  4 _M_fill_insert__Q24_STLt6vector2ZQ213XAnimInstance14AttributeEntryZt15arena_allocator2ZQ213XAnimInstance14AttributeEntryZ13AnimAllocatorPQ213XAnimInstance14AttributeEntryUiRCQ213XAnimInstance14AttributeEntry 	Global
+  8034f970 000230 8034f970  4 _M_fill_insert__Q24_STLt6vector2ZfZt15arena_allocator2ZfZ13AnimAllocatorPfUiRCf 	Global
+  8034fba0 000230 8034fba0  4 _M_fill_insert__Q24_STLt6vector2ZUiZt15arena_allocator2ZUiZ13AnimAllocatorPUiUiRCUi 	Global
+  8034fdd0 000130 8034fdd0  4 __as__Q24_STLt6vector2ZUiZt15arena_allocator2ZUiZ13AnimAllocatorRCQ24_STLt6vector2ZUiZt15arena_allocator2ZUiZ13AnimAllocator 	Global
+  8034ff00 0007c8 8034ff00  4 _M_fill_insert__Q24_STLt6vector2ZQ214XAnimScheduler17ClipAttributeMaskZt15arena_allocator2ZQ214XAnimScheduler17ClipAttributeMaskZ13AnimAllocatorPQ214XAnimScheduler17ClipAttributeMaskUiRCQ214XAnimScheduler17ClipAttributeMask 	Global
   803506c8 00000c 803506c8  4 FUN_803506c8 	Global
   803506d4 000164 803506d4  4 FUN_803506d4 	Global
   80350838 000094 80350838  4 FUN_80350838 	Global
@@ -13141,7 +13152,7 @@
   803526dc 000050 803526dc  4 FUN_803526dc 	Global
   8035272c 000068 8035272c  4 FUN_8035272c 	Global
   80352794 000064 80352794  4 FUN_80352794 	Global
-  803527f8 0001b0 803527f8  4 FUN_803527f8 	Global
+  803527f8 0001b0 803527f8  4 _M_reallocate_map__Q24_STLt5deque2ZP10XContainerZQ24_STLt9allocator1ZP10XContainerUib 	Global
   803529a8 0000b0 803529a8  4 FUN_803529a8 	Global
   80352a58 0000c8 80352a58  4 FUN_80352a58 	Global
   80352b20 0000d8 80352b20  4 FUN_80352b20 	Global
@@ -13151,8 +13162,8 @@
   80352da0 000030 80352da0  4 FUN_80352da0 	Global
   80352dd0 000074 80352dd0  4 FUN_80352dd0 	Global
   80352e44 000128 80352e44  4 FUN_80352e44 	Global
-  80352f6c 000030 80352f6c  4 FUN_80352f6c 	Global
-  80352f9c 0000a4 80352f9c  4 FUN_80352f9c 	Global
+  80352f6c 000030 80352f6c  4 __unguarded_linear_insert__H3ZPPQ215XCullSortAction10ShapeEntryZPQ215XCullSortAction10ShapeEntryZQ315XCullSortAction10ShapeEntry7Compare_4_STLX01X11X21_v 	Global
+  80352f9c 0000a4 80352f9c  4 __insertion_sort__H2ZPPQ215XCullSortAction10ShapeEntryZQ315XCullSortAction10ShapeEntry7Compare_4_STLX01X01X11_v 	Global
   80353040 000058 80353040  4 FUN_80353040 	Global
   80353098 000080 80353098  4 FUN_80353098 	Global
   80353118 000090 80353118  4 FUN_80353118 	Global
@@ -13163,8 +13174,8 @@
   80353474 000030 80353474  4 FUN_80353474 	Global
   803534a4 00008c 803534a4  4 FUN_803534a4 	Global
   80353530 000158 80353530  4 FUN_80353530 	Global
-  80353688 00004c 80353688  4 FUN_80353688 	Global
-  803536d4 0000b0 803536d4  4 FUN_803536d4 	Global
+  80353688 00004c 80353688  4 __unguarded_linear_insert__H3ZPPQ215XCullSortAction10ShapeEntryZPQ215XCullSortAction10ShapeEntryZQ315XCullSortAction10ShapeEntry11CompareZ_BF_4_STLX01X11X21_v 	Global
+  803536d4 0000b0 803536d4  4 __insertion_sort__H2ZPPQ215XCullSortAction10ShapeEntryZQ315XCullSortAction10ShapeEntry11CompareZ_BF_4_STLX01X01X11_v 	Global
   80353784 000058 80353784  4 FUN_80353784 	Global
   803537dc 000080 803537dc  4 FUN_803537dc 	Global
   8035385c 000090 8035385c  4 FUN_8035385c 	Global
@@ -13175,8 +13186,8 @@
   80353bb8 000030 80353bb8  4 FUN_80353bb8 	Global
   80353be8 00008c 80353be8  4 FUN_80353be8 	Global
   80353c74 000158 80353c74  4 FUN_80353c74 	Global
-  80353dcc 00004c 80353dcc  4 FUN_80353dcc 	Global
-  80353e18 0000b0 80353e18  4 FUN_80353e18 	Global
+  80353dcc 00004c 80353dcc  4 __unguarded_linear_insert__H3ZPPQ215XCullSortAction10ShapeEntryZPQ215XCullSortAction10ShapeEntryZQ315XCullSortAction10ShapeEntry11CompareZ_FB_4_STLX01X11X21_v 	Global
+  80353e18 0000b0 80353e18  4 __insertion_sort__H2ZPPQ215XCullSortAction10ShapeEntryZQ315XCullSortAction10ShapeEntry11CompareZ_FB_4_STLX01X01X11_v 	Global
   80353ec8 000058 80353ec8  4 FUN_80353ec8 	Global
   80353f20 000080 80353f20  4 FUN_80353f20 	Global
   80353fa0 000090 80353fa0  4 FUN_80353fa0 	Global
@@ -13254,8 +13265,8 @@
   80358cd8 000128 80358cd8  4 FUN_80358cd8 	Global
   80358e00 000014 80358e00  4 FUN_80358e00 	Global
   80358e14 0000b0 80358e14  4 FUN_80358e14 	Global
-  80358ec4 0001e8 80358ec4  4 FUN_80358ec4 	Global
-  803590ac 000258 803590ac  4 FUN_803590ac 	Global
+  80358ec4 0001e8 80358ec4  4 _M_fill_insert__Q24_STLt6vector2ZUcZQ24_STLt9allocator1ZUcPUcUiRCUc 	Global
+  803590ac 000258 803590ac  4 _M_fill_insert__Q24_STLt6vector2ZfZQ24_STLt9allocator1ZfPfUiRCf 	Global
   8035936c 00007c 8035936c  4 FUN_8035936c 	Global
   803593e8 00006c 803593e8  4 FUN_803593e8 	Global
   80359454 00007c 80359454  4 FUN_80359454 	Global
@@ -13307,8 +13318,8 @@
   8035c750 000338 8035c750  4 FUN_8035c750 	Global
   8035ca88 0000e8 8035ca88  4 FUN_8035ca88 	Global
   8035cb70 000128 8035cb70  4 FUN_8035cb70 	Global
-  8035cc98 000108 8035cc98  4 FUN_8035cc98 	Global
-  8035cda0 000258 8035cda0  4 FUN_8035cda0 	Global
+  8035cc98 000108 8035cc98  4 reserve__Q24_STLt6vector2ZPvZQ24_STLt9allocator1ZPvUi 	Global
+  8035cda0 000258 8035cda0  4 _M_fill_insert__Q24_STLt6vector2ZPvZQ24_STLt9allocator1ZPvPPvUiRCPv 	Global
   8035cff8 000178 8035cff8  4 FUN_8035cff8 	Global
   8035d198 000090 8035d198  4 FUN_8035d198 	Global
   8035d240 00005c 8035d240  4 FUN_8035d240 	Global
@@ -13343,7 +13354,7 @@
   8035dee4 000068 8035dee4  4 FUN_8035dee4 	Global
   8035df4c 0000a0 8035df4c  4 FUN_8035df4c 	Global
   8035dfec 000058 8035dfec  4 FUN_8035dfec 	Global
-  8035e044 0001b0 8035e044  4 FUN_8035e044 	Global
+  8035e044 0001b0 8035e044  4 _M_reallocate_map__Q24_STLt5deque2ZbZQ24_STLt9allocator1ZbUib 	Global
   8035e1f4 0000a0 8035e1f4  4 FUN_8035e1f4 	Global
   8035e294 0000b0 8035e294  4 FUN_8035e294 	Global
   8035e4d4 000034 8035e4d4  4 FUN_8035e4d4 	Global
@@ -13351,6 +13362,14 @@
   8035f170 000001 8035f170  1 _23CollisionManagerService$c_class 	Global
   8035f350 000001 8035f350  1 _17DonkeyLogicEntity$c_class 	Global
   803600d0 000001 803600d0  1 _25RedbullUtilityLogicEntity$c_class 	Global
+  803668f8 000004 803668f8  4 _17TeamDataContainer$c_class 	Global
+  803668fa 000001 803668fa  8 _17TeamDataContainer$c_class+2 	Global
+  80366948 000004 80366948  4 _27SingleLevelDetailsContainer$c_class 	Global
+  8036694a 000001 8036694a  8 _27SingleLevelDetailsContainer$c_class+2 	Global
+  80366978 000001 80366978  1 _24ParticleEmitterContainer$c_class 	Global
+  80366998 000004 80366998  4 _24ParticleEmitterContainer$c_class 	Global
+  8036699a 000001 8036699a  8 _24ParticleEmitterContainer$c_class+2 	Global
+  803669c8 000001 803669c8  1 _32ParticleColliderEmitterContainer$c_class 	Global
   80367ef0 000001 80367ef0  1 s_WALK__ON_MOVE_FAILED__RETHINK_FO_80367ef0 	Global
   80367f20 000001 80367f20  1 s_WALK__ON_MOVE_FAILED__SKIP_TO_NE_80367f20 	Global
   80367f48 000001 80367f48  1 s_WALK__ON_MOVE_FAILED__KEEP_TRYIN_80367f48 	Global
@@ -22511,6 +22530,7 @@
   803bdd9c 000001 803bdd9c  1 s_SingleLevelDetailsContainer_803bdd9c 	Global
   803bddb8 000001 803bddb8  1 s_ScriptNames_803bddb8 	Global
   803bddc4 000001 803bddc4  1 s_ParticleEmitterContainer_803bddc4 	Global
+  803bdde0 000004 803bdde0  4 ZERO 	Global
   803bdde4 000001 803bdde4  1 s_Comment_803bdde4 	Global
   803bde10 000001 803bde10  1 s_EmitterType_803bde10 	Global
   803bde44 000001 803bde44  1 s_SpriteSet_803bde44 	Global
@@ -23975,6 +23995,11 @@
   803ce1d0 000001 803ce1d0  1 s_DeInit_803ce1d0 	Global
   803ce1d8 000001 803ce1d8  1 s_ReInit_803ce1d8 	Global
   803ce1e0 000001 803ce1e0  1 s_MCa.CurrentMissionType_803ce1e0 	Global
+  803ce1f8 000001 803ce1f8  1 s_Next_803ce1f8 	Global
+  803ce200 000001 803ce200  1 s_Prev_803ce200 	Global
+  803ce208 000001 803ce208  1 s_Get_803ce208 	Global
+  803ce20c 000001 803ce20c  1 s_Play_803ce20c 	Global
+  803ce214 000001 803ce214  1 s_Init_803ce214 	Global
   803ce21c 000001 803ce21c  1 s_FE.Wormpot.Reel1_803ce21c 	Global
   803ce230 000001 803ce230  1 s_FE.Wormpot.Reel2_803ce230 	Global
   803ce244 000001 803ce244  1 s_FE.Wormpot.Reel3_803ce244 	Global
@@ -25697,6 +25722,9 @@
   803f32d4 000001 803f32d4  8 s_Options:_<N>ext_page,_<P>revious_803f32d4 	Global
   80403510 000001 80403510  1 s_Waiting_for_SN_Debugger..._80403510 	Global
   80403558 000001 80403558  1 s_Int_mode_enabled_80403558 	Global
+  804035d8 000001 804035d8  1 s_***_CMD_READ_ERROR_***_804035d8 	Global
+  804035f1 000001 804035f1  1 s_***_BAD_COMMAND_***_804035f1 	Global
+  80403611 000001 80403611  1 s_snPause()_:_Stopped._80403611 	Global
   80403628 000001 80403628  1 s_Comms_Error_80403628 	Global
   804036b8 000001 804036b8  1 s_***_FS_CMD_READ_ERROR_***_804036b8 	Global
   804036ed 000001 804036ed  1 s_File_server_function_not_availab_804036ed 	Global
@@ -25823,10 +25851,18 @@
   8040b5e0 000004 8040b5e0  4 switchdataD_8040b5e0 	switchD_8033745c
   8040d630 000001 8040d630  1 __vt_21BaseWeaponLogicEntity 	Global
   8040f748 000001 8040f748  1 __vt_25RedbullUtilityLogicEntity 	Global
+  80419188 000001 80419188  1 CLSID_ListBoxStringColumn 	Global
+  8041a7e8 000001 8041a7e8  1 __vt_24ParticleEmitterContainer 	Global
+  8041a810 000001 8041a810  1 __vt_27SingleLevelDetailsContainer 	Global
+  8041a838 000001 8041a838  1 __vt_17TeamDataContainer 	Global
   8042670c 000004 8042670c  4 s_pColliderList 	Global
   8043b6a8 000004 8043b6a8  4 _15LightingService$c_pLightList 	Global
   8043b6b8 000004 8043b6b8  4 _15LightingService$c_pFreedList 	Global
   8045dab0 000004 8045dab0  4 _8XVector3$Zero 	Global
+  8045e0cc 000004 8045e0cc  4 _Q25XBase14StringTypeInfo$c_class 	Global
+  80464048 000004 80464048  4 FieldInfo_ScriptNames.8008 	Global
+  80464084 000004 80464084  4 FieldInfo_ParticleColorBand.8087 	Global
   804ab95c 000001 804ab95c  1 s_BSREAD_804ab95c 	Global
   804ab964 000001 804ab964  1 s_READID_804ab964 	Global
   804ab96c 000001 804ab96c  1 s_INQUIRY_804ab96c 	Global
+  804af9e0 000004 804af9e0  4 _7XString$Null 	Global
