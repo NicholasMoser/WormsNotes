@@ -827,7 +827,7 @@
   80032c18 00006c 80032c18  4 FUN_80032c18 	Global
   80032c84 00057c 80032c84  4 FUN_80032c84 	Global
   80033208 0004c8 80033208  4 FUN_80033208 	Global
-  800336d0 0000cc 800336d0  4 FUN_800336d0 	Global
+  800336d0 0000cc 800336d0  4 UpdateSceneCamera__20CameraManagerService 	Global
   8003379c 001bec 8003379c  4 FUN_8003379c 	Global
   80035388 0001a0 80035388  4 FUN_80035388 	Global
   80035528 0001b8 80035528  4 FUN_80035528 	Global
@@ -1283,7 +1283,7 @@
   8005e35c 000148 8005e35c  4 FUN_8005e35c 	Global
   8005e4a4 00171c 8005e4a4  4 FUN_8005e4a4 	Global
   8005fbc0 000388 8005fbc0  4 FUN_8005fbc0 	Global
-  8005ff48 000080 8005ff48  4 FUN_8005ff48 	Global
+  8005ff48 000080 8005ff48  4 __21DelayedScriptFunctionPCcP13ScriptService 	Global
   8005ffc8 000088 8005ffc8  4 FUN_8005ffc8 	Global
   80060050 000038 80060050  4 FUN_80060050 	Global
   80060088 00004c 80060088  4 FUN_80060088 	Global
@@ -1496,16 +1496,16 @@
   80069b0c 000060 80069b0c  4 FUN_80069b0c 	Global
   80069b6c 00005c 80069b6c  4 FUN_80069b6c 	Global
   80069be0 000034 80069be0  4 FUN_80069be0 	Global
-  80069c14 000040 80069c14  4 FUN_80069c14 	Global
+  80069c14 000040 80069c14  4 InitLoadingCallback__Fv 	Global
   80069c54 000038 80069c54  4 FUN_80069c54 	Global
   80069c8c 000208 80069c8c  4 FUN_80069c8c 	Global
   80069e94 000584 80069e94  4 FUN_80069e94 	Global
   8006a418 000730 8006a418  4 FUN_8006a418 	Global
   8006ab48 0000f8 8006ab48  4 FUN_8006ab48 	Global
   8006ac40 000050 8006ac40  4 FUN_8006ac40 	Global
-  8006ac90 0001c8 8006ac90  4 FUN_8006ac90 	Global
+  8006ac90 0001c8 8006ac90  4 GetRequiredData__18FlowControlService 	Global
   8006ae58 0000e0 8006ae58  4 FUN_8006ae58 	Global
-  8006af38 000604 8006af38  4 FUN_8006af38 	Global
+  8006af38 000604 8006af38  4 InitialiseNewState__18FlowControlService 	Global
   8006b53c 0000c0 8006b53c  4 FUN_8006b53c 	Global
   8006b5fc 0000c0 8006b5fc  4 FUN_8006b5fc 	Global
   8006b6bc 0000c0 8006b6bc  4 FUN_8006b6bc 	Global
@@ -1513,29 +1513,29 @@
   8006b8a0 000168 8006b8a0  4 FUN_8006b8a0 	Global
   8006ba08 0002c8 8006ba08  4 FUN_8006ba08 	Global
   8006bcd0 000014 8006bcd0  4 FUN_8006bcd0 	Global
-  8006bce4 000110 8006bce4  4 FUN_8006bce4 	Global
-  8006bdf4 000020 8006bdf4  4 FUN_8006bdf4 	Global
-  8006be14 000024 8006be14  4 FUN_8006be14 	Global
+  8006bce4 000110 8006bce4  4 PerformSectionLoading__FPb 	Global
+  8006bdf4 000020 8006bdf4  4 LoadRequiredSectionsPS2__FPb 	Global
+  8006be14 000024 8006be14  4 LoadRequiredSections__18FlowControlServicePb 	Global
   8006be38 000144 8006be38  4 FUN_8006be38 	Global
   8006bf7c 00024c 8006bf7c  4 FUN_8006bf7c 	Global
   8006c1c8 0002f0 8006c1c8  4 FUN_8006c1c8 	Global
   8006c4b8 0009e4 8006c4b8  4 FUN_8006c4b8 	Global
   8006ce9c 000040 8006ce9c  4 FUN_8006ce9c 	Global
-  8006cedc 000600 8006cedc  4 FUN_8006cedc 	Global
+  8006cedc 000600 8006cedc  4 InitialiseGameServices__18FlowControlServicePFUiUi_i 	Global
   8006d4dc 000084 8006d4dc  4 FUN_8006d4dc 	Global
   8006d560 0000c0 8006d560  4 FUN_8006d560 	Global
   8006d620 000244 8006d620  4 FUN_8006d620 	Global
   8006d864 000744 8006d864  4 FUN_8006d864 	Global
   8006dfa8 00006c 8006dfa8  4 FUN_8006dfa8 	Global
-  8006e014 00011c 8006e014  4 FUN_8006e014 	Global
+  8006e014 00011c 8006e014  4 ReloadDataBanks__18FlowControlServicePFUiUi_i 	Global
   8006e130 000018 8006e130  4 FUN_8006e130 	Global
   8006e148 0005a4 8006e148  4 FUN_8006e148 	Global
-  8006e6ec 00002c 8006e6ec  4 FUN_8006e6ec 	Global
-  8006e718 000028 8006e718  4 FUN_8006e718 	Global
+  8006e6ec 00002c 8006e6ec  4 CompactArenas__18FlowControlService 	Global
+  8006e718 000028 8006e718  4 SetUpMenuOffset__18FlowControlService13GameStateEnum 	Global
   8006e740 000034 8006e740  4 FUN_8006e740 	Global
   8006e774 000034 8006e774  4 FUN_8006e774 	Global
   8006e7a8 000694 8006e7a8  4 FUN_8006e7a8 	Global
-  8006ee3c 000070 8006ee3c  4 FUN_8006ee3c 	Global
+  8006ee3c 000070 8006ee3c  4 IsReadyToChangeState__18FlowControlService 	Global
   8006eeac 000034 8006eeac  4 FUN_8006eeac 	Global
   8006eee0 000068 8006eee0  4 FUN_8006eee0 	Global
   8006ef48 0001b8 8006ef48  4 FUN_8006ef48 	Global
@@ -2188,7 +2188,7 @@
   800b9860 00020c 800b9860  4 FUN_800b9860 	Global
   800b9a6c 0000c4 800b9a6c  4 FUN_800b9a6c 	Global
   800b9b30 000110 800b9b30  4 FUN_800b9b30 	Global
-  800b9c40 00023c 800b9c40  4 FUN_800b9c40 	Global
+  800b9c40 00023c 800b9c40  4 LoadMaterialInfo__22LandscapeGraphicEntityPCcRA127_A5_7XString 	Global
   800b9e7c 00066c 800b9e7c  4 FUN_800b9e7c 	Global
   800ba4e8 000134 800ba4e8  4 FUN_800ba4e8 	Global
   800ba61c 000074 800ba61c  4 FUN_800ba61c 	Global
@@ -2774,7 +2774,7 @@
   800e62a8 000220 800e62a8  4 FUN_800e62a8 	Global
   800e64c8 0001d8 800e64c8  4 FUN_800e64c8 	Global
   800e66a0 000158 800e66a0  4 FUN_800e66a0 	Global
-  800e67f8 00006c 800e67f8  4 FUN_800e67f8 	Global
+  800e67f8 00006c 800e67f8  4 LoadParticleData__22ParticleHandlerService 	Global
   800e6864 0001b8 800e6864  4 FUN_800e6864 	Global
   800e6a1c 00002c 800e6a1c  4 FUN_800e6a1c 	Global
   800e6a48 000048 800e6a48  4 FUN_800e6a48 	Global
@@ -3091,10 +3091,10 @@
   800fc474 000050 800fc474  4 FUN_800fc474 	Global
   800fc4c4 000050 800fc4c4  4 FUN_800fc4c4 	Global
   800fc514 000040 800fc514  4 CreateInstance__3DRMRCPCcRt6XomPtr1Z24IXDataResourceDescriptor 	Global
-  800fc554 000040 800fc554  4 FUN_800fc554 	Global
+  800fc554 000040 800fc554  4 QueryInt__3DRMRCPCcRi 	Global
   800fc594 000040 800fc594  4 QueryUint__3DRMRCPCcRUi 	Global
   800fc5d4 000040 800fc5d4  4 QueryFloat__3DRMRCPCcRf 	Global
-  800fc614 000040 800fc614  4 FUN_800fc614 	Global
+  800fc614 000040 800fc614  4 QueryString__3DRMRCPCcRPCc 	Global
   800fc654 000040 800fc654  4 QueryVector__3DRMRCPCcR8XVector3 	Global
   800fc694 000040 800fc694  4 FUN_800fc694 	Global
   800fc6d4 000040 800fc6d4  4 FUN_800fc6d4 	Global
@@ -3126,10 +3126,10 @@
   800fd748 00005c 800fd748  4 FUN_800fd748 	Global
   800fd7a4 000048 800fd7a4  4 FUN_800fd7a4 	Global
   800fd7ec 000040 800fd7ec  4 FUN_800fd7ec 	Global
-  800fd82c 00003c 800fd82c  4 FUN_800fd82c 	Global
-  800fd868 0000f0 800fd868  4 FUN_800fd868 	Global
+  800fd82c 00003c 800fd82c  4 LoadDataBank__3DRMUcUi 	Global
+  800fd868 0000f0 800fd868  4 LoadDataBank__3DRMPCcUcUi 	Global
   800fd958 000038 800fd958  4 FUN_800fd958 	Global
-  800fd990 000050 800fd990  4 FUN_800fd990 	Global
+  800fd990 000050 800fd990  4 AddUpdateHook__3DRMRC7XStringPFP24IXDataResourceDescriptorPv_iPvRt6XomPtr1Z14UpdateHookInfo 	Global
   800fd9e0 0000fc 800fd9e0  4 FUN_800fd9e0 	Global
   800fdadc 00002c 800fdadc  4 FUN_800fdadc 	Global
   800fdb14 000044 800fdb14  4 FUN_800fdb14 	Global
@@ -3184,25 +3184,25 @@
   800ffe8c 000030 800ffe8c  4 FUN_800ffe8c 	Global
   800ffebc 000008 800ffebc  4 FUN_800ffebc 	Global
   800ffec4 000008 800ffec4  4 FUN_800ffec4 	Global
-  800ffecc 000008 800ffecc  4 FUN_800ffecc 	Global
-  800ffed4 000008 800ffed4  4 FUN_800ffed4 	Global
-  800ffedc 000068 800ffedc  4 FUN_800ffedc 	Global
+  800ffecc 000008 800ffecc  4 GetText__16ScriptLineObject 	Global
+  800ffed4 000008 800ffed4  4 GetLength__16ScriptLineObject 	Global
+  800ffedc 000068 800ffedc  4 _$_12ScriptObject 	Global
   800fff44 0000c4 800fff44  4 FUN_800fff44 	Global
-  80100008 000038 80100008  4 FUN_80100008 	Global
-  80100040 000054 80100040  4 FUN_80100040 	Global
+  80100008 000038 80100008  4 GetScriptLineObject__12ScriptObjectUiRP16ScriptLineObject 	Global
+  80100040 000054 80100040  4 GetName__12ScriptObject 	Global
   801000a0 000044 801000a0  4 FUN_801000a0 	Global
   801000e4 000060 801000e4  4 FUN_801000e4 	Global
   80100144 00005c 80100144  4 FUN_80100144 	Global
   801001b8 0000d0 801001b8  4 FUN_801001b8 	Global
   80100288 00032c 80100288  4 FUN_80100288 	Global
-  801005b4 00020c 801005b4  4 FUN_801005b4 	Global
+  801005b4 00020c 801005b4  4 HandleMessage__13ScriptServicePC7Message 	Global
   801007c0 000034 801007c0  4 FUN_801007c0 	Global
-  801007f4 0002b4 801007f4  4 FUN_801007f4 	Global
+  801007f4 0002b4 801007f4  4 Initialize__13ScriptService 	Global
   80100aa8 000004 80100aa8  4 FUN_80100aa8 	Global
-  80100aac 000470 80100aac  4 FUN_80100aac 	Global
+  80100aac 000470 80100aac  4 InitialiseLua__13ScriptService 	Global
   80100f1c 000090 80100f1c  4 FUN_80100f1c 	Global
   80100fac 0003cc 80100fac  4 FUN_80100fac 	Global
-  80101378 000060 80101378  4 FUN_80101378 	Global
+  80101378 000060 80101378  4 ThisInstance__13ScriptServiceP9lua_State 	Global
   801013d8 000024 801013d8  4 FUN_801013d8 	Global
   801013fc 000158 801013fc  4 FUN_801013fc 	Global
   80101554 000024 80101554  4 FUN_80101554 	Global
@@ -3217,25 +3217,25 @@
   80101e60 0002d4 80101e60  4 FUN_80101e60 	Global
   80102134 000034 80102134  4 FUN_80102134 	Global
   80102168 000188 80102168  4 FUN_80102168 	Global
-  801022f0 000024 801022f0  4 FUN_801022f0 	Global
-  80102314 000050 80102314  4 FUN_80102314 	Global
+  801022f0 000024 801022f0  4 _Alert__13ScriptServiceP9lua_State 	Global
+  80102314 000050 80102314  4 Alert__13ScriptService 	Global
   80102364 000024 80102364  4 FUN_80102364 	Global
   80102388 000064 80102388  4 FUN_80102388 	Global
   801023ec 000024 801023ec  4 FUN_801023ec 	Global
   80102410 000200 80102410  4 FUN_80102410 	Global
-  80102610 000038 80102610  4 FUN_80102610 	Global
-  80102648 000004 80102648  4 FUN_80102648 	Global
-  8010264c 000188 8010264c  4 FUN_8010264c 	Global
-  801027d4 0000bc 801027d4  4 FUN_801027d4 	Global
-  80102890 000130 80102890  4 FUN_80102890 	Global
-  801029c0 0000cc 801029c0  4 FUN_801029c0 	Global
-  80102a8c 000008 80102a8c  4 FUN_80102a8c 	Global
+  80102610 000038 80102610  4 SendMessageToConsole__13ScriptServicePCc19TerminalColoursEnum 	Global
+  80102648 000004 80102648  4 SendErrorToFile__13ScriptServicePCc 	Global
+  8010264c 000188 8010264c  4 ThrowScriptError__13ScriptServicePCc 	Global
+  801027d4 0000bc 801027d4  4 Reset__13ScriptService 	Global
+  80102890 000130 80102890  4 LoadSingleScript__13ScriptServicePCc 	Global
+  801029c0 0000cc 801029c0  4 ExecuteSingleScript__13ScriptServicePCcT1Ui 	Global
+  80102a8c 000008 80102a8c  4 SetStatus__13ScriptService16ScriptStatusEnum 	Global
   80102a94 000008 80102a94  4 FUN_80102a94 	Global
-  80102a9c 000154 80102a9c  4 FUN_80102a9c 	Global
-  80102bf0 0000d8 80102bf0  4 FUN_80102bf0 	Global
+  80102a9c 000154 80102a9c  4 LoadLevelScriptFiles__13ScriptService 	Global
+  80102bf0 0000d8 80102bf0  4 GetLineText__13ScriptServicePCcUiPc 	Global
   80102cc8 000060 80102cc8  4 FUN_80102cc8 	Global
   80102d28 00006c 80102d28  4 FUN_80102d28 	Global
-  80102d94 0000d4 80102d94  4 FUN_80102d94 	Global
+  80102d94 0000d4 80102d94  4 GetScriptFromName__13ScriptServicePCcRP12ScriptObject 	Global
   80102e68 000024 80102e68  4 FUN_80102e68 	Global
   80102e8c 000174 80102e8c  4 FUN_80102e8c 	Global
   80103000 000024 80103000  4 FUN_80103000 	Global
@@ -3247,10 +3247,10 @@
   80103590 000024 80103590  4 FUN_80103590 	Global
   801035b4 0000f4 801035b4  4 FUN_801035b4 	Global
   801036a8 000024 801036a8  4 FUN_801036a8 	Global
-  801036cc 000384 801036cc  4 FUN_801036cc 	Global
-  80103a50 0000b8 80103a50  4 FUN_80103a50 	Global
-  80103b08 000174 80103b08  4 FUN_80103b08 	Global
-  80103c7c 000140 80103c7c  4 FUN_80103c7c 	Global
+  801036cc 000384 801036cc  4 CopyContainer__13ScriptService 	Global
+  80103a50 0000b8 80103a50  4 CallLuaFunction__13ScriptServicePCc 	Global
+  80103b08 000174 80103b08  4 RegisterMessages__13ScriptService 	Global
+  80103c7c 000140 80103c7c  4 InitializeTimers__13ScriptService 	Global
   80103dbc 0001e8 80103dbc  4 FUN_80103dbc 	Global
   80103fa4 000264 80103fa4  4 FUN_80103fa4 	Global
   80104208 000024 80104208  4 FUN_80104208 	Global
@@ -3693,7 +3693,7 @@
   801272cc 0006f8 801272cc  4 FUN_801272cc 	Global
   801279c4 0001c0 801279c4  4 FUN_801279c4 	Global
   80127b88 0000e4 80127b88  4 FUN_80127b88 	Global
-  80127c6c 000220 80127c6c  4 FUN_80127c6c 	Global
+  80127c6c 000220 80127c6c  4 UpdateScene__10Worms3dAppUi 	Global
   80127e8c 00013c 80127e8c  4 FUN_80127e8c 	Global
   80127fc8 000058 80127fc8  4 FUN_80127fc8 	Global
   80128020 000214 80128020  4 FUN_80128020 	Global
@@ -3712,8 +3712,8 @@
   80129bc8 000038 80129bc8  4 FUN_80129bc8 	Global
   80129c00 00007c 80129c00  4 FUN_80129c00 	Global
   80129c7c 000044 80129c7c  4 FUN_80129c7c 	Global
-  80129cc0 000054 80129cc0  4 FUN_80129cc0 	Global
-  80129d14 000054 80129d14  4 FUN_80129d14 	Global
+  80129cc0 000054 80129cc0  4 Pause__10Worms3dApp 	Global
+  80129d14 000054 80129d14  4 Unpause__10Worms3dApp 	Global
   80129d68 00006c 80129d68  4 FUN_80129d68 	Global
   80129dd4 00002c 80129dd4  4 FUN_80129dd4 	Global
   80129e00 00000c 80129e00  4 XomClientExportConfigVars 	Global
@@ -4211,9 +4211,9 @@
   8015bbf4 000178 8015bbf4  4 FUN_8015bbf4 	Global
   8015bd6c 0000cc 8015bd6c  4 FUN_8015bd6c 	Global
   8015be38 000060 8015be38  4 FUN_8015be38 	Global
-  8015be98 000030 8015be98  4 FUN_8015be98 	Global
+  8015be98 000030 8015be98  4 ChangeDisplay__Q27XomHelp12Xom3dAppBaseb 	Global
   8015bed8 00008c 8015bed8  4 Run__Q27XomHelp12Xom3dAppBase 	Global
-  8015bf64 0001a8 8015bf64  4 FUN_8015bf64 	Global
+  8015bf64 0001a8 8015bf64  4 RenderFrame__Q27XomHelp12Xom3dAppBaseUi 	Global
   8015c118 000054 8015c118  4 FUN_8015c118 	Global
   8015c170 000030 8015c170  4 FUN_8015c170 	Global
   8015c1a0 000068 8015c1a0  4 FUN_8015c1a0 	Global
@@ -4244,11 +4244,11 @@
   8015cdfc 0000b0 8015cdfc  4 FUN_8015cdfc 	Global
   8015ceb0 000074 8015ceb0  4 FUN_8015ceb0 	Global
   8015cf24 000030 8015cf24  4 FUN_8015cf24 	Global
-  8015cf54 0000f4 8015cf54  4 FUN_8015cf54 	Global
-  8015d048 000044 8015d048  4 FUN_8015d048 	Global
-  8015d08c 000040 8015d08c  4 FUN_8015d08c 	Global
-  8015d0cc 000058 8015d0cc  4 FUN_8015d0cc 	Global
-  8015d124 000038 8015d124  4 FUN_8015d124 	Global
+  8015cf54 0000f4 8015cf54  4 UpdateScene__Q27XomHelp14XomTaskAppBaseUi 	Global
+  8015d048 000044 8015d048  4 SetAppTime__Q27XomHelp14XomTaskAppBaseUi 	Global
+  8015d08c 000040 8015d08c  4 Pause__Q27XomHelp14XomTaskAppBase 	Global
+  8015d0cc 000058 8015d0cc  4 Unpause__Q27XomHelp14XomTaskAppBase 	Global
+  8015d124 000038 8015d124  4 IsPaused__Q27XomHelp14XomTaskAppBase 	Global
   8015d16c 000030 8015d16c  4 FUN_8015d16c 	Global
   8015d19c 000030 8015d19c  4 FUN_8015d19c 	Global
   8015d1cc 00005c 8015d1cc  4 FUN_8015d1cc 	Global
@@ -4273,7 +4273,7 @@
   8015e144 000250 8015e144  4 FUN_8015e144 	Global
   8015e394 000194 8015e394  4 FUN_8015e394 	Global
   8015e528 000020 8015e528  4 FUN_8015e528 	Global
-  8015e548 000484 8015e548  4 FUN_8015e548 	Global
+  8015e548 000484 8015e548  4 RenderFrame__17XPS2RenderManageri 	Global
   8015e9cc 000028 8015e9cc  4 FUN_8015e9cc 	Global
   8015ea00 000368 8015ea00  4 FUN_8015ea00 	Global
   8015ed68 0000f0 8015ed68  4 FUN_8015ed68 	Global
@@ -4292,10 +4292,10 @@
   8015f4f8 0003ac 8015f4f8  4 FUN_8015f4f8 	Global
   8015f8a4 00005c 8015f8a4  4 FUN_8015f8a4 	Global
   8015f900 00002c 8015f900  4 FUN_8015f900 	Global
-  8015f92c 000004 8015f92c  4 FUN_8015f92c 	Global
+  8015f92c 000004 8015f92c  4 AddToInstanceList__13AutoMessageIDP13AutoMessageID 	Global
   8015f930 000004 8015f930  4 FUN_8015f930 	Global
   8015f934 00004c 8015f934  4 FUN_8015f934 	Global
-  8015f980 000040 8015f980  4 FUN_8015f980 	Global
+  8015f980 000040 8015f980  4 __13AutoMessageIDPCc 	Global
   8015f9c0 000048 8015f9c0  4 _$_13AutoMessageID 	Global
   8015fa08 000078 8015fa08  4 GetMessageID__13AutoMessageIDb 	Global
   8015fa80 000008 8015fa80  4 FUN_8015fa80 	Global
@@ -4305,19 +4305,19 @@
   8015fb6c 000048 8015fb6c  4 __22GeneratedAutoMessageIDPCc 	Global
   8015fbb4 000094 8015fbb4  4 FUN_8015fbb4 	Global
   8015fc48 00004c 8015fc48  4 FUN_8015fc48 	Global
-  8015fc94 000058 8015fc94  4 FUN_8015fc94 	Global
-  8015fcec 000044 8015fcec  4 FUN_8015fcec 	Global
+  8015fc94 000058 8015fc94  4 Detach__14ObserverHandleRP14ObserverHandle 	Global
+  8015fcec 000044 8015fcec  4 Detach__14ObserverHandle 	Global
   8015fd3c 000044 8015fd3c  4 FUN_8015fd3c 	Global
   8015fd80 000060 8015fd80  4 FUN_8015fd80 	Global
   8015fde0 00000c 8015fde0  4 FUN_8015fde0 	Global
   8015fdec 00005c 8015fdec  4 FUN_8015fdec 	Global
   8015fe60 000048 8015fe60  4 FUN_8015fe60 	Global
   8015fea8 000054 8015fea8  4 FUN_8015fea8 	Global
-  8015fefc 000080 8015fefc  4 FUN_8015fefc 	Global
+  8015fefc 000080 8015fefc  4 _$_8BaseTask 	Global
   8015ff94 000008 8015ff94  4 FUN_8015ff94 	Global
   8015ff9c 000038 8015ff9c  4 HandleMessage__8BaseTaskPC7Message 	Global
   8015ffd4 00009c 8015ffd4  4 FUN_8015ffd4 	Global
-  80160070 000030 80160070  4 FUN_80160070 	Global
+  80160070 000030 80160070  4 RemoveObserver__8BaseTaskR14ObserverHandle 	Global
   801600a0 000020 801600a0  4 FUN_801600a0 	Global
   801600c0 00002c 801600c0  4 FUN_801600c0 	Global
   801600ec 000090 801600ec  4 FUN_801600ec 	Global
@@ -4358,7 +4358,7 @@
   80160fe4 00015c 80160fe4  4 FUN_80160fe4 	Global
   80161140 0000d0 80161140  4 FUN_80161140 	Global
   80161210 000084 80161210  4 FUN_80161210 	Global
-  80161294 000008 80161294  4 FUN_80161294 	Global
+  80161294 000008 80161294  4 GetInputDeviceManager__12InputService 	Global
   8016129c 000030 8016129c  4 FUN_8016129c 	Global
   801612cc 000060 801612cc  4 FUN_801612cc 	Global
   8016132c 00002c 8016132c  4 FUN_8016132c 	Global
@@ -4409,7 +4409,7 @@
   80162c44 000060 80162c44  4 FUN_80162c44 	Global
   80162ca4 00005c 80162ca4  4 FUN_80162ca4 	Global
   80162d18 00003c 80162d18  4 FUN_80162d18 	Global
-  80162d54 000030 80162d54  4 FUN_80162d54 	Global
+  80162d54 000030 80162d54  4 _$_7Service 	Global
   80162da4 000020 80162da4  4 HandleMessage__7ServicePC7Message 	Global
   80162dc4 000060 80162dc4  4 FUN_80162dc4 	Global
   80162e24 00002c 80162e24  4 FUN_80162e24 	Global
@@ -4437,15 +4437,15 @@
   80163bbc 0001e8 80163bbc  4 FUN_80163bbc 	Global
   80163da4 000734 80163da4  4 FUN_80163da4 	Global
   801644d8 000484 801644d8  4 FUN_801644d8 	Global
-  8016497c 000594 8016497c  4 FUN_8016497c 	Global
+  8016497c 000594 8016497c  4 AddTask__11TaskManagerP8BaseTaskUi 	Global
   80164f10 000244 80164f10  4 FUN_80164f10 	Global
   80165154 00029c 80165154  4 FUN_80165154 	Global
   801653f0 000040 801653f0  4 FUN_801653f0 	Global
-  80165430 000050 80165430  4 FUN_80165430 	Global
+  80165430 000050 80165430  4 GetTaskFromTaskId__11TaskManagerUi 	Global
   80165480 0001cc 80165480  4 FUN_80165480 	Global
   8016564c 000004 8016564c  4 FUN_8016564c 	Global
   80165650 00006c 80165650  4 FUN_80165650 	Global
-  801656bc 000008 801656bc  4 FUN_801656bc 	Global
+  801656bc 000008 801656bc  4 GetInstance__11TaskManager 	Global
   801656c4 00002c 801656c4  4 FUN_801656c4 	Global
   801656fc 000044 801656fc  4 FUN_801656fc 	Global
   80165740 000060 80165740  4 FUN_80165740 	Global
@@ -5429,9 +5429,9 @@
   8019e5c8 00009c 8019e5c8  4 FUN_8019e5c8 	Global
   8019e664 000040 8019e664  4 FUN_8019e664 	Global
   8019e6a4 000078 8019e6a4  4 FUN_8019e6a4 	Global
-  8019e71c 0000c8 8019e71c  4 FUN_8019e71c 	Global
-  8019e7e4 000028 8019e7e4  4 FUN_8019e7e4 	Global
-  8019e80c 000048 8019e80c  4 FUN_8019e80c 	Global
+  8019e71c 0000c8 8019e71c  4 XomInternalLuaRealloc 	Global
+  8019e7e4 000028 8019e7e4  4 XomInternalLuaFree 	Global
+  8019e80c 000048 8019e80c  4 XomInternalNotifyGC 	Global
   8019e854 000074 8019e854  4 FUN_8019e854 	Global
   8019e8c8 00002c 8019e8c8  4 FUN_8019e8c8 	Global
   8019e900 000044 8019e900  4 FUN_8019e900 	Global
@@ -7358,7 +7358,7 @@
   801ea908 000024 801ea908  4 InitClass__10XContainerP8XomClass 	Global
   801ea92c 000058 801ea92c  4 CreateClone__C10XContainer 	Global
   801ea984 0000b4 801ea984  4 Clone__10XContainerPC10XContainer 	Global
-  801eaa38 000020 801eaa38  4 FUN_801eaa38 	Global
+  801eaa38 000020 801eaa38  4 CompactMFArena__10XContainer 	Global
   801eaa58 00012c 801eaa58  4 MoveMFields__10XContainerPPvT1Ui 	Global
   801eab8c 000034 801eab8c  4 FUN_801eab8c 	Global
   801eabc0 000008 801eabc0  4 FUN_801eabc0 	Global
@@ -7721,7 +7721,7 @@
   801f6cf0 000094 801f6cf0  4 FUN_801f6cf0 	Global
   801f6d84 0000e0 801f6d84  4 FUN_801f6d84 	Global
   801f6e64 000044 801f6e64  4 FUN_801f6e64 	Global
-  801f6ea8 000240 801f6ea8  4 FUN_801f6ea8 	Global
+  801f6ea8 000240 801f6ea8  4 InverseAffine__8XMatrix4RC8XMatrix4 	Global
   801f70e8 00008c 801f70e8  4 FUN_801f70e8 	Global
   801f7174 0003cc 801f7174  4 FUN_801f7174 	Global
   801f7540 00002c 801f7540  4 FUN_801f7540 	Global
@@ -7866,7 +7866,7 @@
   801fcb7c 000094 801fcb7c  4 FUN_801fcb7c 	Global
   801fcc58 000084 801fcc58  4 FUN_801fcc58 	Global
   801fccec 00002c 801fccec  4 FUN_801fccec 	Global
-  801fcd18 000020 801fcd18  4 FUN_801fcd18 	Global
+  801fcd18 000020 801fcd18  4 __15ProfileBlockTagPCc 	Global
   801fcd38 0000bc 801fcd38  4 FUN_801fcd38 	Global
   801fcdf4 000040 801fcdf4  4 FUN_801fcdf4 	Global
   801fce34 000154 801fce34  4 InitComponentData__18XComponentRegistry 	Global
@@ -7890,8 +7890,8 @@
   801fe49c 000058 801fe49c  4 FUN_801fe49c 	Global
   801fe4f4 000010 801fe4f4  4 FUN_801fe4f4 	Global
   801fe504 0000f0 801fe504  4 sbrk 	Global
-  801fe5f4 0000a8 801fe5f4  4 FUN_801fe5f4 	Global
-  801fe69c 000078 801fe69c  4 FUN_801fe69c 	Global
+  801fe5f4 0000a8 801fe5f4  4 XomAllocTemporary__FUi 	Global
+  801fe69c 000078 801fe69c  4 XomFreeTemporary__FPv 	Global
   801fe714 000020 801fe714  4 __builtin_new 	Global
   801fe734 000028 801fe734  4 __builtin_delete 	Global
   801fe75c 000020 801fe75c  4 FUN_801fe75c 	Global
@@ -7906,7 +7906,7 @@
   801fe8ec 0000ac 801fe8ec  4 FUN_801fe8ec 	Global
   801fe998 00007c 801fe998  4 XomGetSystemTime__Fv 	Global
   801fea14 000030 801fea14  4 XomGetHiresTime__Fv 	Global
-  801fea44 000024 801fea44  4 FUN_801fea44 	Global
+  801fea44 000024 801fea44  4 XomTimeAsMicroSeconds__FUi 	Global
   801fea68 00003c 801fea68  4 FUN_801fea68 	Global
   801feaf4 000030 801feaf4  4 FUN_801feaf4 	Global
   801feb50 000028 801feb50  4 FUN_801feb50 	Global
@@ -8209,22 +8209,22 @@
   8020806c 0000dc 8020806c  4 LogDataEvent__23XInternalEventLogStreamUsPCvUiPCc 	Global
   80208148 000098 80208148  4 FUN_80208148 	Global
   802081e0 0000bc 802081e0  4 XomLogMarker__FPCc 	Global
-  8020829c 0000bc 8020829c  4 FUN_8020829c 	Global
-  80208358 0000bc 80208358  4 FUN_80208358 	Global
-  80208414 000058 80208414  4 FUN_80208414 	Global
+  8020829c 0000bc 8020829c  4 XomLogOpenBracket__FPCc 	Global
+  80208358 0000bc 80208358  4 XomLogCloseBracket__FPCc 	Global
+  80208414 000058 80208414  4 XomLogTimeStamp__Fv 	Global
   8020846c 00000c 8020846c  4 FUN_8020846c 	Global
   80208478 000050 80208478  4 FUN_80208478 	Global
   802084c8 000018 802084c8  4 FUN_802084c8 	Global
   802084e0 000048 802084e0  4 FUN_802084e0 	Global
-  80208528 000050 80208528  4 FUN_80208528 	Global
-  80208578 000064 80208578  4 FUN_80208578 	Global
-  802085dc 00006c 802085dc  4 FUN_802085dc 	Global
-  80208648 00005c 80208648  4 FUN_80208648 	Global
+  80208528 000050 80208528  4 __5XFile 	Global
+  80208578 000064 80208578  4 _$_5XFile 	Global
+  802085dc 00006c 802085dc  4 Open__5XFilePCcUi 	Global
+  80208648 00005c 80208648  4 Close__5XFile 	Global
   802086a4 000030 802086a4  4 FUN_802086a4 	Global
   802086d4 000030 802086d4  4 FUN_802086d4 	Global
-  80208704 000030 80208704  4 FUN_80208704 	Global
+  80208704 000030 80208704  4 Stat__5XFileP12XStreamStats 	Global
   80208734 0000a0 80208734  4 FUN_80208734 	Global
-  802087d4 000030 802087d4  4 FUN_802087d4 	Global
+  802087d4 000030 802087d4  4 Read__5XFilePvUiPUi 	Global
   80208804 000030 80208804  4 FUN_80208804 	Global
   80208834 00000c 80208834  4 FUN_80208834 	Global
   8020886c 000048 8020886c  4 FUN_8020886c 	Global
@@ -8289,7 +8289,7 @@
   80209e14 000024 80209e14  4 Alloc__12XMemoryArenaUi 	Global
   80209e38 000024 80209e38  4 AllocAligned__12XMemoryArenaUii 	Global
   80209e5c 000024 80209e5c  4 Free__12XMemoryArenaPv 	Global
-  80209e80 000024 80209e80  4 FUN_80209e80 	Global
+  80209e80 000024 80209e80  4 Resize__12XMemoryArenaPvUi 	Global
   80209ea4 000024 80209ea4  4 Compact__12XMemoryArena 	Global
   80209ec8 000024 80209ec8  4 Walk__12XMemoryArenaP19IXArenaWalkCallback 	Global
   80209eec 000024 80209eec  4 SetFlags__12XMemoryArenaUi 	Global
@@ -8302,7 +8302,7 @@
   8020a020 000020 8020a020  4 __14XMemoryManager 	Global
   8020a040 000028 8020a040  4 FUN_8020a040 	Global
   8020a068 00004c 8020a068  4 Initialize__14XMemoryManager 	Global
-  8020a0b4 000050 8020a0b4  4 FUN_8020a0b4 	Global
+  8020a0b4 000050 8020a0b4  4 Compact__14XMemoryManager 	Global
   8020a104 000060 8020a104  4 FUN_8020a104 	Global
   8020a164 000078 8020a164  4 FUN_8020a164 	Global
   8020a1dc 00002c 8020a1dc  4 FUN_8020a1dc 	Global
@@ -8369,29 +8369,29 @@
   8020bbfc 000028 8020bbfc  4 FUN_8020bbfc 	Global
   8020bc24 000174 8020bc24  4 FUN_8020bc24 	Global
   8020bd98 000028 8020bd98  4 FUN_8020bd98 	Global
-  8020bdc0 0000dc 8020bdc0  4 FUN_8020bdc0 	Global
+  8020bdc0 0000dc 8020bdc0  4 XomGetDefaultStorage__Fv 	Global
   8020be9c 000060 8020be9c  4 XomSetDefaultStorage__FP9IXStorage 	Global
   8020befc 000044 8020befc  4 FUN_8020befc 	Global
   8020bf40 00007c 8020bf40  4 FUN_8020bf40 	Global
   8020bfbc 00002c 8020bfbc  4 FUN_8020bfbc 	Global
   8020bff0 000034 8020bff0  4 FUN_8020bff0 	Global
-  8020c024 000044 8020c024  4 FUN_8020c024 	Global
+  8020c024 000044 8020c024  4 AllocRep__10XStringRepUi 	Global
   8020c068 000028 8020c068  4 FreeRep__10XStringRep 	Global
   8020c090 000098 8020c090  4 __7XStringPCc 	Global
   8020c128 00009c 8020c128  4 FUN_8020c128 	Global
-  8020c1c4 000038 8020c1c4  4 FUN_8020c1c4 	Global
+  8020c1c4 000038 8020c1c4  4 AllocRep__7XStringi 	Global
   8020c1fc 000078 8020c1fc  4 FUN_8020c1fc 	Global
   8020c274 000020 8020c274  4 __as__7XStringPCc 	Global
   8020c294 00009c 8020c294  4 FUN_8020c294 	Global
   8020c330 0000a0 8020c330  4 FUN_8020c330 	Global
   8020c3d0 000098 8020c3d0  4 FUN_8020c3d0 	Global
   8020c468 0000e0 8020c468  4 __apl__7XStringPCc 	Global
-  8020c548 00003c 8020c548  4 FUN_8020c548 	Global
+  8020c548 00003c 8020c548  4 __apl__7XStringc 	Global
   8020c584 0000b4 8020c584  4 FUN_8020c584 	Global
   8020c638 000134 8020c638  4 FUN_8020c638 	Global
   8020c76c 0000b8 8020c76c  4 FUN_8020c76c 	Global
   8020c824 0000b8 8020c824  4 FUN_8020c824 	Global
-  8020c8dc 00009c 8020c8dc  4 FUN_8020c8dc 	Global
+  8020c8dc 00009c 8020c8dc  4 Chop__7XStringUi 	Global
   8020c978 0000d4 8020c978  4 Extend__7XStringPCcUi 	Global
   8020ca4c 0000b0 8020ca4c  4 PrintF__7XStringPCce 	Global
   8020cafc 000004 8020cafc  4 AddInstance__7XString 	Global
@@ -8614,7 +8614,7 @@
   80218614 00005c 80218614  4 FUN_80218614 	Global
   80218688 000048 80218688  4 FUN_80218688 	Global
   802186d0 0000f0 802186d0  4 FUN_802186d0 	Global
-  802187c0 000048 802187c0  4 FUN_802187c0 	Global
+  802187c0 000048 802187c0  4 __18XDefaultGCStorage 	Global
   80218808 000034 80218808  4 FUN_80218808 	Global
   8021883c 00007c 8021883c  4 FUN_8021883c 	Global
   802188b8 000090 802188b8  4 FUN_802188b8 	Global
@@ -11495,12 +11495,12 @@
   802cc334 00010c 802cc334  4 FUN_802cc334 	Global
   802cc440 000190 802cc440  4 FUN_802cc440 	Global
   802cc5d0 0000a4 802cc5d0  4 FUN_802cc5d0 	Global
-  802cc674 000090 802cc674  4 FUN_802cc674 	Global
+  802cc674 000090 802cc674  4 SendTextLine__12TelnetObjectUiPCc19TerminalColoursEnum 	Global
   802cc704 00003c 802cc704  4 FUN_802cc704 	Global
   802cc740 00003c 802cc740  4 FUN_802cc740 	Global
   802cc77c 00003c 802cc77c  4 FUN_802cc77c 	Global
   802cc7b8 00003c 802cc7b8  4 FUN_802cc7b8 	Global
-  802cc7f4 000090 802cc7f4  4 FUN_802cc7f4 	Global
+  802cc7f4 000090 802cc7f4  4 SendText__12TelnetObjectP12IXConnectionPCc19TerminalColoursEnum 	Global
   802cc884 0001b8 802cc884  4 FUN_802cc884 	Global
   802cca3c 000074 802cca3c  4 FUN_802cca3c 	Global
   802ccab0 00007c 802ccab0  4 FUN_802ccab0 	Global
@@ -11528,44 +11528,44 @@
   802cdae0 0000d4 802cdae0  4 FUN_802cdae0 	Global
   802cdbb4 00002c 802cdbb4  4 FUN_802cdbb4 	Global
   802cdbe0 00019c 802cdbe0  4 FUN_802cdbe0 	Global
-  802cdd7c 000068 802cdd7c  4 FUN_802cdd7c 	Global
-  802cdde4 00003c 802cdde4  4 FUN_802cdde4 	Global
-  802cde20 000050 802cde20  4 FUN_802cde20 	Global
+  802cdd7c 000068 802cdd7c  4 negindex 	Global
+  802cdde4 00003c 802cdde4  4 luaA_index 	Global
+  802cde20 000050 802cde20  4 luaA_indexAcceptable 	Global
   802cde70 000088 802cde70  4 FUN_802cde70 	Global
   802cdef8 000054 802cdef8  4 FUN_802cdef8 	Global
   802cdf4c 000010 802cdf4c  4 FUN_802cdf4c 	Global
   802cdf5c 000070 802cdf5c  4 FUN_802cdf5c 	Global
-  802cdfcc 000014 802cdfcc  4 FUN_802cdfcc 	Global
-  802cdfe0 000070 802cdfe0  4 FUN_802cdfe0 	Global
+  802cdfcc 000014 802cdfcc  4 lua_gettop 	Global
+  802cdfe0 000070 802cdfe0  4 lua_settop 	Global
   802ce050 000068 802ce050  4 FUN_802ce050 	Global
   802ce0b8 00006c 802ce0b8  4 FUN_802ce0b8 	Global
   802ce124 000050 802ce124  4 FUN_802ce124 	Global
   802ce174 00004c 802ce174  4 FUN_802ce174 	Global
-  802ce1c0 000034 802ce1c0  4 FUN_802ce1c0 	Global
+  802ce1c0 000034 802ce1c0  4 lua_type 	Global
   802ce1f4 000028 802ce1f4  4 FUN_802ce1f4 	Global
   802ce21c 000058 802ce21c  4 FUN_802ce21c 	Global
   802ce274 000058 802ce274  4 FUN_802ce274 	Global
-  802ce2cc 000030 802ce2cc  4 FUN_802ce2cc 	Global
+  802ce2cc 000030 802ce2cc  4 lua_isstring 	Global
   802ce2fc 000048 802ce2fc  4 FUN_802ce2fc 	Global
   802ce344 000064 802ce344  4 FUN_802ce344 	Global
   802ce3a8 00008c 802ce3a8  4 FUN_802ce3a8 	Global
   802ce434 000054 802ce434  4 FUN_802ce434 	Global
   802ce488 000054 802ce488  4 FUN_802ce488 	Global
-  802ce4dc 000098 802ce4dc  4 FUN_802ce4dc 	Global
+  802ce4dc 000098 802ce4dc  4 lua_tostring 	Global
   802ce574 00006c 802ce574  4 FUN_802ce574 	Global
-  802ce5e0 000054 802ce5e0  4 FUN_802ce5e0 	Global
+  802ce5e0 000054 802ce5e0  4 lua_touserdata 	Global
   802ce634 000040 802ce634  4 FUN_802ce634 	Global
   802ce674 000088 802ce674  4 FUN_802ce674 	Global
-  802ce6fc 00001c 802ce6fc  4 FUN_802ce6fc 	Global
+  802ce6fc 00001c 802ce6fc  4 lua_pushnil 	Global
   802ce718 000020 802ce718  4 FUN_802ce718 	Global
-  802ce738 000074 802ce738  4 FUN_802ce738 	Global
-  802ce7ac 000050 802ce7ac  4 FUN_802ce7ac 	Global
+  802ce738 000074 802ce738  4 lua_pushlstring 	Global
+  802ce7ac 000050 802ce7ac  4 lua_pushstring 	Global
   802ce7fc 000058 802ce7fc  4 FUN_802ce7fc 	Global
   802ce854 0000cc 802ce854  4 FUN_802ce854 	Global
   802ce920 0000cc 802ce920  4 FUN_802ce920 	Global
   802ce9ec 000030 802ce9ec  4 FUN_802ce9ec 	Global
   802cea1c 000020 802cea1c  4 FUN_802cea1c 	Global
-  802cea3c 000058 802cea3c  4 FUN_802cea3c 	Global
+  802cea3c 000058 802cea3c  4 lua_gettable 	Global
   802cea94 000050 802cea94  4 FUN_802cea94 	Global
   802ceae4 00005c 802ceae4  4 FUN_802ceae4 	Global
   802ceb40 00006c 802ceb40  4 FUN_802ceb40 	Global
@@ -11577,108 +11577,108 @@
   802cedc4 000088 802cedc4  4 FUN_802cedc4 	Global
   802cee4c 000070 802cee4c  4 FUN_802cee4c 	Global
   802ceebc 000030 802ceebc  4 FUN_802ceebc 	Global
-  802ceeec 000028 802ceeec  4 FUN_802ceeec 	Global
-  802cef14 000084 802cef14  4 FUN_802cef14 	Global
-  802cef98 000060 802cef98  4 FUN_802cef98 	Global
+  802ceeec 000028 802ceeec  4 f_call 	Global
+  802cef14 000084 802cef14  4 lua_pcall 	Global
+  802cef98 000060 802cef98  4 lua_load 	Global
   802ceff8 000010 802ceff8  4 FUN_802ceff8 	Global
   802cf008 000010 802cf008  4 FUN_802cf008 	Global
-  802cf018 00005c 802cf018  4 FUN_802cf018 	Global
+  802cf018 00005c 802cf018  4 lua_setgcthreshold 	Global
   802cf074 000024 802cf074  4 FUN_802cf074 	Global
   802cf098 000060 802cf098  4 FUN_802cf098 	Global
   802cf0f8 0000b8 802cf0f8  4 FUN_802cf0f8 	Global
   802cf1b0 000074 802cf1b0  4 FUN_802cf1b0 	Global
-  802cf224 00004c 802cf224  4 FUN_802cf224 	Global
+  802cf224 00004c 802cf224  4 currentpc 	Global
   802cf270 000064 802cf270  4 FUN_802cf270 	Global
-  802cf2d4 000050 802cf2d4  4 FUN_802cf2d4 	Global
+  802cf2d4 000050 802cf2d4  4 luaG_inithooks 	Global
   802cf324 00003c 802cf324  4 FUN_802cf324 	Global
-  802cf360 00009c 802cf360  4 FUN_802cf360 	Global
+  802cf360 00009c 802cf360  4 lua_getstack 	Global
   802cf3fc 000024 802cf3fc  4 FUN_802cf3fc 	Global
   802cf420 00009c 802cf420  4 FUN_802cf420 	Global
   802cf4bc 000090 802cf4bc  4 FUN_802cf4bc 	Global
-  802cf54c 000080 802cf54c  4 FUN_802cf54c 	Global
-  802cf5cc 000160 802cf5cc  4 FUN_802cf5cc 	Global
-  802cf72c 000118 802cf72c  4 FUN_802cf72c 	Global
-  802cf844 000054 802cf844  4 FUN_802cf844 	Global
-  802cf898 000050 802cf898  4 FUN_802cf898 	Global
-  802cf8e8 000034 802cf8e8  4 FUN_802cf8e8 	Global
-  802cf91c 00044c 802cf91c  4 FUN_802cf91c 	Global
+  802cf54c 000080 802cf54c  4 info_tailcall 	Global
+  802cf5cc 000160 802cf5cc  4 auxgetinfo 	Global
+  802cf72c 000118 802cf72c  4 lua_getinfo 	Global
+  802cf844 000054 802cf844  4 precheck 	Global
+  802cf898 000050 802cf898  4 checkopenop 	Global
+  802cf8e8 000034 802cf8e8  4 checkRK 	Global
+  802cf91c 00044c 802cf91c  4 luaG_symbexec 	Global
   802cfd68 000028 802cfd68  4 FUN_802cfd68 	Global
-  802cfd90 000038 802cfd90  4 FUN_802cfd90 	Global
-  802cfdc8 00013c 802cfdc8  4 FUN_802cfdc8 	Global
+  802cfd90 000038 802cfd90  4 kname 	Global
+  802cfdc8 00013c 802cfdc8  4 getobjname 	Global
   802cff04 00009c 802cff04  4 FUN_802cff04 	Global
-  802cffa0 000034 802cffa0  4 FUN_802cffa0 	Global
-  802cffd4 0000c8 802cffd4  4 FUN_802cffd4 	Global
-  802d009c 000038 802d009c  4 FUN_802d009c 	Global
-  802d00d4 00005c 802d00d4  4 FUN_802d00d4 	Global
-  802d0130 000074 802d0130  4 FUN_802d0130 	Global
+  802cffa0 000034 802cffa0  4 isinstack 	Global
+  802cffd4 0000c8 802cffd4  4 luaG_typeerror 	Global
+  802d009c 000038 802d009c  4 luaG_concaterror 	Global
+  802d00d4 00005c 802d00d4  4 luaG_aritherror 	Global
+  802d0130 000074 802d0130  4 luaG_ordererror 	Global
   802d01a4 000084 802d01a4  4 FUN_802d01a4 	Global
   802d0228 0000c0 802d0228  4 FUN_802d0228 	Global
-  802d02e8 0000b8 802d02e8  4 FUN_802d02e8 	Global
-  802d03a0 0000b4 802d03a0  4 FUN_802d03a0 	Global
-  802d0454 000044 802d0454  4 FUN_802d0454 	Global
-  802d0498 000078 802d0498  4 FUN_802d0498 	Global
-  802d0510 000070 802d0510  4 FUN_802d0510 	Global
-  802d0580 0000a0 802d0580  4 FUN_802d0580 	Global
-  802d0620 00006c 802d0620  4 FUN_802d0620 	Global
-  802d068c 000080 802d068c  4 FUN_802d068c 	Global
-  802d070c 000044 802d070c  4 FUN_802d070c 	Global
-  802d0750 00006c 802d0750  4 FUN_802d0750 	Global
-  802d07bc 0000f4 802d07bc  4 FUN_802d07bc 	Global
-  802d08b0 000198 802d08b0  4 FUN_802d08b0 	Global
-  802d0a48 0000d4 802d0a48  4 FUN_802d0a48 	Global
-  802d0b1c 0001cc 802d0b1c  4 FUN_802d0b1c 	Global
-  802d0ce8 000080 802d0ce8  4 FUN_802d0ce8 	Global
-  802d0d68 0000d0 802d0d68  4 FUN_802d0d68 	Global
-  802d0e38 0000cc 802d0e38  4 FUN_802d0e38 	Global
+  802d02e8 0000b8 802d02e8  4 luaG_runerror 	Global
+  802d03a0 0000b4 802d03a0  4 seterrorobj 	Global
+  802d0454 000044 802d0454  4 luaD_throw 	Global
+  802d0498 000078 802d0498  4 luaD_rawrunprotected 	Global
+  802d0510 000070 802d0510  4 restore_stack_limit 	Global
+  802d0580 0000a0 802d0580  4 correctstack 	Global
+  802d0620 00006c 802d0620  4 luaD_reallocstack 	Global
+  802d068c 000080 802d068c  4 luaD_reallocCI 	Global
+  802d070c 000044 802d070c  4 luaD_growstack 	Global
+  802d0750 00006c 802d0750  4 luaD_growCI 	Global
+  802d07bc 0000f4 802d07bc  4 luaD_callhook 	Global
+  802d08b0 000198 802d08b0  4 adjust_varargs 	Global
+  802d0a48 0000d4 802d0a48  4 tryfuncTM 	Global
+  802d0b1c 0001cc 802d0b1c  4 luaD_precall 	Global
+  802d0ce8 000080 802d0ce8  4 callrethooks 	Global
+  802d0d68 0000d0 802d0d68  4 luaD_poscall 	Global
+  802d0e38 0000cc 802d0e38  4 luaD_call 	Global
   802d0f04 000110 802d0f04  4 FUN_802d0f04 	Global
   802d1014 00008c 802d1014  4 FUN_802d1014 	Global
   802d10a0 0000f0 802d10a0  4 FUN_802d10a0 	Global
-  802d1190 0000a4 802d1190  4 FUN_802d1190 	Global
+  802d1190 0000a4 802d1190  4 luaD_pcall 	Global
   802d1234 0000c8 802d1234  4 FUN_802d1234 	Global
-  802d12fc 000098 802d12fc  4 FUN_802d12fc 	Global
+  802d12fc 000098 802d12fc  4 luaD_protectedparser 	Global
   802d1394 000064 802d1394  4 FUN_802d1394 	Global
-  802d13f8 000078 802d13f8  4 FUN_802d13f8 	Global
-  802d1470 000094 802d1470  4 FUN_802d1470 	Global
-  802d1504 000078 802d1504  4 FUN_802d1504 	Global
+  802d13f8 000078 802d13f8  4 luaF_newLclosure 	Global
+  802d1470 000094 802d1470  4 luaF_findupval 	Global
+  802d1504 000078 802d1504  4 luaF_close 	Global
   802d157c 00009c 802d157c  4 FUN_802d157c 	Global
   802d1618 0000cc 802d1618  4 FUN_802d1618 	Global
   802d16e4 00004c 802d16e4  4 FUN_802d16e4 	Global
-  802d1730 00007c 802d1730  4 FUN_802d1730 	Global
-  802d17ac 0000ac 802d17ac  4 FUN_802d17ac 	Global
-  802d1858 00005c 802d1858  4 FUN_802d1858 	Global
-  802d18b4 0000d8 802d18b4  4 FUN_802d18b4 	Global
+  802d1730 00007c 802d1730  4 luaF_getlocalname 	Global
+  802d17ac 0000ac 802d17ac  4 reallymarkobject 	Global
+  802d1858 00005c 802d1858  4 marktmu 	Global
+  802d18b4 0000d8 802d18b4  4 luaC_separateudata 	Global
   802d198c 000020 802d198c  4 FUN_802d198c 	Global
   802d19ac 000228 802d19ac  4 FUN_802d19ac 	Global
   802d1bd4 000148 802d1bd4  4 FUN_802d1bd4 	Global
   802d1d1c 00012c 802d1d1c  4 FUN_802d1d1c 	Global
-  802d1e48 0000a0 802d1e48  4 FUN_802d1e48 	Global
-  802d1ee8 000104 802d1ee8  4 FUN_802d1ee8 	Global
-  802d1fec 0000b8 802d1fec  4 FUN_802d1fec 	Global
+  802d1e48 0000a0 802d1e48  4 checkstacksizes 	Global
+  802d1ee8 000104 802d1ee8  4 traversestack 	Global
+  802d1fec 0000b8 802d1fec  4 propagatemarks 	Global
   802d20a4 000048 802d20a4  4 FUN_802d20a4 	Global
-  802d20ec 000084 802d20ec  4 FUN_802d20ec 	Global
-  802d2170 0000c0 802d2170  4 FUN_802d2170 	Global
+  802d20ec 000084 802d20ec  4 cleartablekeys 	Global
+  802d2170 0000c0 802d2170  4 cleartablevalues 	Global
   802d2230 0000b0 802d2230  4 FUN_802d2230 	Global
   802d22e0 000080 802d22e0  4 FUN_802d22e0 	Global
   802d2360 000080 802d2360  4 FUN_802d2360 	Global
-  802d23e0 0000a0 802d23e0  4 FUN_802d23e0 	Global
+  802d23e0 0000a0 802d23e0  4 checkSizes 	Global
   802d2480 00009c 802d2480  4 FUN_802d2480 	Global
-  802d251c 0000bc 802d251c  4 FUN_802d251c 	Global
-  802d25d8 000068 802d25d8  4 FUN_802d25d8 	Global
-  802d2640 0000b8 802d2640  4 FUN_802d2640 	Global
-  802d26f8 0000b4 802d26f8  4 FUN_802d26f8 	Global
-  802d27ac 000060 802d27ac  4 FUN_802d27ac 	Global
-  802d280c 000024 802d280c  4 FUN_802d280c 	Global
+  802d251c 0000bc 802d251c  4 luaC_callGCTM 	Global
+  802d25d8 000068 802d25d8  4 luaC_sweep 	Global
+  802d2640 0000b8 802d2640  4 markroot 	Global
+  802d26f8 0000b4 802d26f8  4 mark 	Global
+  802d27ac 000060 802d27ac  4 luaC_collectgarbage 	Global
+  802d280c 000024 802d280c  4 luaC_link 	Global
   802d2830 0000a0 802d2830  4 FUN_802d2830 	Global
-  802d28d0 0000ec 802d28d0  4 FUN_802d28d0 	Global
-  802d29bc 0000f8 802d29bc  4 FUN_802d29bc 	Global
+  802d28d0 0000ec 802d28d0  4 luaM_realloc 	Global
+  802d29bc 0000f8 802d29bc  4 strtod 	Global
   802d2ab4 000030 802d2ab4  4 FUN_802d2ab4 	Global
   802d2ae4 0000a4 802d2ae4  4 FUN_802d2ae4 	Global
-  802d2b88 000094 802d2b88  4 FUN_802d2b88 	Global
-  802d2c1c 000098 802d2c1c  4 FUN_802d2c1c 	Global
-  802d2cb4 000080 802d2cb4  4 FUN_802d2cb4 	Global
-  802d2d34 0002fc 802d2d34  4 FUN_802d2d34 	Global
+  802d2b88 000094 802d2b88  4 luaO_rawequalObj 	Global
+  802d2c1c 000098 802d2c1c  4 luaO_str2d 	Global
+  802d2cb4 000080 802d2cb4  4 pushstr 	Global
+  802d2d34 0002fc 802d2d34  4 luaO_pushvfstring 	Global
   802d3030 000094 802d3030  4 FUN_802d3030 	Global
-  802d30c4 000138 802d30c4  4 FUN_802d30c4 	Global
+  802d30c4 000138 802d30c4  4 luaO_chunkid 	Global
   802d31fc 000068 802d31fc  4 FUN_802d31fc 	Global
   802d3264 000034 802d3264  4 FUN_802d3264 	Global
   802d3298 000054 802d3298  4 FUN_802d3298 	Global
@@ -11762,33 +11762,33 @@
   802d6358 000020 802d6358  4 FUN_802d6358 	Global
   802d6378 000088 802d6378  4 FUN_802d6378 	Global
   802d6400 000034 802d6400  4 FUN_802d6400 	Global
-  802d6434 0000e4 802d6434  4 FUN_802d6434 	Global
-  802d6518 0000e0 802d6518  4 FUN_802d6518 	Global
-  802d65f8 0000e0 802d65f8  4 FUN_802d65f8 	Global
+  802d6434 0000e4 802d6434  4 luaS_resize 	Global
+  802d6518 0000e0 802d6518  4 newlstr 	Global
+  802d65f8 0000e0 802d65f8  4 luaS_newlstr 	Global
   802d66d8 000074 802d66d8  4 FUN_802d66d8 	Global
-  802d674c 000050 802d674c  4 FUN_802d674c 	Global
+  802d674c 000050 802d674c  4 hashnum 	Global
   802d679c 0000d8 802d679c  4 FUN_802d679c 	Global
   802d6874 000074 802d6874  4 FUN_802d6874 	Global
   802d68e8 0000b8 802d68e8  4 FUN_802d68e8 	Global
   802d69a0 00013c 802d69a0  4 FUN_802d69a0 	Global
   802d6adc 0000c8 802d6adc  4 FUN_802d6adc 	Global
   802d6ba4 00019c 802d6ba4  4 FUN_802d6ba4 	Global
-  802d6d40 00007c 802d6d40  4 FUN_802d6d40 	Global
-  802d6dbc 0000d8 802d6dbc  4 FUN_802d6dbc 	Global
+  802d6d40 00007c 802d6d40  4 setarrayvector 	Global
+  802d6dbc 0000d8 802d6dbc  4 setnodevector 	Global
   802d6e94 0001b0 802d6e94  4 FUN_802d6e94 	Global
   802d7044 00005c 802d7044  4 FUN_802d7044 	Global
-  802d70a0 0000a0 802d70a0  4 FUN_802d70a0 	Global
+  802d70a0 0000a0 802d70a0  4 luaH_new 	Global
   802d7140 000078 802d7140  4 FUN_802d7140 	Global
-  802d71b8 000134 802d71b8  4 FUN_802d71b8 	Global
+  802d71b8 000134 802d71b8  4 newkey 	Global
   802d72ec 000074 802d72ec  4 FUN_802d72ec 	Global
-  802d7360 0000b0 802d7360  4 FUN_802d7360 	Global
-  802d7410 000058 802d7410  4 FUN_802d7410 	Global
-  802d7468 000090 802d7468  4 FUN_802d7468 	Global
-  802d74f8 0000ac 802d74f8  4 FUN_802d74f8 	Global
-  802d75a4 00008c 802d75a4  4 FUN_802d75a4 	Global
+  802d7360 0000b0 802d7360  4 luaH_getnum 	Global
+  802d7410 000058 802d7410  4 luaH_getstr 	Global
+  802d7468 000090 802d7468  4 luaH_get 	Global
+  802d74f8 0000ac 802d74f8  4 luaH_set 	Global
+  802d75a4 00008c 802d75a4  4 luaH_setnum 	Global
   802d7630 000084 802d7630  4 FUN_802d7630 	Global
-  802d76b4 000058 802d76b4  4 FUN_802d76b4 	Global
-  802d770c 000058 802d770c  4 FUN_802d770c 	Global
+  802d76b4 000058 802d76b4  4 luaT_gettm 	Global
+  802d770c 000058 802d770c  4 luaT_gettmbyobj 	Global
   802d7764 000034 802d7764  4 FUN_802d7764 	Global
   802d7798 00007c 802d7798  4 FUN_802d7798 	Global
   802d7814 000040 802d7814  4 FUN_802d7814 	Global
@@ -11810,30 +11810,30 @@
   802d8178 000038 802d8178  4 FUN_802d8178 	Global
   802d81b0 00006c 802d81b0  4 FUN_802d81b0 	Global
   802d821c 000008 802d821c  4 FUN_802d821c 	Global
-  802d8224 000070 802d8224  4 FUN_802d8224 	Global
-  802d8294 000080 802d8294  4 FUN_802d8294 	Global
-  802d8314 00013c 802d8314  4 FUN_802d8314 	Global
-  802d8450 0000a4 802d8450  4 FUN_802d8450 	Global
-  802d84f4 0000ac 802d84f4  4 FUN_802d84f4 	Global
-  802d85a0 0000a8 802d85a0  4 FUN_802d85a0 	Global
-  802d8648 00009c 802d8648  4 FUN_802d8648 	Global
-  802d86e4 00009c 802d86e4  4 FUN_802d86e4 	Global
-  802d8780 000130 802d8780  4 FUN_802d8780 	Global
-  802d88b0 0000a8 802d88b0  4 FUN_802d88b0 	Global
-  802d8958 0000e0 802d8958  4 FUN_802d8958 	Global
-  802d8a38 0000bc 802d8a38  4 FUN_802d8a38 	Global
-  802d8af4 000090 802d8af4  4 FUN_802d8af4 	Global
+  802d8224 000070 802d8224  4 luaV_tonumber 	Global
+  802d8294 000080 802d8294  4 luaV_tostring 	Global
+  802d8314 00013c 802d8314  4 traceexec 	Global
+  802d8450 0000a4 802d8450  4 callTMres 	Global
+  802d84f4 0000ac 802d84f4  4 callTM 	Global
+  802d85a0 0000a8 802d85a0  4 luaV_index 	Global
+  802d8648 00009c 802d8648  4 luaV_getnotable 	Global
+  802d86e4 00009c 802d86e4  4 luaV_gettable 	Global
+  802d8780 000130 802d8780  4 luaV_settable 	Global
+  802d88b0 0000a8 802d88b0  4 call_binTM 	Global
+  802d8958 0000e0 802d8958  4 get_compTM 	Global
+  802d8a38 0000bc 802d8a38  4 call_orderTM 	Global
+  802d8af4 000090 802d8af4  4 luaV_strcmp 	Global
   802d8b84 0000b4 802d8b84  4 FUN_802d8b84 	Global
-  802d8c38 0000f0 802d8c38  4 FUN_802d8c38 	Global
-  802d8d28 000138 802d8d28  4 FUN_802d8d28 	Global
-  802d8e60 0001e8 802d8e60  4 FUN_802d8e60 	Global
-  802d9048 0001a8 802d9048  4 FUN_802d9048 	Global
-  802d91f0 001028 802d91f0  4 FUN_802d91f0 	Global
-  802da218 000074 802da218  4 FUN_802da218 	Global
-  802da28c 000068 802da28c  4 FUN_802da28c 	Global
-  802da2f4 00001c 802da2f4  4 FUN_802da2f4 	Global
+  802d8c38 0000f0 802d8c38  4 luaV_lessequal 	Global
+  802d8d28 000138 802d8d28  4 luaV_equalval 	Global
+  802d8e60 0001e8 802d8e60  4 luaV_concat 	Global
+  802d9048 0001a8 802d9048  4 Arith 	Global
+  802d91f0 001028 802d91f0  4 luaV_execute 	Global
+  802da218 000074 802da218  4 luaZ_fill 	Global
+  802da28c 000068 802da28c  4 luaZ_lookahead 	Global
+  802da2f4 00001c 802da2f4  4 luaZ_init 	Global
   802da310 0000c0 802da310  4 FUN_802da310 	Global
-  802da3d0 00005c 802da3d0  4 FUN_802da3d0 	Global
+  802da3d0 00005c 802da3d0  4 luaZ_openspace 	Global
   802da42c 0000a4 802da42c  4 FUN_802da42c 	Global
   802da4d0 000060 802da4d0  4 FUN_802da4d0 	Global
   802da530 000034 802da530  4 FUN_802da530 	Global
@@ -11920,7 +11920,7 @@
   802de0fc 00006c 802de0fc  4 FUN_802de0fc 	Global
   802de168 00006c 802de168  4 FUN_802de168 	Global
   802de1d4 0001a4 802de1d4  4 FUN_802de1d4 	Global
-  802de3a0 000034 802de3a0  4 FUN_802de3a0 	Global
+  802de3a0 000034 802de3a0  4 luaL_loadbuffer 	Global
   802de3d4 0000b4 802de3d4  4 FUN_802de3d4 	Global
   802de488 000054 802de488  4 FUN_802de488 	Global
   802de4dc 000038 802de4dc  4 FUN_802de4dc 	Global
@@ -12158,7 +12158,7 @@
   802ec838 000020 802ec838  4 FUN_802ec838 	Global
   802ec858 000174 802ec858  4 FUN_802ec858 	Global
   802ec9cc 000058 802ec9cc  4 FUN_802ec9cc 	Global
-  802eca24 0000d8 802eca24  4 FUN_802eca24 	Global
+  802eca24 0000d8 802eca24  4 sprintf 	Global
   802ecb04 0000f0 802ecb04  4 FUN_802ecb04 	Global
   802ecbf4 000064 802ecbf4  4 FUN_802ecbf4 	Global
   802ecc58 000070 802ecc58  4 FUN_802ecc58 	Global
@@ -12194,24 +12194,24 @@
   802ef7b0 000094 802ef7b0  4 memset 	Global
   802ef844 000004 802ef844  4 strcasecmp 	Global
   802ef850 000090 802ef850  4 strcasecmp 	Global
-  802ef8d8 000090 802ef8d8  4 FUN_802ef8d8 	Global
+  802ef8d8 000090 802ef8d8  4 strcat 	Global
   802ef968 00009c 802ef968  4 strchr 	Global
   802efa04 0000a8 802efa04  4 strcmp 	Global
-  802efaac 000020 802efaac  4 FUN_802efaac 	Global
-  802efacc 000084 802efacc  4 FUN_802efacc 	Global
-  802efb50 000070 802efb50  4 FUN_802efb50 	Global
+  802efaac 000020 802efaac  4 strcoll 	Global
+  802efacc 000084 802efacc  4 strcpy 	Global
+  802efb50 000070 802efb50  4 strcspn 	Global
   802efbc0 0005d0 802efbc0  4 FUN_802efbc0 	Global
   802f0190 00006c 802f0190  4 strlen 	Global
   802f01fc 000044 802f01fc  4 FUN_802f01fc 	Global
-  802f0240 0000ac 802f0240  4 FUN_802f0240 	Global
+  802f0240 0000ac 802f0240  4 strncat 	Global
   802f02ec 0000e0 802f02ec  4 FUN_802f02ec 	Global
-  802f03cc 0000cc 802f03cc  4 FUN_802f03cc 	Global
+  802f03cc 0000cc 802f03cc  4 strncpy 	Global
   802f0498 00004c 802f0498  4 FUN_802f0498 	Global
   802f04e4 000068 802f04e4  4 FUN_802f04e4 	Global
-  802f054c 000028 802f054c  4 FUN_802f054c 	Global
-  802f0574 0000c8 802f0574  4 FUN_802f0574 	Global
+  802f054c 000028 802f054c  4 strtok 	Global
+  802f0574 0000c8 802f0574  4 strtok_r 	Global
   802f063c 000008 802f063c  4 FUN_802f063c 	Global
-  802f0644 0000bc 802f0644  4 FUN_802f0644 	Global
+  802f0644 0000bc 802f0644  4 setjmp 	Global
   802f0700 0000c4 802f0700  4 FUN_802f0700 	Global
   802f07c4 00005c 802f07c4  4 FUN_802f07c4 	Global
   802f0820 00004c 802f0820  4 FUN_802f0820 	Global
@@ -13324,7 +13324,7 @@
   803426ac 000004 803426ac  4 FUN_803426ac 	Global
   803426b0 0001b8 803426b0  4 FUN_803426b0 	Global
   80342868 000004 80342868  4 FUN_80342868 	Global
-  8034286c 000004 8034286c  4 FUN_8034286c 	Global
+  8034286c 000004 8034286c  4 xom_instance_interface__H1Z15XStringResource_P24IXDataResourceDescriptor_PX01 	Global
   80342870 00002c 80342870  4 FUN_80342870 	Global
   8034289c 000094 8034289c  4 FUN_8034289c 	Global
   80342930 000004 80342930  4 FUN_80342930 	Global
@@ -13418,7 +13418,7 @@
   803491b4 000070 803491b4  4 FUN_803491b4 	Global
   80349250 0000e8 80349250  4 FUN_80349250 	Global
   80349340 000180 80349340  4 FUN_80349340 	Global
-  80349528 000168 80349528  4 FUN_80349528 	Global
+  80349528 000168 80349528  4 push_heap__H2ZP14SchedulerEntryZQ24_STLt4less1Z14SchedulerEntry_4_STLX01X01X11_v 	Global
   80349690 000294 80349690  4 FUN_80349690 	Global
   80349924 000060 80349924  4 FUN_80349924 	Global
   80349984 000208 80349984  4 FUN_80349984 	Global
@@ -13431,7 +13431,7 @@
   8034a0b8 000468 8034a0b8  4 UpdateScheduledTasks__Q311TaskManager8TaskTree13ScheduleStatePQ311TaskManager8TaskTree13ScheduleStateUiUi 	Global
   8034a520 000010 8034a520  4 FUN_8034a520 	Global
   8034a530 000010 8034a530  4 FUN_8034a530 	Global
-  8034a540 00007c 8034a540  4 FUN_8034a540 	Global
+  8034a540 00007c 8034a540  4 SendTaskBirthMessage__Q211TaskManager8TaskTreePQ211TaskManager16TaskControlBlockb 	Global
   8034a5bc 000244 8034a5bc  4 FUN_8034a5bc 	Global
   8034a800 00029c 8034a800  4 FUN_8034a800 	Global
   8034aa9c 000048 8034aa9c  4 FUN_8034aa9c 	Global
@@ -26227,7 +26227,9 @@
   8040bcb0 000001 8040bcb0  1 IID_IXCallbackPublisher 	Global
   8040d630 000001 8040d630  1 __vt_21BaseWeaponLogicEntity 	Global
   8040f748 000001 8040f748  1 __vt_25RedbullUtilityLogicEntity 	Global
+  8040f918 000001 8040f918  1 __vt_13ScriptService 	Global
   80410408 000001 80410408  1 __vt_Q27XomHelp12Xom3dAppBase 	Global
+  80410b48 000001 80410b48  1 __vt_7Service 	Global
   80412d70 000001 80412d70  1 __vt_Q27sigslot15single_threaded 	Global
   804165c0 000001 804165c0  1 __vt_19XSFStringDescriptor 	Global
   80416990 000001 80416990  1 __vt_14XomStringArray 	Global
@@ -26241,6 +26243,7 @@
   8041a810 000001 8041a810  1 __vt_27SingleLevelDetailsContainer 	Global
   8041a838 000001 8041a838  1 __vt_17TeamDataContainer 	Global
   8042670c 000004 8042670c  4 s_pColliderList 	Global
+  8042d8c0 000004 8042d8c0  4 pbSectionsRequired.22696 	Global
   8043b6a8 000004 8043b6a8  4 _15LightingService$c_pLightList 	Global
   8043b6b8 000004 8043b6b8  4 _15LightingService$c_pFreedList 	Global
   8045d370 000004 8045d370  4 _entries.2881 	Global
