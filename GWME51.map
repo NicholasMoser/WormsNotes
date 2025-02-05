@@ -2208,7 +2208,7 @@
   800bc374 000040 800bc374  4 FUN_800bc374 	Global
   800bc3b4 000080 800bc3b4  4 FUN_800bc3b4 	Global
   800bc434 0001c0 800bc434  4 FUN_800bc434 	Global
-  800bc5f4 0001f4 800bc5f4  4 FUN_800bc5f4 	Global
+  800bc5f4 0001f4 800bc5f4  4 ImportXOMLandscape__20LandscapeLogicEntityG7XString 	Global
   800bc7e8 0005a8 800bc7e8  4 FUN_800bc7e8 	Global
   800bcd90 000080 800bcd90  4 FUN_800bcd90 	Global
   800bce10 000750 800bce10  4 FUN_800bce10 	Global
@@ -3246,7 +3246,7 @@
   801033f0 0001a0 801033f0  4 FUN_801033f0 	Global
   80103590 000024 80103590  4 FUN_80103590 	Global
   801035b4 0000f4 801035b4  4 FUN_801035b4 	Global
-  801036a8 000024 801036a8  4 FUN_801036a8 	Global
+  801036a8 000024 801036a8  4 _CopyContainer__13ScriptServiceP9lua_State 	Global
   801036cc 000384 801036cc  4 CopyContainer__13ScriptService 	Global
   80103a50 0000b8 80103a50  4 CallLuaFunction__13ScriptServicePCc 	Global
   80103b08 000174 80103b08  4 RegisterMessages__13ScriptService 	Global
@@ -3696,22 +3696,22 @@
   80127c6c 000220 80127c6c  4 UpdateScene__10Worms3dAppUi 	Global
   80127e8c 00013c 80127e8c  4 FUN_80127e8c 	Global
   80127fc8 000058 80127fc8  4 FUN_80127fc8 	Global
-  80128020 000214 80128020  4 FUN_80128020 	Global
-  80128234 00000c 80128234  4 FUN_80128234 	Global
-  80128240 0002d0 80128240  4 FUN_80128240 	Global
-  80128510 000004 80128510  4 FUN_80128510 	Global
+  80128020 000214 80128020  4 SetLanguage__10Worms3dAppUi 	Global
+  80128234 00000c 80128234  4 GetStartMenu__10Worms3dApp 	Global
+  80128240 0002d0 80128240  4 AppInit__10Worms3dApp 	Global
+  80128510 000004 80128510  4 HideMouse__10Worms3dApp 	Global
   80128514 000004 80128514  4 ShowMouse__10Worms3dApp 	Global
   80128518 00002c 80128518  4 FUN_80128518 	Global
-  80128544 000b38 80128544  4 FUN_80128544 	Global
+  80128544 000b38 80128544  4 ParsePreInitCommands__10Worms3dApp 	Global
   8012907c 00037c 8012907c  4 FUN_8012907c 	Global
   801293f8 000004 801293f8  4 FUN_801293f8 	Global
-  801293fc 00019c 801293fc  4 FUN_801293fc 	Global
-  80129598 000238 80129598  4 FUN_80129598 	Global
-  801297d0 0000e4 801297d0  4 FUN_801297d0 	Global
+  801293fc 00019c 801293fc  4 InitOptionalPaths__10Worms3dApp 	Global
+  80129598 000238 80129598  4 InitPaths__10Worms3dApp 	Global
+  801297d0 0000e4 801297d0  4 SetupListenerParams__10Worms3dApp 	Global
   801298b4 000314 801298b4  4 FUN_801298b4 	Global
   80129bc8 000038 80129bc8  4 FUN_80129bc8 	Global
-  80129c00 00007c 80129c00  4 FUN_80129c00 	Global
-  80129c7c 000044 80129c7c  4 FUN_80129c7c 	Global
+  80129c00 00007c 80129c00  4 SetDefaultSoundMode__10Worms3dApp 	Global
+  80129c7c 000044 80129c7c  4 SetDefaultLanguage__10Worms3dApp 	Global
   80129cc0 000054 80129cc0  4 Pause__10Worms3dApp 	Global
   80129d14 000054 80129d14  4 Unpause__10Worms3dApp 	Global
   80129d68 00006c 80129d68  4 FUN_80129d68 	Global
@@ -4200,16 +4200,16 @@
   8015b6bc 000050 8015b6bc  4 __Q27XomHelp8XCmdLine 	Global
   8015b70c 00008c 8015b70c  4 _$_16XEventLogContext 	Global
   8015b798 0000e0 8015b798  4 Parse__Q27XomHelp8XCmdLineiPPc 	Global
-  8015b878 000014 8015b878  4 FUN_8015b878 	Global
-  8015b88c 000018 8015b88c  4 FUN_8015b88c 	Global
+  8015b878 000014 8015b878  4 GetArg__Q27XomHelp8XCmdLineUi 	Global
+  8015b88c 000018 8015b88c  4 GetArgCount__CQ27XomHelp8XCmdLine 	Global
   8015b8b0 00000c 8015b8b0  4 FUN_8015b8b0 	Global
   8015b8cc 000048 8015b8cc  4 FUN_8015b8cc 	Global
   8015b914 000184 8015b914  4 __Q27XomHelp12Xom3dAppBase 	Global
   8015ba98 0000fc 8015ba98  4 _$_Q27XomHelp12Xom3dAppBase 	Global
-  8015bb94 000038 8015bb94  4 FUN_8015bb94 	Global
+  8015bb94 000038 8015bb94  4 AppInit__Q27XomHelp12Xom3dAppBase 	Global
   8015bbcc 000024 8015bbcc  4 FUN_8015bbcc 	Global
-  8015bbf4 000178 8015bbf4  4 FUN_8015bbf4 	Global
-  8015bd6c 0000cc 8015bd6c  4 FUN_8015bd6c 	Global
+  8015bbf4 000178 8015bbf4  4 CreateCamera__Q27XomHelp12Xom3dAppBase 	Global
+  8015bd6c 0000cc 8015bd6c  4 OpenDisplay__Q27XomHelp12Xom3dAppBase 	Global
   8015be38 000060 8015be38  4 FUN_8015be38 	Global
   8015be98 000030 8015be98  4 ChangeDisplay__Q27XomHelp12Xom3dAppBaseb 	Global
   8015bed8 00008c 8015bed8  4 Run__Q27XomHelp12Xom3dAppBase 	Global
@@ -4229,7 +4229,7 @@
   8015c768 000058 8015c768  4 FUN_8015c768 	Global
   8015c7c0 00002c 8015c7c0  4 FUN_8015c7c0 	Global
   8015c7ec 000068 8015c7ec  4 FUN_8015c7ec 	Global
-  8015c854 000008 8015c854  4 FUN_8015c854 	Global
+  8015c854 000008 8015c854  4 XomGetCmdLine__7XomHelpv 	Global
   8015c85c 000008 8015c85c  4 XomSetCmdLine__7XomHelpPQ27XomHelp8XCmdLine 	Global
   8015c864 000048 8015c864  4 FUN_8015c864 	Global
   8015c8ac 00002c 8015c8ac  4 FUN_8015c8ac 	Global
@@ -4237,12 +4237,12 @@
   8015c900 000048 8015c900  4 FUN_8015c900 	Global
   8015c948 000060 8015c948  4 __Q27XomHelp14XomTaskAppBase 	Global
   8015c9a8 000130 8015c9a8  4 _$_Q27XomHelp14XomTaskAppBase 	Global
-  8015cad8 000210 8015cad8  4 FUN_8015cad8 	Global
+  8015cad8 000210 8015cad8  4 AppInit__Q27XomHelp14XomTaskAppBase 	Global
   8015cce8 00005c 8015cce8  4 FUN_8015cce8 	Global
   8015cd44 000084 8015cd44  4 FUN_8015cd44 	Global
   8015cdc8 000030 8015cdc8  4 FUN_8015cdc8 	Global
-  8015cdfc 0000b0 8015cdfc  4 FUN_8015cdfc 	Global
-  8015ceb0 000074 8015ceb0  4 FUN_8015ceb0 	Global
+  8015cdfc 0000b0 8015cdfc  4 InitializeGrm__Q27XomHelp14XomTaskAppBase 	Global
+  8015ceb0 000074 8015ceb0  4 InitializeArm__Q27XomHelp14XomTaskAppBase 	Global
   8015cf24 000030 8015cf24  4 FUN_8015cf24 	Global
   8015cf54 0000f4 8015cf54  4 UpdateScene__Q27XomHelp14XomTaskAppBaseUi 	Global
   8015d048 000044 8015d048  4 SetAppTime__Q27XomHelp14XomTaskAppBaseUi 	Global
@@ -4769,7 +4769,7 @@
   80175e5c 000020 80175e5c  4 FUN_80175e5c 	Global
   80175e7c 000020 80175e7c  4 FUN_80175e7c 	Global
   80175e9c 0001ec 80175e9c  4 FUN_80175e9c 	Global
-  80176088 00035c 80176088  4 FUN_80176088 	Global
+  80176088 00035c 80176088  4 AddResource__20XDataResourceManagerRCPCcP10XContainerUcUi 	Global
   801763e4 000084 801763e4  4 FUN_801763e4 	Global
   80176468 000084 80176468  4 FUN_80176468 	Global
   801764ec 000084 801764ec  4 FUN_801764ec 	Global
@@ -4795,13 +4795,13 @@
   801771b4 000524 801771b4  4 FUN_801771b4 	Global
   801776d8 00041c 801776d8  4 FUN_801776d8 	Global
   80177af4 00041c 80177af4  4 FUN_80177af4 	Global
-  80177f10 000140 80177f10  4 FUN_80177f10 	Global
-  80178050 000134 80178050  4 FUN_80178050 	Global
+  80177f10 000140 80177f10  4 LoadData__20XDataResourceManagerP19IXObjectInputStream 	Global
+  80178050 000134 80178050  4 LoadBank__20XDataResourceManagerPCcUcUc 	Global
   80178184 0000e8 80178184  4 FUN_80178184 	Global
-  8017826c 000024 8017826c  4 FUN_8017826c 	Global
-  80178290 000088 80178290  4 FUN_80178290 	Global
-  80178318 000258 80178318  4 FUN_80178318 	Global
-  80178570 00036c 80178570  4 FUN_80178570 	Global
+  8017826c 000024 8017826c  4 CreateCacheHashFromPointer__C20XDataResourceManagerPCv 	Global
+  80178290 000088 80178290  4 CreateHashFromString__C20XDataResourceManagerPCc 	Global
+  80178318 000258 80178318  4 FindResource__20XDataResourceManagerRCPCcRUs 	Global
+  80178570 00036c 80178570  4 AddBank__20XDataResourceManagerP9XDataBankUc 	Global
   801788dc 000070 801788dc  4 _$_14DataAccessInfo 	Global
   8017894c 00006c 8017894c  4 FUN_8017894c 	Global
   801789b8 000028 801789b8  4 FUN_801789b8 	Global
@@ -4812,7 +4812,7 @@
   80178cec 00004c 80178cec  4 FUN_80178cec 	Global
   80178d4c 00001c 80178d4c  4 FUN_80178d4c 	Global
   80178d68 00002c 80178d68  4 FUN_80178d68 	Global
-  80178d94 00002c 80178d94  4 FUN_80178d94 	Global
+  80178d94 00002c 80178d94  4 __23XDataResourceDescriptor 	Global
   80178dc0 000074 80178dc0  4 FUN_80178dc0 	Global
   80178e54 000088 80178e54  4 FUN_80178e54 	Global
   80178fc4 000068 80178fc4  4 FUN_80178fc4 	Global
@@ -4838,12 +4838,12 @@
   80179694 000078 80179694  4 FUN_80179694 	Global
   8017970c 000178 8017970c  4 FUN_8017970c 	Global
   80179884 00000c 80179884  4 FUN_80179884 	Global
-  80179890 0000f8 80179890  4 FUN_80179890 	Global
+  80179890 0000f8 80179890  4 __18XContainerResource 	Global
   80179988 000078 80179988  4 FUN_80179988 	Global
   80179a00 00003c 80179a00  4 EditData__18XContainerResourceR14DataAccessInfo 	Global
   80179a3c 000068 80179a3c  4 FUN_80179a3c 	Global
-  80179aa4 000134 80179aa4  4 FUN_80179aa4 	Global
-  80179bd8 000044 80179bd8  4 FUN_80179bd8 	Global
+  80179aa4 000134 80179aa4  4 Create__18XContainerResourceRC5_GUID 	Global
+  80179bd8 000044 80179bd8  4 Delete__18XContainerResource 	Global
   80179c1c 00000c 80179c1c  4 GetData__C18XContainerResource 	Global
   80179c28 00002c 80179c28  4 FUN_80179c28 	Global
   80179c68 00004c 80179c68  4 FUN_80179c68 	Global
@@ -4885,7 +4885,7 @@
   8017d054 0000f0 8017d054  4 FUN_8017d054 	Global
   8017d144 0000a4 8017d144  4 FUN_8017d144 	Global
   8017d1e8 000090 8017d1e8  4 FUN_8017d1e8 	Global
-  8017d278 000478 8017d278  4 FUN_8017d278 	Global
+  8017d278 000478 8017d278  4 LoadSectionBundle__25XGraphicalResourceManagerRCUc 	Global
   8017d6f0 000001 8017d6f0  4 FUN_8017d6f0 	Global
   8017d6fc 000128 8017d6fc  4 FUN_8017d6fc 	Global
   8017d824 0000b0 8017d824  4 FUN_8017d824 	Global
@@ -4902,9 +4902,9 @@
   8017e41c 00007c 8017e41c  4 FUN_8017e41c 	Global
   8017e498 000094 8017e498  4 FUN_8017e498 	Global
   8017e52c 0000dc 8017e52c  4 FUN_8017e52c 	Global
-  8017e608 000024 8017e608  4 FUN_8017e608 	Global
-  8017e62c 000068 8017e62c  4 FUN_8017e62c 	Global
-  8017e694 000270 8017e694  4 FUN_8017e694 	Global
+  8017e608 000024 8017e608  4 CreateCacheHashFromPointer__C25XGraphicalResourceManagerPCv 	Global
+  8017e62c 000068 8017e62c  4 CreateHashFromString__C25XGraphicalResourceManagerPCc 	Global
+  8017e694 000270 8017e694  4 FindResource__25XGraphicalResourceManagerRC7XStringRUs 	Global
   8017e904 000234 8017e904  4 FUN_8017e904 	Global
   8017eb38 0000d0 8017eb38  4 FUN_8017eb38 	Global
   8017ec08 0000e4 8017ec08  4 FUN_8017ec08 	Global
@@ -5098,7 +5098,7 @@
   8018ac64 000014 8018ac64  4 FUN_8018ac64 	Global
   8018ac78 000064 8018ac78  4 FUN_8018ac78 	Global
   8018acdc 000098 8018acdc  4 FUN_8018acdc 	Global
-  8018ad74 0005fc 8018ad74  4 FUN_8018ad74 	Global
+  8018ad74 0005fc 8018ad74  4 Load__15XTextDescriptor 	Global
   8018b38c 00009c 8018b38c  4 FUN_8018b38c 	Global
   8018b428 0000fc 8018b428  4 FUN_8018b428 	Global
   8018b524 000088 8018b524  4 FUN_8018b524 	Global
@@ -5111,7 +5111,7 @@
   8018b87c 0000c8 8018b87c  4 FUN_8018b87c 	Global
   8018b944 000058 8018b944  4 FUN_8018b944 	Global
   8018b99c 000104 8018b99c  4 GetNumUTF8CharsInWidth__15XTextDescriptorPCcff 	Global
-  8018bab0 0000f4 8018bab0  4 FUN_8018bab0 	Global
+  8018bab0 0000f4 8018bab0  4 BuildUnicodeMappingTable__15XTextDescriptor 	Global
   8018bba4 000098 8018bba4  4 FUN_8018bba4 	Global
   8018bc3c 0000c8 8018bc3c  4 FUN_8018bc3c 	Global
   8018bd04 000114 8018bd04  4 FUN_8018bd04 	Global
@@ -5790,7 +5790,7 @@
   801b17a8 000134 801b17a8  4 FUN_801b17a8 	Global
   801b1900 000078 801b1900  4 FUN_801b1900 	Global
   801b1978 00002c 801b1978  4 FUN_801b1978 	Global
-  801b19a4 0000fc 801b19a4  4 FUN_801b19a4 	Global
+  801b19a4 0000fc 801b19a4  4 ReplaceAttributes__13XMultiTexFontP10XAttribute 	Global
   801b1aac 000044 801b1aac  4 FUN_801b1aac 	Global
   801b1af0 000060 801b1af0  4 FUN_801b1af0 	Global
   801b1bb0 00000c 801b1bb0  4 FUN_801b1bb0 	Global
@@ -7047,9 +7047,9 @@
   801de5f0 000008 801de5f0  4 FUN_801de5f0 	Global
   801de5f8 000024 801de5f8  4 FUN_801de5f8 	Global
   801de61c 0000b8 801de61c  4 FUN_801de61c 	Global
-  801de6d4 0000c4 801de6d4  4 FUN_801de6d4 	Global
-  801de798 00004c 801de798  4 FUN_801de798 	Global
-  801de7e4 000104 801de7e4  4 FUN_801de7e4 	Global
+  801de6d4 0000c4 801de6d4  4 Read__10XSoundBankP19IXObjectInputStream 	Global
+  801de798 00004c 801de798  4 Load__10XSoundBankPCcPP10XSoundBankP9IXStorage 	Global
+  801de7e4 000104 801de7e4  4 Save__10XSoundBankPCcP9IXStorage 	Global
   801de8e8 00005c 801de8e8  4 FUN_801de8e8 	Global
   801de944 00002c 801de944  4 FUN_801de944 	Global
   801de97c 00000c 801de97c  4 FUN_801de97c 	Global
@@ -7499,7 +7499,7 @@
   801ef504 00012c 801ef504  4 XomDoEditMF__FPP8XomArrayUiUiUi 	Global
   801ef630 00008c 801ef630  4 XomAppendMFCtr__FP10XContainerUiUiT0 	Global
   801ef6bc 0000ec 801ef6bc  4 FUN_801ef6bc 	Global
-  801ef7a8 000094 801ef7a8  4 FUN_801ef7a8 	Global
+  801ef7a8 000094 801ef7a8  4 XomSetMFCtr__FP10XContainerUiUiT0Ui 	Global
   801ef83c 0000dc 801ef83c  4 XomRemoveMFCtr__FP10XContainerUiUiUiUi 	Global
   801ef918 00011c 801ef918  4 FUN_801ef918 	Global
   801efa34 000054 801efa34  4 FUN_801efa34 	Global
@@ -7688,7 +7688,7 @@
   801f56d0 0001a8 801f56d0  4 FUN_801f56d0 	Global
   801f5878 000230 801f5878  4 FUN_801f5878 	Global
   801f5aa8 000138 801f5aa8  4 FUN_801f5aa8 	Global
-  801f5be0 0000b0 801f5be0  4 FUN_801f5be0 	Global
+  801f5be0 0000b0 801f5be0  4 MakeFrom__9XBoundBoxRC12XBoundSphere 	Global
   801f5c90 00019c 801f5c90  4 FUN_801f5c90 	Global
   801f5e2c 00019c 801f5e2c  4 FUN_801f5e2c 	Global
   801f5fc8 000110 801f5fc8  4 FUN_801f5fc8 	Global
@@ -7876,7 +7876,7 @@
   801fd0ec 00002c 801fd0ec  4 FUN_801fd0ec 	Global
   801fd118 00006c 801fd118  4 FUN_801fd118 	Global
   801fd184 000124 801fd184  4 XomSetDebugOutEnableMask__FUi 	Global
-  801fd2a8 000008 801fd2a8  4 FUN_801fd2a8 	Global
+  801fd2a8 000008 801fd2a8  4 XomGetDebugOutEnableMask__Fv 	Global
   801fd2b0 0004c4 801fd2b0  4 XomInitLogging__Fv 	Global
   801fd774 0006d4 801fd774  4 XomCleanupLogging__Fv 	Global
   801fde48 000234 801fde48  4 FUN_801fde48 	Global
@@ -7894,8 +7894,8 @@
   801fe69c 000078 801fe69c  4 XomFreeTemporary__FPv 	Global
   801fe714 000020 801fe714  4 __builtin_new 	Global
   801fe734 000028 801fe734  4 __builtin_delete 	Global
-  801fe75c 000020 801fe75c  4 FUN_801fe75c 	Global
-  801fe77c 000028 801fe77c  4 FUN_801fe77c 	Global
+  801fe75c 000020 801fe75c  4 __builtin_vec_new 	Global
+  801fe77c 000028 801fe77c  4 __builtin_vec_delete 	Global
   801fe7a4 000020 801fe7a4  4 XomAlloc__FUiPCci 	Global
   801fe7c4 000020 801fe7c4  4 free 	Global
   801fe7e4 00002c 801fe7e4  4 XomAllocAlign__FUiUi 	Global
@@ -8367,7 +8367,7 @@
   8020bb84 000038 8020bb84  4 XomGetXommo__Fv 	Global
   8020bbbc 000040 8020bbbc  4 XomInternalCreateInstance__FRC5_GUID 	Global
   8020bbfc 000028 8020bbfc  4 FUN_8020bbfc 	Global
-  8020bc24 000174 8020bc24  4 FUN_8020bc24 	Global
+  8020bc24 000174 8020bc24  4 XomLoadObject__FPCcPP14IXSerializable 	Global
   8020bd98 000028 8020bd98  4 FUN_8020bd98 	Global
   8020bdc0 0000dc 8020bdc0  4 XomGetDefaultStorage__Fv 	Global
   8020be9c 000060 8020be9c  4 XomSetDefaultStorage__FP9IXStorage 	Global
@@ -8387,10 +8387,10 @@
   8020c3d0 000098 8020c3d0  4 FUN_8020c3d0 	Global
   8020c468 0000e0 8020c468  4 __apl__7XStringPCc 	Global
   8020c548 00003c 8020c548  4 __apl__7XStringc 	Global
-  8020c584 0000b4 8020c584  4 FUN_8020c584 	Global
+  8020c584 0000b4 8020c584  4 Left__7XStringRC7XStringi 	Global
   8020c638 000134 8020c638  4 FUN_8020c638 	Global
   8020c76c 0000b8 8020c76c  4 FUN_8020c76c 	Global
-  8020c824 0000b8 8020c824  4 FUN_8020c824 	Global
+  8020c824 0000b8 8020c824  4 ToUpper__7XString 	Global
   8020c8dc 00009c 8020c8dc  4 Chop__7XStringUi 	Global
   8020c978 0000d4 8020c978  4 Extend__7XStringPCcUi 	Global
   8020ca4c 0000b0 8020ca4c  4 PrintF__7XStringPCce 	Global
@@ -8521,7 +8521,7 @@
   80210f38 0000c0 80210f38  4 FUN_80210f38 	Global
   80210ff8 000040 80210ff8  4 FUN_80210ff8 	Global
   80211038 000094 80211038  4 FUN_80211038 	Global
-  802110cc 0001c4 802110cc  4 FUN_802110cc 	Global
+  802110cc 0001c4 802110cc  4 SetSize__15XomRefArrayBasei 	Global
   80211290 000084 80211290  4 FUN_80211290 	Global
   80211314 0000dc 80211314  4 FUN_80211314 	Global
   802113f0 0000a8 802113f0  4 FUN_802113f0 	Global
@@ -8656,7 +8656,7 @@
   80219db0 000030 80219db0  4 FUN_80219db0 	Global
   80219de0 00001c 80219de0  4 FUN_80219de0 	Global
   80219dfc 0000f8 80219dfc  4 FUN_80219dfc 	Global
-  80219f00 000064 80219f00  4 FUN_80219f00 	Global
+  80219f00 000064 80219f00  4 SetStream__15XBufferedStreamP8IXStream 	Global
   80219f64 00005c 80219f64  4 FUN_80219f64 	Global
   80219fc0 00002c 80219fc0  4 FUN_80219fc0 	Global
   80219fec 00000c 80219fec  4 FUN_80219fec 	Global
@@ -12181,7 +12181,7 @@
   802ee1d4 000030 802ee1d4  4 FUN_802ee1d4 	Global
   802ee204 0000f4 802ee204  4 FUN_802ee204 	Global
   802ee2f8 00031c 802ee2f8  4 FUN_802ee2f8 	Global
-  802ee614 00098c 802ee614  4 FUN_802ee614 	Global
+  802ee614 00098c 802ee614  4 qsort 	Global
   802eefa0 00000c 802eefa0  4 FUN_802eefa0 	Global
   802eefac 000024 802eefac  4 FUN_802eefac 	Global
   802eefd0 000330 802eefd0  4 FUN_802eefd0 	Global
@@ -12406,7 +12406,7 @@
   802fc2e4 0002e8 802fc2e4  4 FUN_802fc2e4 	Global
   802fc5cc 00019c 802fc5cc  4 FUN_802fc5cc 	Global
   802fc768 000174 802fc768  4 FUN_802fc768 	Global
-  802fc8dc 000058 802fc8dc  4 FUN_802fc8dc 	Global
+  802fc8dc 000058 802fc8dc  4 sceScfGetLanguage 	Global
   802fc934 00008c 802fc934  4 FUN_802fc934 	Global
   802fc9c0 000334 802fc9c0  4 FUN_802fc9c0 	Global
   802fccf4 0003b0 802fccf4  4 FUN_802fccf4 	Global
@@ -13734,6 +13734,7 @@
   8035f170 000001 8035f170  1 _23CollisionManagerService$c_class 	Global
   8035f350 000001 8035f350  1 _17DonkeyLogicEntity$c_class 	Global
   803600d0 000001 803600d0  1 _25RedbullUtilityLogicEntity$c_class 	Global
+  80361048 000001 80361048  1 _9XDataBank$c_class 	Global
   803648c8 000001 803648c8  1 _10XContainer$c_class 	Global
   803648e8 000004 803648e8  4 _10XContainer$c_class 	Global
   803648ea 000001 803648ea  8 _10XContainer$c_class+2 	Global
