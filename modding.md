@@ -124,6 +124,27 @@ code files primarily used for Challenges and the Campaign. These scripts are in 
 recommend using [Visual Studio Code](https://code.visualstudio.com/), which has plugins
 for developing Lua.
 
+Lua variables like `"InGame"` are tied to functions like `SetInGame__14StoredTeamDatab()`
+via calls to `Initialize`, such as `Initialize__17XSFBoolDescriptorP15XContainerClassPCQ217XSFBoolDescriptor9FieldInfo()`
+at address 0x80227e74. The second parameter is a pointer to an InGame class, which includes an address to
+`SetInGame__14StoredTeamDatab`:
+
+```
+PTR_s_InGame_803b75a4 XREF[1]:     InitClass__14StoredTeamDataP8Xom
+
+  803b75a4 80 3b 75 9c     addr       s_InGame_803b759c                                = "InGame"
+  803b75a8 00 40 0a 08     addr       DAT_00400a08
+  803b75ac 80 45 e0 48     addr       DAT_8045e048
+  803b75b0 00 00 00 00     addr       00000000
+  803b75b4 00 00 00 00     addr       00000000
+  803b75b8 00 00 ff ff     addr       DAT_0000ffff
+  803b75c4 80 23 26 6c     addr       SetInGame__14StoredTeamDatab
+  803b75c0 00 00 ff ff     addr       DAT_0000ffff
+  803b75c4 80 23 26 6c     addr       SetInGame__14StoredTeamDatab
+  803b75c8 00 00 00 00     addr       00000000
+
+```
+
 ### CSH
 
 Currently unknown. Seems to accompany every map file for each time of day, for example:

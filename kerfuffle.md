@@ -528,6 +528,19 @@ unconditional branch, so `bne+ -0x9C` (0x4082FF64) to `b -0x9C` (0x4BFFFF64).
 For tutorials, we need to do the same at address 0x80281214, replacing
 `bne+ -0x98` (0x4082FF68) with `b -0x98` (0x4BFFFF68).
 
+## New Hats
+
+If we wanted to replace hats for the variable `IsHatWearer`, the new logic would be at 0x80135ad8.
+This is where the hat check is done for displaying it on the worm. The data for it is retrieved
+from "Boss.Hat" in bundle04.xom:
+
+![Boss Hat in bundle04.xom](img/Boss.Hat.png)
+
+The game actually ignores `files/Objects/hatworm_lincoln.xom` which is the actual object, it instead
+reads this xom from within bundle04.xom. Any new hats will likely need to be added to bundle04.xom
+and references to the new entries will need to be added. Ideally we read a String from `IsHatWearer`
+and use that instead of "Boss.Hat".
+
 ## Codes
 
 ### Change Controller
